@@ -1,6 +1,8 @@
 #Erlang Spawned Shelter
 
-A collection of the best articles, videos and presentations related to Erlang
+I will add only the links I find interesting from  [ErlangBookmarks](https://github.com/0xAX/erlang-bookmarks/blob/master/ErlangBookmarks.md), add those that I have and create a web like [Superhero.js](http://superherojs.com/) but for Erlang.
+
+A collection of the best articles, videos and presentations related to Erlang.
 
 ##General
 - [Mostly Erlang](http://mostlyerlang.com/) - Erlang podcast
