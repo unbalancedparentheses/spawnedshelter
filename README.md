@@ -11,3 +11,4 @@ A collection of the best articles, videos and presentations related to Erlang
 
 - [System Limits - Erlang](http://www.erlang.org/doc/efficiency_guide/advanced.html)
 - [How WhatsApp Grew To Nearly 500 Million Users, 11,000 Cores, And 70 Million Messages A Second - High Scalability](http://highscalability.com/blog/2014/3/31/how-whatsapp-grew-to-nearly-500-million-users-11000-cores-an.html)
+- [Erlang is slow: and other rubbish](https://kivikakk.ee/2013/05/20/erlang_is_slow.html)
