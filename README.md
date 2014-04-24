@@ -4,9 +4,10 @@ A collection of the best articles, videos and presentations related to Erlang
 
 
 ##Books
-- [Learn you som Erlang](http://learnyousomeerlang.com/)
-- [Études for Erlang](http://chimera.labs.oreilly.com/books/1234000000726/index.html)
+- [Learn you som Erlang -  Fred Hebert](http://learnyousomeerlang.com/)
+- [Études for Erlang - J. David Eisenberg](http://chimera.labs.oreilly.com/books/1234000000726/index.html)
 
 #Performance
 
-- [System Limits](http://www.erlang.org/doc/efficiency_guide/advanced.html)
+- [System Limits - Erlang](http://www.erlang.org/doc/efficiency_guide/advanced.html)
+http://highscalability.com/blog/2014/3/31/how-whatsapp-grew-to-nearly-500-million-users-11000-cores-an.html
