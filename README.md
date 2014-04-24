@@ -23,7 +23,7 @@ A collection of the best articles, videos and presentations related to Erlang
 ###Log
 - [lager](https://github.com/basho/lager)
 
-##Web
+###Web
 ###Webservers
 - [Cowboy](https://github.com/extend/cowboy)
 - [Webmachine](https://github.com/basho/webmachine)
