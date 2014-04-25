@@ -12,10 +12,18 @@ A collection of the best articles, videos and presentations related to Erlang.
 - [Études for Erlang - J. David Eisenberg](http://chimera.labs.oreilly.com/books/1234000000726/index.html)
 
 ##Performance
-
 - [System Limits - Erlang](http://www.erlang.org/doc/efficiency_guide/advanced.html)
 - [How WhatsApp Grew To Nearly 500 Million Users, 11,000 Cores, And 70 Million Messages A Second - High Scalability](http://highscalability.com/blog/2014/3/31/how-whatsapp-grew-to-nearly-500-million-users-11000-cores-an.html)
 - [Erlang is slow: and other rubbish - Yuki Izumi](https://kivikakk.ee/2013/05/20/erlang_is_slow.html)
+
+##Code Design
+
+###A trip from nested cases returning arbitrary {error, Reason} to monads
+- [9 Erlang pitfalls you should know about - MazenHarake](https://mazenharake.wordpress.com/2010/10/31/9-erlang-pitfalls-you-should-know-about/)
+- [Let it crash the right way - MazenHarake](https://mazenharake.wordpress.com/2009/09/14/let-it-crash-the-right-way/)
+- [Monads in Erlang - Alex Kropivny](http://amtal.ca/2011/09/24/monads-in-erlang.html)
+- [Can you hear the drums, Erlando? -  Matthew Sackman](ttp://www.rabbitmq.com/blog/2011/05/17/can-you-hear-the-drums-erlando/)
+- [Don't fear the Monad - Brian Beckman](http://youtu.be/ZhuHCtR3xq8)
 
 ##Libraries, Frameworks, Toolkits
 
