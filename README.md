@@ -1,6 +1,6 @@
 #Erlang Spawned Shelter
 
-I will add only the links I find interesting from  [ErlangBookmarks](https://github.com/0xAX/erlang-bookmarks/blob/master/ErlangBookmarks.md), add those that I have and create a web like [Superhero.js](http://superherojs.com/) but for Erlang.
+I am building a web like [Superhero.js](http://superherojs.com/) but for Erlang. I will add only the links I find interesting from [ErlangBookmarks](https://github.com/0xAX/erlang-bookmarks/blob/master/ErlangBookmarks.md), 
 
 A collection of the best articles, videos and presentations related to Erlang.
 
