@@ -43,3 +43,6 @@ A collection of the best articles, videos and presentations related to Erlang.
 
 ####Clients
 - [ibrowse](https://github.com/cmullaparthi/ibrowse)
+
+##Functional Programming
+- [Why Functional Programming Matters - John Hughes](http://www.cse.chalmers.se/~rjmh/Papers/whyfp.html)
