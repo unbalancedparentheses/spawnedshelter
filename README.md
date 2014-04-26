@@ -18,6 +18,7 @@ A collection of the best articles, videos and presentations related to Erlang.
 ##General
 - [Parallelism /= Concurrency - Simon Marlow](https://ghcmutterings.wordpress.com/2009/10/06/parallelism-concurrency/)
 - [Mostly Erlang](http://mostlyerlang.com/) - Erlang podcast
+- [Erldocs](http://erldocs.com/)
 
 ##Books
 - [Learn you som Erlang -  Fred Hebert](http://learnyousomeerlang.com/)
