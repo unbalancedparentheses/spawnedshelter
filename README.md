@@ -6,6 +6,8 @@ A collection of the best articles, videos and presentations related to Erlang.
 
 ##Why Erlang?
 - [Real Time Bidding. Where Erlang Blooms - Fred Hebert](http://youtu.be/gWMTAhvz1kY)
+- [When would you choose Erlang? - Brian L. Troutwine](http://blog.troutwine.us/2013/07/10/choose_erlang.html)
+- [The Joy of Erlang; Or, How To Ride A Toruk - Evan Miller](http://www.evanmiller.org/joy-of-erlang.html)
 
 ##General
 - [Mostly Erlang](http://mostlyerlang.com/) - Erlang podcast
