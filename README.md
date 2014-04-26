@@ -8,8 +8,10 @@ A collection of the best articles, videos and presentations related to Erlang.
 - [Real Time Bidding. Where Erlang Blooms - Fred Hebert](http://youtu.be/gWMTAhvz1kY)
 - [When would you choose Erlang? - Brian L. Troutwine](http://blog.troutwine.us/2013/07/10/choose_erlang.html)
 - [The Joy of Erlang; Or, How To Ride A Toruk - Evan Miller](http://www.evanmiller.org/joy-of-erlang.html)
+- [Erlang is not a Concurrent Functional Programming Language - Kresten Krab](http://www.javalimit.com/2011/05/erlang-is-not-a-concurrent-functional-programming-language.html)
 
 ##General
+- [Parallelism /= Concurrency](https://ghcmutterings.wordpress.com/2009/10/06/parallelism-concurrency/)
 - [Mostly Erlang](http://mostlyerlang.com/) - Erlang podcast
 
 ##Books
