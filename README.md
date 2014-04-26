@@ -5,7 +5,7 @@ I am building a web like [Superhero.js](http://superherojs.com/) but for Erlang.
 A collection of the best articles, videos and presentations related to Erlang.
 
 ##Why Erlang?
--[Real Time Bidding. Where Erlang Blooms - Fred Hebert](http://youtu.be/gWMTAhvz1kY)
+- [Real Time Bidding. Where Erlang Blooms - Fred Hebert](http://youtu.be/gWMTAhvz1kY)
 
 ##General
 - [Mostly Erlang](http://mostlyerlang.com/) - Erlang podcast
