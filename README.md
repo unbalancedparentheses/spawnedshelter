@@ -11,6 +11,7 @@ A collection of the best articles, videos and presentations related to Erlang.
 - [Erlang is not a Concurrent Functional Programming Language - Kresten Krab](http://www.javalimit.com/2011/05/erlang-is-not-a-concurrent-functional-programming-language.html)
 
 ##Introduction
+- [Learn X in Y minutes Where X=erlang](http://learnxinyminutes.com/docs/erlang/)
 - [Dabbling in Erlang, part 1: Hello function - Agis Anastasopoulos](http://agis.io/2013/05/19/dabbling-in-erlang-hello-function.html)
 - [Dabbling in Erlang, part 2: A minimal introduction - Agis Anastasopoulos](http://agis.io/2013/10/12/dabbling-in-erlang-a-minimal-introduction.html)
 
