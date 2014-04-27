@@ -25,6 +25,7 @@ A collection of the best articles, videos and presentations related to Erlang.
 - [Études for Erlang - J. David Eisenberg](http://chimera.labs.oreilly.com/books/1234000000726/index.html)
 
 ##Debugging
+- [Taking the printf out of printf Debugging - Mats Cronqvist](http://youtu.be/S8SL0IpS9pk)
 - [Debugging with the Debug Helper](http://erlangcentral.org/wiki/index.php/Debugging_with_Debug_Helper)
 - [Eper - Redbug Manual](https://code.google.com/p/eper/wiki/redbug)
 
