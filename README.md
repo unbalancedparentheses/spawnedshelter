@@ -26,6 +26,7 @@ A collection of the best articles, videos and presentations related to Erlang.
 
 ##Debugging
 - [Taking the printf out of printf Debugging - Mats Cronqvist](http://youtu.be/S8SL0IpS9pk)
+- [Tracing Erlang Code](https://ferd.github.io/recon/recon_trace.html)
 - [Debugging with the Debug Helper](http://erlangcentral.org/wiki/index.php/Debugging_with_Debug_Helper)
 - [Eper - Redbug Manual](https://code.google.com/p/eper/wiki/redbug)
 
@@ -58,6 +59,9 @@ A collection of the best articles, videos and presentations related to Erlang.
 
 ###Papers
 - [A comparative study of refactoring haskell and erlang programs - Huiqing Li and Simon Thompson](http://www.cs.kent.ac.uk/pubs/2006/2439/)
+
+##Comparison to other languages
+- [Some Thoughts on Go and Erlang - Tristan Sloughter](http://blog.erlware.org/2014/04/27/some-thoughts-on-go-and-erlang/)
 
 ##Libraries, Frameworks, Toolkits
 
