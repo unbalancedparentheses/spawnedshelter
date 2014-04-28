@@ -17,6 +17,7 @@ A collection of the best articles, videos and presentations related to Erlang.
 
 ##General
 - [Parallelism /= Concurrency - Simon Marlow](https://ghcmutterings.wordpress.com/2009/10/06/parallelism-concurrency/)
+- [Sequence and Order in Erlang - Dennis Byrne](http://notdennisbyrne.blogspot.com.ar/2008/04/sequence-and-order-in-erlang.html)
 - [Mostly Erlang](http://mostlyerlang.com/) - Erlang podcast
 - [Erldocs](http://erldocs.com/)
 
