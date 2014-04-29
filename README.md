@@ -54,7 +54,7 @@ A collection of the best articles, videos and presentations related to Erlang.
 - [9 Erlang pitfalls you should know about - MazenHarake](https://mazenharake.wordpress.com/2010/10/31/9-erlang-pitfalls-you-should-know-about/)
 - [Let it crash the right way - MazenHarake](https://mazenharake.wordpress.com/2009/09/14/let-it-crash-the-right-way/)
 - [Monads in Erlang - Alex Kropivny](http://amtal.ca/2011/09/24/monads-in-erlang.html)
-- [Can you hear the drums, Erlando? -  Matthew Sackman](ttp://www.rabbitmq.com/blog/2011/05/17/can-you-hear-the-drums-erlando/)
+- [Can you hear the drums, Erlando? -  Matthew Sackman](http://www.rabbitmq.com/blog/2011/05/17/can-you-hear-the-drums-erlando/)
 - [Don't fear the Monad - Brian Beckman](http://youtu.be/ZhuHCtR3xq8)
 
 ###Tools
