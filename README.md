@@ -31,6 +31,9 @@ A collection of the best articles, videos and presentations related to Erlang.
 - [Debugging with the Debug Helper](http://erlangcentral.org/wiki/index.php/Debugging_with_Debug_Helper)
 - [Eper - Redbug Manual](https://code.google.com/p/eper/wiki/redbug)
 
+##Testing
+- [Testing Erlang - Zachary Kessin](https://github.com/zkessin/testing-erlang-book)
+
 ##Performance
 - [System Limits - Erlang](http://www.erlang.org/doc/efficiency_guide/advanced.html)
 - [How WhatsApp Grew To Nearly 500 Million Users, 11,000 Cores, And 70 Million Messages A Second - High Scalability](http://highscalability.com/blog/2014/3/31/how-whatsapp-grew-to-nearly-500-million-users-11000-cores-an.html)
