@@ -9,6 +9,7 @@ A collection of the best articles, videos and presentations related to Erlang.
 - [When would you choose Erlang? - Brian L. Troutwine](http://blog.troutwine.us/2013/07/10/choose_erlang.html)
 - [The Joy of Erlang; Or, How To Ride A Toruk - Evan Miller](http://www.evanmiller.org/joy-of-erlang.html)
 - [Erlang is not a Concurrent Functional Programming Language - Kresten Krab](http://www.javalimit.com/2011/05/erlang-is-not-a-concurrent-functional-programming-language.html)
+- [Reliability Features of Erlang - LambdaLounge Krakow 2013](http://www.gar1t.com/blog/reliability-features-of-erlang-krakow.html)
 
 ##Introduction
 - [Learn X in Y minutes Where X=erlang](http://learnxinyminutes.com/docs/erlang/)
@@ -42,6 +43,8 @@ A collection of the best articles, videos and presentations related to Erlang.
 - [Why Garbage Collection Paranoia is Still (sometimes) Justified - Programming in the 21st Century](http://prog21.dadgum.com/15.html)
 - [Erlang, Binaries, and Garbage Collection (Sigh)](http://dieswaytoofast.blogspot.ca/2012/12/erlang-binaries-and-garbage-collection.html)
 - [Scaling Erlang - Inaka Networks](http://inaka.net/blog/2011/10/07/scale-test-plan-simple-erlang-application/)
+- [Social Platforms in Erlang - Lessons Learned](https://speakerdeck.com/kachayev/erlang-in-production-lessons-learned)
+
 
 ##BEAM Internals
 - [The BEAM Dispatcher - Happi Blogging](http://stenmans.org/happi_blog/?p=194)
@@ -71,20 +74,14 @@ A collection of the best articles, videos and presentations related to Erlang.
 - [Why Functional Programming Matters - John Hughes](http://www.cse.chalmers.se/~rjmh/Papers/whyfp.html)
 
 ##Slides
-- [Social Platforms in Erlang - Lessons Learned](https://speakerdeck.com/kachayev/erlang-in-production-lessons-learned)
-
-##Talks
-- [Reliability Features of Erlang - LambdaLounge Krakow 2013](http://www.gar1t.com/blog/reliability-features-of-erlang-krakow.html)
 
 ##Events
 - [Erlang Factory](http://www.erlang-factory.com/)
 - [Erlang DC](http://erlangdc.org/)
 - [Erlang User Conference](http://www.erlang-factory.com/conference/show/conference-23/home/)
-- [strangeloop](https://thestrangeloop.com/)
+- [StrangeLoop](https://thestrangeloop.com/)
 - [LambdaJam](http://www.lambdajam.com/)
-
 - [Erlang Solutions Youtube Channel](https://www.youtube.com/user/ErlangSolutions)
-
 
 ##Libraries, Frameworks, Toolkits
 
