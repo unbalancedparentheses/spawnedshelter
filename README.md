@@ -67,6 +67,25 @@ A collection of the best articles, videos and presentations related to Erlang.
 ##Comparison to other languages
 - [Some Thoughts on Go and Erlang - Tristan Sloughter](http://blog.erlware.org/2014/04/27/some-thoughts-on-go-and-erlang/)
 
+##Functional Programming
+- [Why Functional Programming Matters - John Hughes](http://www.cse.chalmers.se/~rjmh/Papers/whyfp.html)
+
+##Slides
+- [Social Platforms in Erlang - Lessons Learned](https://speakerdeck.com/kachayev/erlang-in-production-lessons-learned)
+
+##Talks
+- [Reliability Features of Erlang - LambdaLounge Krakow 2013](http://www.gar1t.com/blog/reliability-features-of-erlang-krakow.html)
+
+##Events
+- [Erlang Factory](http://www.erlang-factory.com/)
+- [Erlang DC](http://erlangdc.org/)
+- [Erlang User Conference](http://www.erlang-factory.com/conference/show/conference-23/home/)
+- [strangeloop](https://thestrangeloop.com/)
+- [LambdaJam](http://www.lambdajam.com/)
+
+- [Erlang Solutions Youtube Channel](https://www.youtube.com/user/ErlangSolutions)
+
+
 ##Libraries, Frameworks, Toolkits
 
 ###General
@@ -105,13 +124,3 @@ A collection of the best articles, videos and presentations related to Erlang.
 - [Write a Template Compiler for Erlang- Evan Miller](http://www.evanmiller.org/write-a-template-compiler-for-erlang.html)
 - Building a Parser-Generator in Erlang - Sean Cribbs [Part1](http://seancribbs.com/tech/2009/05/27/building-a-parser-generator-in-erlang-part-1/) [Part 2](http://seancribbs.com/tech/2009/05/29/building-a-parser-generator-in-erlang-part-2/) [Part 3](http://seancribbs.com/tech/2009/06/11/building-a-parser-generator-in-erlang-part-3/) [Part 4](http://seancribbs.com/tech/2009/06/21/building-a-parser-generator-in-erlang-part-4/) [Part 5](http://seancribbs.com/tech/2009/06/21/building-a-parser-generator-in-erlang-part-5/)
 - [Neotoma - Erlang library and packrat parser-generator for parsing expression grammars](https://github.com/seancribbs/neotoma)
-
-##Functional Programming
-- [Why Functional Programming Matters - John Hughes](http://www.cse.chalmers.se/~rjmh/Papers/whyfp.html)
-
-##Slides
-- [Social Platforms in Erlang - Lessons Learned](https://speakerdeck.com/kachayev/erlang-in-production-lessons-learned)
-
-##Talks
-- [Reliability Features of Erlang - LambdaLounge Krakow 2013](http://www.gar1t.com/blog/reliability-features-of-erlang-krakow.html)
-
