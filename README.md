@@ -45,7 +45,6 @@ A collection of the best articles, videos and presentations related to Erlang.
 - [Scaling Erlang - Inaka Networks](http://inaka.net/blog/2011/10/07/scale-test-plan-simple-erlang-application/)
 - [Social Platforms in Erlang - Lessons Learned](https://speakerdeck.com/kachayev/erlang-in-production-lessons-learned)
 
-
 ##BEAM Internals
 - [The BEAM Dispatcher - Happi Blogging](http://stenmans.org/happi_blog/?p=194)
 - [The Erlang Tagging Scheme - Happi Blogging](http://stenmans.org/happi_blog/?p=176)
@@ -72,8 +71,6 @@ A collection of the best articles, videos and presentations related to Erlang.
 
 ##Functional Programming
 - [Why Functional Programming Matters - John Hughes](http://www.cse.chalmers.se/~rjmh/Papers/whyfp.html)
-
-##Slides
 
 ##Events
 - [Erlang Factory](http://www.erlang-factory.com/)
