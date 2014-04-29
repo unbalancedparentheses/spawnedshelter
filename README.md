@@ -15,15 +15,15 @@ A collection of the best articles, videos and presentations related to Erlang.
 - [Dabbling in Erlang, part 1: Hello function - Agis Anastasopoulos](http://agis.io/2013/05/19/dabbling-in-erlang-hello-function.html)
 - [Dabbling in Erlang, part 2: A minimal introduction - Agis Anastasopoulos](http://agis.io/2013/10/12/dabbling-in-erlang-a-minimal-introduction.html)
 
+###Books
+- [Learn you som Erlang -  Fred Hebert](http://learnyousomeerlang.com/)
+- [Études for Erlang - J. David Eisenberg](http://chimera.labs.oreilly.com/books/1234000000726/index.html)
+
 ##General
 - [Parallelism /= Concurrency - Simon Marlow](https://ghcmutterings.wordpress.com/2009/10/06/parallelism-concurrency/)
 - [Sequence and Order in Erlang - Dennis Byrne](http://notdennisbyrne.blogspot.com.ar/2008/04/sequence-and-order-in-erlang.html)
 - [Mostly Erlang](http://mostlyerlang.com/) - Erlang podcast
 - [Erldocs](http://erldocs.com/)
-
-##Books
-- [Learn you som Erlang -  Fred Hebert](http://learnyousomeerlang.com/)
-- [Études for Erlang - J. David Eisenberg](http://chimera.labs.oreilly.com/books/1234000000726/index.html)
 
 ##Debugging
 - [Taking the printf out of printf Debugging - Mats Cronqvist](http://youtu.be/S8SL0IpS9pk)
