@@ -24,6 +24,7 @@ A collection of the best articles, videos and presentations related to Erlang.
 - [Parallelism /= Concurrency - Simon Marlow](https://ghcmutterings.wordpress.com/2009/10/06/parallelism-concurrency/)
 - [Sequence and Order in Erlang - Dennis Byrne](http://notdennisbyrne.blogspot.com.ar/2008/04/sequence-and-order-in-erlang.html)
 - [Why Erlang syntax is not based on LISP s-expressions?](https://groups.google.com/d/topic/erlang-programming/tB2NxpwIaKQ/discussion)
+- [It's About the Guarantees - Fred Hebert](http://ferd.ca/it-s-about-the-guarantees.html)
 - [Mostly Erlang](http://mostlyerlang.com/) - Erlang podcast
 - [Erldocs](http://erldocs.com/)
 
