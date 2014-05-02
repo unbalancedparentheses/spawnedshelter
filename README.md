@@ -20,9 +20,6 @@ A collection of the best articles, videos and presentations related to Erlang.
 - [Learn you som Erlang -  Fred Hebert](http://learnyousomeerlang.com/)
 - [Études for Erlang - J. David Eisenberg](http://chimera.labs.oreilly.com/books/1234000000726/index.html)
 
-###
-
-
 ##General
 - [Parallelism /= Concurrency - Simon Marlow](https://ghcmutterings.wordpress.com/2009/10/06/parallelism-concurrency/)
 - [Sequence and Order in Erlang - Dennis Byrne](http://notdennisbyrne.blogspot.com.ar/2008/04/sequence-and-order-in-erlang.html)
@@ -93,7 +90,10 @@ A collection of the best articles, videos and presentations related to Erlang.
 - [Troubleshooting Down the Logplex Rabbit Hole](https://blog.heroku.com/archives/2013/11/7/logplex-down-the-rabbit-hole)
 
 ##Logging
-- [Lager](https://github.com/basho/lager)
+- [lager](https://github.com/basho/lager)
+
+##Metrics
+- [recon](https://ferd.github.io/recon/)
 
 ##Webservers
 - [Cowboy](https://github.com/extend/cowboy)
@@ -115,6 +115,7 @@ A collection of the best articles, videos and presentations related to Erlang.
 
 ##Network Clients
 - [ibrowse](https://github.com/cmullaparthi/ibrowse)
+- [gun](https://github.com/extend/gun)
 
 ##Parsing
 - [Parsing in Erlang](http://www.cs.dartmouth.edu/~mckeeman/cs118/languages/erlang/exprParser.html)
