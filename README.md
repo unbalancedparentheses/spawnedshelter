@@ -2,7 +2,7 @@
 
 I am building a web like [Superhero.js](http://superherojs.com/) but for Erlang. I will add only the links I find interesting from [ErlangBookmarks](https://github.com/0xAX/erlang-bookmarks/blob/master/ErlangBookmarks.md).
 
-A collection of the best articles, videos and presentations related to Erlang.
+After having a first working version I will start adding Elixir resources. Check Robert Virding [Erlang/Elixir communities](http://rvirding.blogspot.co.uk/2014/03/erlangelixir-communities.html) to know why.
 
 ##Why Erlang?
 - [Real Time Bidding. Where Erlang Blooms - Fred Hebert](http://youtu.be/gWMTAhvz1kY)
@@ -13,26 +13,28 @@ A collection of the best articles, videos and presentations related to Erlang.
 
 ##Introduction
 - [Learn X in Y minutes Where X=erlang](http://learnxinyminutes.com/docs/erlang/)
+- [An Open Letter to the Erlang Beginner (or Onlooker) - Fred Hebert](http://ferd.ca/an-open-letter-to-the-erlang-beginner-or-onlooker.html)
 - [Dabbling in Erlang, part 1: Hello function - Agis Anastasopoulos](http://agis.io/2013/05/19/dabbling-in-erlang-hello-function.html)
 - [Dabbling in Erlang, part 2: A minimal introduction - Agis Anastasopoulos](http://agis.io/2013/10/12/dabbling-in-erlang-a-minimal-introduction.html)
+- [On Erlang's Syntax - Fred Hebert](http://ferd.ca/on-erlang-s-syntax.html)
+- [Parallelism /= Concurrency - Simon Marlow](https://ghcmutterings.wordpress.com/2009/10/06/parallelism-concurrency/)
 
 ###Introductory Books
 - [Learn you som Erlang -  Fred Hebert](http://learnyousomeerlang.com/)
 - [Études for Erlang - J. David Eisenberg](http://chimera.labs.oreilly.com/books/1234000000726/index.html)
 
-##General
-- [Parallelism /= Concurrency - Simon Marlow](https://ghcmutterings.wordpress.com/2009/10/06/parallelism-concurrency/)
-- [Sequence and Order in Erlang - Dennis Byrne](http://notdennisbyrne.blogspot.com.ar/2008/04/sequence-and-order-in-erlang.html)
+##Erlang design choices
 - [Why Erlang syntax is not based on LISP s-expressions?](https://groups.google.com/d/topic/erlang-programming/tB2NxpwIaKQ/discussion)
 - [It's About the Guarantees - Fred Hebert](http://ferd.ca/it-s-about-the-guarantees.html)
-- [Mostly Erlang](http://mostlyerlang.com/) - Erlang podcast
-- [Erldocs](http://erldocs.com/)
+- [Sequence and Order in Erlang - Dennis Byrne](http://notdennisbyrne.blogspot.com.ar/2008/04/sequence-and-order-in-erlang.html)
 
-##Debugging
+##Debugging, tracing and logging
 - [Taking the printf out of printf Debugging - Mats Cronqvist](http://youtu.be/S8SL0IpS9pk)
 - [Tracing Erlang Code](https://ferd.github.io/recon/recon_trace.html)
 - [Debugging with the Debug Helper](http://erlangcentral.org/wiki/index.php/Debugging_with_Debug_Helper)
 - [Eper - Redbug Manual](https://code.google.com/p/eper/wiki/redbug)
+- [lager](https://github.com/basho/lager)
+- [recon](https://ferd.github.io/recon/)
 
 ##Testing
 - [Testing Erlang - Zachary Kessin](https://github.com/zkessin/testing-erlang-book)
@@ -89,12 +91,6 @@ A collection of the best articles, videos and presentations related to Erlang.
 - [Solving Embarrasingly Obvious Problems in Erlang - Garret Smith](http://www.gar1t.com/blog/solving-embarrassingly-obvious-problems-in-erlang.html)
 - [Troubleshooting Down the Logplex Rabbit Hole](https://blog.heroku.com/archives/2013/11/7/logplex-down-the-rabbit-hole)
 
-##Logging
-- [lager](https://github.com/basho/lager)
-
-##Metrics
-- [recon](https://ferd.github.io/recon/)
-
 ##Webservers
 - [Cowboy](https://github.com/extend/cowboy)
 - [Webmachine](https://github.com/basho/webmachine)
@@ -123,3 +119,7 @@ A collection of the best articles, videos and presentations related to Erlang.
 - [Write a Template Compiler for Erlang- Evan Miller](http://www.evanmiller.org/write-a-template-compiler-for-erlang.html)
 - Building a Parser-Generator in Erlang - Sean Cribbs [Part1](http://seancribbs.com/tech/2009/05/27/building-a-parser-generator-in-erlang-part-1/) [Part 2](http://seancribbs.com/tech/2009/05/29/building-a-parser-generator-in-erlang-part-2/) [Part 3](http://seancribbs.com/tech/2009/06/11/building-a-parser-generator-in-erlang-part-3/) [Part 4](http://seancribbs.com/tech/2009/06/21/building-a-parser-generator-in-erlang-part-4/) [Part 5](http://seancribbs.com/tech/2009/06/21/building-a-parser-generator-in-erlang-part-5/)
 - [Neotoma - Erlang library and packrat parser-generator for parsing expression grammars](https://github.com/seancribbs/neotoma)
+
+##Other resources
+- [Mostly Erlang](http://mostlyerlang.com/) - Erlang podcast
+- [Erldocs](http://erldocs.com/)
