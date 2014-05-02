@@ -16,9 +16,12 @@ A collection of the best articles, videos and presentations related to Erlang.
 - [Dabbling in Erlang, part 1: Hello function - Agis Anastasopoulos](http://agis.io/2013/05/19/dabbling-in-erlang-hello-function.html)
 - [Dabbling in Erlang, part 2: A minimal introduction - Agis Anastasopoulos](http://agis.io/2013/10/12/dabbling-in-erlang-a-minimal-introduction.html)
 
-###Books
+###Introductory Books
 - [Learn you som Erlang -  Fred Hebert](http://learnyousomeerlang.com/)
 - [Études for Erlang - J. David Eisenberg](http://chimera.labs.oreilly.com/books/1234000000726/index.html)
+
+###
+
 
 ##General
 - [Parallelism /= Concurrency - Simon Marlow](https://ghcmutterings.wordpress.com/2009/10/06/parallelism-concurrency/)
@@ -82,39 +85,38 @@ A collection of the best articles, videos and presentations related to Erlang.
 - [LambdaJam](http://www.lambdajam.com/)
 - [Erlang Solutions Youtube Channel](https://www.youtube.com/user/ErlangSolutions)
 
-##Libraries, Frameworks, Toolkits
-
-###General
+##General tools
 - [mixer](https://github.com/opscode/mixer) - Mix in functions from other modules
 - Extending the Erlang Shell - Ulf Wiger [Part 1](http://ulf.wiger.net/weblog/2007/11/20/extending-the-erlang-shell-part-1/) [Part 2](http://ulf.wiger.net/weblog/2007/11/21/extending-the-erlang-shell-part-2/)
 - [Adding Live updates to your Erlang library - Alex Kropivny](http://amtal.ca/2011/11/07/adding-live-updates-to-your-erlang-library.html)
-- [Real Time Bidding, Where Erlang BLOOMs - Ferd](http://ferd.ca/rtb-where-erlang-blooms.html)
 - [Solving Embarrasingly Obvious Problems in Erlang - Garret Smith](http://www.gar1t.com/blog/solving-embarrassingly-obvious-problems-in-erlang.html)
 - [Troubleshooting Down the Logplex Rabbit Hole](https://blog.heroku.com/archives/2013/11/7/logplex-down-the-rabbit-hole)
 
-###Log
-- [lager](https://github.com/basho/lager)
+##Logging
+- [Lager](https://github.com/basho/lager)
 
-###Web
-####Webservers
+##Webservers
 - [Cowboy](https://github.com/extend/cowboy)
 - [Webmachine](https://github.com/basho/webmachine)
 - [Mochiweb](https://github.com/mochi/mochiweb)
 - [Elli](https://github.com/knutin/elli)
 - [Leptus](https://github.com/s1n4/leptus)
 
-####Json
+##Network Servers
+- [Building a non-blocking TCP server using OTP principles - Serge Aleynikov](http://www.trapexit.org/Building_a_Non-blocking_TCP_server_using_OTP_principles)
+
+##Json
 - [Jiffy](https://github.com/davisp/jiffy)
 - [Jsx](https://github.com/talentdeficit/jsx)
 
-####Json Helpers
+##Json Helpers
 - [ej](https://github.com/seth/ej) - Helper module for working with Erlang terms representing JSON
 - [Introducing ej, an Erlang JSON helper library](http://userprimary.net/posts/2012/06/11/ej-erlang-json-helper-library/)
 
-####Clients
+##Network Clients
 - [ibrowse](https://github.com/cmullaparthi/ibrowse)
 
-###Parsing
+##Parsing
 - [Parsing in Erlang](http://www.cs.dartmouth.edu/~mckeeman/cs118/languages/erlang/exprParser.html)
 - [Making Parsers with Yecc - Wikibooks](http://en.wikibooks.org/wiki/Erlang_Programming/Making_Parsers_with_yecc)
 - [Write a Template Compiler for Erlang- Evan Miller](http://www.evanmiller.org/write-a-template-compiler-for-erlang.html)
