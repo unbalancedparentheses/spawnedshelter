@@ -62,6 +62,8 @@ After having a first working version I will start adding Elixir resources. Check
 - [Monads in Erlang - Alex Kropivny](http://amtal.ca/2011/09/24/monads-in-erlang.html)
 - [Can you hear the drums, Erlando? -  Matthew Sackman](http://www.rabbitmq.com/blog/2011/05/17/can-you-hear-the-drums-erlando/)
 - [Don't fear the Monad - Brian Beckman](http://youtu.be/ZhuHCtR3xq8)
+- [The First Monad Tutorial - Phillip Wadler](http://yow.eventer.com/yow-2013-1080/the-first-monad-tutorial-by-phillip-wadler-1359)
+- [Comprehending Monads - Philip Wadler](http://ncatlab.org/nlab/files/WadlerMonads.pdf)
 
 ###Tools
 - [Wrangler](http://www.cs.kent.ac.uk/projects/wrangler/Wrangler/Home.html)
