@@ -48,6 +48,7 @@ After having a first working version I will start adding Elixir resources. Check
 - [Erlang, Binaries, and Garbage Collection (Sigh)](http://dieswaytoofast.blogspot.ca/2012/12/erlang-binaries-and-garbage-collection.html)
 - [Scaling Erlang - Inaka Networks](http://inaka.net/blog/2011/10/07/scale-test-plan-simple-erlang-application/)
 - [Social Platforms in Erlang - Lessons Learned](https://speakerdeck.com/kachayev/erlang-in-production-lessons-learned)
+- [Eliminating Single Process Bottlenecks with ETS Concurrency Patterns - Jay Nelson](http://youtu.be/XrkY9WRY8p0)
 
 ##BEAM Internals
 - [The BEAM Dispatcher - Happi Blogging](http://stenmans.org/happi_blog/?p=194)
