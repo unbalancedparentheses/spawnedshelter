@@ -24,6 +24,9 @@ After having a first working version I will start adding Elixir resources. Check
 - [Études for Erlang - J. David Eisenberg](http://chimera.labs.oreilly.com/books/1234000000726/index.html)
 
 ##Erlang design choices
+- [Making reliable
+distributed systems
+in the presence of sodware errors - Joe Armstrong](http://www.sics.se/~joe/thesis/armstrong_thesis_2003.pdf)
 - [Why Erlang syntax is not based on LISP s-expressions?](https://groups.google.com/d/topic/erlang-programming/tB2NxpwIaKQ/discussion)
 - [It's About the Guarantees - Fred Hebert](http://ferd.ca/it-s-about-the-guarantees.html)
 - [Sequence and Order in Erlang - Dennis Byrne](http://notdennisbyrne.blogspot.com.ar/2008/04/sequence-and-order-in-erlang.html)
@@ -50,7 +53,8 @@ After having a first working version I will start adding Elixir resources. Check
 - [Scaling Erlang - Inaka Networks](http://inaka.net/blog/2011/10/07/scale-test-plan-simple-erlang-application/)
 - [Social Platforms in Erlang - Lessons Learned](https://speakerdeck.com/kachayev/erlang-in-production-lessons-learned)
 - [Eliminating Single Process Bottlenecks with ETS Concurrency Patterns - Jay Nelson](http://youtu.be/XrkY9WRY8p0)
-
+- [Erlang Web Server Benchmarking - Steve Vinoski](http://steve.vinoski.net/blog/2011/05/09/erlang-web-server-benchmarking/)
+ 
 ##BEAM Internals
 - [The BEAM Dispatcher - Happi Blogging](http://stenmans.org/happi_blog/?p=194)
 - [The Erlang Tagging Scheme - Happi Blogging](http://stenmans.org/happi_blog/?p=176)
@@ -127,3 +131,4 @@ After having a first working version I will start adding Elixir resources. Check
 ##Other resources
 - [Mostly Erlang](http://mostlyerlang.com/) - Erlang podcast
 - [Erldocs](http://erldocs.com/)
+- [On HTTP Load Testing - Mark Nottingham](http://www.mnot.net/blog/2011/05/18/http_benchmark_rules)
