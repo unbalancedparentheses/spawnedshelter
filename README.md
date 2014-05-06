@@ -54,7 +54,7 @@ in the presence of sodware errors - Joe Armstrong](http://www.sics.se/~joe/thesi
 - [Social Platforms in Erlang - Lessons Learned](https://speakerdeck.com/kachayev/erlang-in-production-lessons-learned)
 - [Eliminating Single Process Bottlenecks with ETS Concurrency Patterns - Jay Nelson](http://youtu.be/XrkY9WRY8p0)
 - [Erlang Web Server Benchmarking - Steve Vinoski](http://steve.vinoski.net/blog/2011/05/09/erlang-web-server-benchmarking/)
- 
+
 ##BEAM Internals
 - [The BEAM Dispatcher - Happi Blogging](http://stenmans.org/happi_blog/?p=194)
 - [The Erlang Tagging Scheme - Happi Blogging](http://stenmans.org/happi_blog/?p=176)
@@ -102,6 +102,7 @@ in the presence of sodware errors - Joe Armstrong](http://www.sics.se/~joe/thesi
 ##Webservers
 - [Cowboy](https://github.com/extend/cowboy)
 - [Webmachine](https://github.com/basho/webmachine)
+- [The Nitrogen Erlang Web Framework - Steve Vinoski](http://steve.vinoski.net/pdf/IC-Nitrogen_Web_Framework.pdf)
 - [Mochiweb](https://github.com/mochi/mochiweb)
 - [Elli](https://github.com/knutin/elli)
 - [Leptus](https://github.com/s1n4/leptus)
