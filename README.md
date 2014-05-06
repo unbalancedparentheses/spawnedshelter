@@ -71,9 +71,6 @@ in the presence of sodware errors - Joe Armstrong](http://www.sics.se/~joe/thesi
 - [The First Monad Tutorial - Phillip Wadler](http://yow.eventer.com/yow-2013-1080/the-first-monad-tutorial-by-phillip-wadler-1359)
 - [Comprehending Monads - Philip Wadler](http://ncatlab.org/nlab/files/WadlerMonads.pdf)
 
-###Extension
-[Parameterized modules in Erlang - Richard Carlsson](http://ftp.sunet.se/pub/lang/erlang/workshop/2003/paper/p29-carlsson.pdf)
-
 ###Tools
 - [Wrangler](http://www.cs.kent.ac.uk/projects/wrangler/Wrangler/Home.html)
 - [RefactorErl](http://plc.inf.elte.hu/erlang/index.html)
