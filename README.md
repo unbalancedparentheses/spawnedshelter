@@ -27,6 +27,7 @@ After having a first working version I will start adding Elixir resources. Check
 - [Why Erlang syntax is not based on LISP s-expressions?](https://groups.google.com/d/topic/erlang-programming/tB2NxpwIaKQ/discussion)
 - [It's About the Guarantees - Fred Hebert](http://ferd.ca/it-s-about-the-guarantees.html)
 - [Sequence and Order in Erlang - Dennis Byrne](http://notdennisbyrne.blogspot.com.ar/2008/04/sequence-and-order-in-erlang.html)
+- [The Road we didn't go down - Joe Armstrong](http://armstrongonsoftware.blogspot.com.ar/2008/05/road-we-didnt-go-down.html) - Discussion about RPC
 
 ##Debugging, tracing and logging
 - [Taking the printf out of printf Debugging - Mats Cronqvist](http://youtu.be/S8SL0IpS9pk)
