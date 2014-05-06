@@ -78,6 +78,9 @@ in the presence of sodware errors - Joe Armstrong](http://www.sics.se/~joe/thesi
 ###Papers
 - [A comparative study of refactoring haskell and erlang programs - Huiqing Li and Simon Thompson](http://www.cs.kent.ac.uk/pubs/2006/2439/)
 
+###Talks
+- [Exploring Riak's Service Architecture - Steve Vinoski](http://yow.eventer.com/yow-2013-1080/exploring-riak-s-service-architecture-by-steve-vinoski-1396)
+
 ##Comparison to other languages
 - [Some Thoughts on Go and Erlang - Tristan Sloughter](http://blog.erlware.org/2014/04/27/some-thoughts-on-go-and-erlang/)
 
