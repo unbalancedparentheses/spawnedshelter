@@ -89,6 +89,7 @@ in the presence of sodware errors - Joe Armstrong](http://www.sics.se/~joe/thesi
 
 ##Functional Programming
 - [Why Functional Programming Matters - John Hughes](http://www.cse.chalmers.se/~rjmh/Papers/whyfp.html)
+- [Everything Your Professor Failed to Tell You About Functional Programming - Shannon Behrens](http://www.linuxjournal.com/article/8850)
 
 ##Events
 - [Erlang Factory](http://www.erlang-factory.com/)
