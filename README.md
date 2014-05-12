@@ -82,6 +82,12 @@ in the presence of sodware errors - Joe Armstrong](http://www.sics.se/~joe/thesi
 ###Talks
 - [Exploring Riak's Service Architecture - Steve Vinoski](http://yow.eventer.com/yow-2013-1080/exploring-riak-s-service-architecture-by-steve-vinoski-1396)
 
+##Erlang wants to talk to the outside world!
+[Getting Erlang to talk to the outside world - Joe Armstrong](http://www.erlang.org/workshop/2002/Armstrong.pdf)
+[Haskell - Interfacing Erlang](http://www.haskell.org/haskellwiki/Applications_and_libraries/Interfacing_other_languages/Erlang)
+[erl_nif](http://www.erlang.org/doc/man/erl_nif.html)
+[Port drivers](http://erlang.org/doc/tutorial/c_portdriver.html)
+
 ##Comparison to other languages
 - [Some Thoughts on Go and Erlang - Tristan Sloughter](http://blog.erlware.org/2014/04/27/some-thoughts-on-go-and-erlang/)
 
