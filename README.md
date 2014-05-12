@@ -84,9 +84,14 @@ in the presence of sodware errors - Joe Armstrong](http://www.sics.se/~joe/thesi
 
 ##Erlang wants to talk to the outside world!
 - [Getting Erlang to talk to the outside world - Joe Armstrong](http://www.erlang.org/workshop/2002/Armstrong.pdf)
-- [Haskell - Interfacing Erlang](http://www.haskell.org/haskellwiki/Applications_and_libraries/Interfacing_other_languages/Erlang)
 - [erl_nif](http://www.erlang.org/doc/man/erl_nif.html)
+- [Writing an Erlang port using OTP principles - Erlang Central](https://erlangcentral.org/wiki/index.php?title=Writing_an_Erlang_Port_using_OTP_Principles)
+- [How to implement a driver](http://www.erlang.org/doc/apps/erts/driver.html)
+- [Ports and Port Drivers](http://www.erlang.org/doc/reference_manual/ports.html)
+- [Ports](http://www.erlang.org/doc/tutorial/c_port.html)
 - [Port drivers](http://erlang.org/doc/tutorial/c_portdriver.html)
+- [ErlPort](http://erlport.org/)
+- [Haskell - Interfacing Erlang](http://www.haskell.org/haskellwiki/Applications_and_libraries/Interfacing_other_languages/Erlang)
 
 ##Comparison to other languages
 - [Some Thoughts on Go and Erlang - Tristan Sloughter](http://blog.erlware.org/2014/04/27/some-thoughts-on-go-and-erlang/)
