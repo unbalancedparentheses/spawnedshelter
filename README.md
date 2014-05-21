@@ -42,6 +42,7 @@ in the presence of sodware errors - Joe Armstrong](http://www.sics.se/~joe/thesi
 
 ##Testing
 - [Testing Erlang - Zachary Kessin](https://github.com/zkessin/testing-erlang-book)
+- [PropEr User Guide](http://proper.softlab.ntua.gr/User_Guide.html)
 
 ##Performance
 - [System Limits - Erlang](http://www.erlang.org/doc/efficiency_guide/advanced.html)
