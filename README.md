@@ -63,6 +63,9 @@ in the presence of sodware errors - Joe Armstrong](http://www.sics.se/~joe/thesi
 
 ##Code Design and refactoring
 
+- [Erlang and code style - Jesper L. Andersen](https://medium.com/@jlouis666/b5936dceb5e4)
+- [A comparative study of refactoring haskell and erlang programs - Huiqing Li and Simon Thompson](http://www.cs.kent.ac.uk/pubs/2006/2439/)
+
 ###A trip from nested cases returning arbitrary {error, Reason} to monads
 - [9 Erlang pitfalls you should know about - MazenHarake](https://mazenharake.wordpress.com/2010/10/31/9-erlang-pitfalls-you-should-know-about/)
 - [Let it crash the right way - MazenHarake](https://mazenharake.wordpress.com/2009/09/14/let-it-crash-the-right-way/)
@@ -75,9 +78,6 @@ in the presence of sodware errors - Joe Armstrong](http://www.sics.se/~joe/thesi
 ###Tools
 - [Wrangler](http://www.cs.kent.ac.uk/projects/wrangler/Wrangler/Home.html)
 - [RefactorErl](http://plc.inf.elte.hu/erlang/index.html)
-
-###Papers
-- [A comparative study of refactoring haskell and erlang programs - Huiqing Li and Simon Thompson](http://www.cs.kent.ac.uk/pubs/2006/2439/)
 
 ###Talks
 - [Exploring Riak's Service Architecture - Steve Vinoski](http://yow.eventer.com/yow-2013-1080/exploring-riak-s-service-architecture-by-steve-vinoski-1396)
