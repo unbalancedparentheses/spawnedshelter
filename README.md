@@ -61,6 +61,8 @@ in the presence of sodware errors - Joe Armstrong](http://www.sics.se/~joe/thesi
 - [The Erlang Tagging Scheme - Happi Blogging](http://stenmans.org/happi_blog/?p=176)
 - [How Erlang does scheduling - JLOUIS Ramblings](http://jlouisramblings.blogspot.com.ar/2013/01/how-erlang-does-scheduling.html)
 - [Understanding the Erlang Scheduler](https://www.erlang-solutions.com/resources/webinars/understanding-erlang-scheduler)
+- [OTP internal documentation](https://github.com/erlang/otp/tree/maint/erts/emulator/internal_doc)
+- 
 
 ##Code Design and refactoring
 
@@ -146,6 +148,9 @@ in the presence of sodware errors - Joe Armstrong](http://www.sics.se/~joe/thesi
 - [Write a Template Compiler for Erlang- Evan Miller](http://www.evanmiller.org/write-a-template-compiler-for-erlang.html)
 - Building a Parser-Generator in Erlang - Sean Cribbs [Part1](http://seancribbs.com/tech/2009/05/27/building-a-parser-generator-in-erlang-part-1/) [Part 2](http://seancribbs.com/tech/2009/05/29/building-a-parser-generator-in-erlang-part-2/) [Part 3](http://seancribbs.com/tech/2009/06/11/building-a-parser-generator-in-erlang-part-3/) [Part 4](http://seancribbs.com/tech/2009/06/21/building-a-parser-generator-in-erlang-part-4/) [Part 5](http://seancribbs.com/tech/2009/06/21/building-a-parser-generator-in-erlang-part-5/)
 - [Neotoma - Erlang library and packrat parser-generator for parsing expression grammars](https://github.com/seancribbs/neotoma)
+
+##History
+- [A History of ErlangJoe Armstrong](http://webcem01.cem.itesm.mx:8005/erlang/cd/downloads/hopl_erlang.pdf)
 
 ##Other resources
 - [Mostly Erlang](http://mostlyerlang.com/) - Erlang podcast
