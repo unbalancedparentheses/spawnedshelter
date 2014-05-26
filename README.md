@@ -150,7 +150,7 @@ in the presence of sodware errors - Joe Armstrong](http://www.sics.se/~joe/thesi
 - [Neotoma - Erlang library and packrat parser-generator for parsing expression grammars](https://github.com/seancribbs/neotoma)
 
 ##History
-- [A History of ErlangJoe Armstrong](http://webcem01.cem.itesm.mx:8005/erlang/cd/downloads/hopl_erlang.pdf)
+- [A History of Erlang - Joe Armstrong](http://webcem01.cem.itesm.mx:8005/erlang/cd/downloads/hopl_erlang.pdf)
 
 ##Other resources
 - [Mostly Erlang](http://mostlyerlang.com/) - Erlang podcast
