@@ -62,10 +62,9 @@ in the presence of sodware errors - Joe Armstrong](http://www.sics.se/~joe/thesi
 - [How Erlang does scheduling - JLOUIS Ramblings](http://jlouisramblings.blogspot.com.ar/2013/01/how-erlang-does-scheduling.html)
 - [Understanding the Erlang Scheduler](https://www.erlang-solutions.com/resources/webinars/understanding-erlang-scheduler)
 - [OTP internal documentation](https://github.com/erlang/otp/tree/maint/erts/emulator/internal_doc)
-- 
+ 
 
 ##Code Design and refactoring
-
 - [Erlang and code style - Jesper L. Andersen](https://medium.com/@jlouis666/b5936dceb5e4)
 - [A comparative study of refactoring haskell and erlang programs - Huiqing Li and Simon Thompson](http://www.cs.kent.ac.uk/pubs/2006/2439/)
 
