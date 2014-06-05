@@ -56,6 +56,13 @@ in the presence of sodware errors - Joe Armstrong](http://www.sics.se/~joe/thesi
 - [Eliminating Single Process Bottlenecks with ETS Concurrency Patterns - Jay Nelson](http://youtu.be/XrkY9WRY8p0)
 - [Erlang Web Server Benchmarking - Steve Vinoski](http://steve.vinoski.net/blog/2011/05/09/erlang-web-server-benchmarking/)
 
+###Percept2
+- [Percept 2 - an enhanced version of the Percept profiling tool from the Erlang/OTP distribution](https://refactoringtools.github.io/percept2/)
+- [Profiling Erlang programs using Percept2](https://www.youtube.com/watch?v=k3MKizclP28)
+- [Profiling with Percept2 - Huiqing Li](https://www.youtube.com/watch?v=Sd_rpvRzAO8)
+- [Multicore Profiling for Erlang Programs Using Percept2](http://kar.kent.ac.uk/34875/)
+- [Multi-level Visualization of Concurrent and Distributed Computation in Erlang](http://kar.kent.ac.uk/34968/) 
+
 ##BEAM Internals
 - [The BEAM Dispatcher - Happi Blogging](http://stenmans.org/happi_blog/?p=194)
 - [The Erlang Tagging Scheme - Happi Blogging](http://stenmans.org/happi_blog/?p=176)
@@ -127,6 +134,8 @@ in the presence of sodware errors - Joe Armstrong](http://www.sics.se/~joe/thesi
 - [Leptus](https://github.com/s1n4/leptus)
 
 ##Network Servers
+- [Build an FTP server in 30 minutes with Ranch - Talk - Loic Hoguin](https://www.youtube.com/watch?v=4LeQnNoYJiQ)
+- [Build an FTP Server with Ranch in 30 Minutes - Article - Loic Hoguin](http://ninenines.eu/articles/ranch-ftp/)
 - [Building a non-blocking TCP server using OTP principles - Serge Aleynikov](http://www.trapexit.org/Building_a_Non-blocking_TCP_server_using_OTP_principles)
 
 ##Json
