@@ -10,7 +10,8 @@ After having a first working version I will start adding Elixir resources. Check
 - [The Joy of Erlang; Or, How To Ride A Toruk - Evan Miller](http://www.evanmiller.org/joy-of-erlang.html)
 - [Erlang is not a Concurrent Functional Programming Language - Kresten Krab](http://www.javalimit.com/2011/05/erlang-is-not-a-concurrent-functional-programming-language.html)
 - [Reliability Features of Erlang - LambdaLounge Krakow 2013](http://www.gar1t.com/blog/reliability-features-of-erlang-krakow.html)
-
+- [The Functional Revolution in C++ - Bartosz Milewski](https://etherpad.wikimedia.org/p/lfe-design-summit-euc2014) - Although the article is about C++, it addresses the problems solved by Erlang design decisions
+ 
 ##Introduction
 - [Learn X in Y minutes Where X=erlang](http://learnxinyminutes.com/docs/erlang/)
 - [An Open Letter to the Erlang Beginner (or Onlooker) - Fred Hebert](http://ferd.ca/an-open-letter-to-the-erlang-beginner-or-onlooker.html)
