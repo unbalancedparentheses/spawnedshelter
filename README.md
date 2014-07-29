@@ -67,7 +67,7 @@ in the presence of sodware errors - Joe Armstrong](http://www.sics.se/~joe/thesi
 ##BEAM Internals
 - [The BEAM Dispatcher - Happi Blogging](http://stenmans.org/happi_blog/?p=194)
 - [The Erlang Tagging Scheme - Happi Blogging](http://stenmans.org/happi_blog/?p=176)
-- [How Erlang does scheduling - JLOUIS Ramblings](http://jlouisramblings.blogspot.com.ar/2013/01/how-erlang-does-scheduling.html)
+- [How Erlang does scheduling - Jesper L. Andersen](http://jlouisramblings.blogspot.com.ar/2013/01/how-erlang-does-scheduling.html)
 - [Understanding the Erlang Scheduler](https://www.erlang-solutions.com/resources/webinars/understanding-erlang-scheduler)
 - [OTP internal documentation](https://github.com/erlang/otp/tree/maint/erts/emulator/internal_doc)
  
