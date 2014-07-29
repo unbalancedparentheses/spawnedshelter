@@ -47,6 +47,7 @@ in the presence of sodware errors - Joe Armstrong](http://www.sics.se/~joe/thesi
 
 ##Performance
 - [System Limits - Erlang](http://www.erlang.org/doc/efficiency_guide/advanced.html)
+- [Erlang String Handling - How to be efficient at handling string data in Erlang - Jesper L. Andersen](https://medium.com/@jlouis666/erlang-string-handling-7588daad8f05)
 - [How WhatsApp Grew To Nearly 500 Million Users, 11,000 Cores, And 70 Million Messages A Second - High Scalability](http://highscalability.com/blog/2014/3/31/how-whatsapp-grew-to-nearly-500-million-users-11000-cores-an.html)
 - [Erlang is slow: and other rubbish - Yuki Izumi](https://kivikakk.ee/2013/05/20/erlang_is_slow.html)
 - [A Deeper Look at Tails Recursion in Erlang - Programming in the 21st Century](http://prog21.dadgum.com/1.html)
