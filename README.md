@@ -76,6 +76,7 @@ in the presence of sodware errors - Joe Armstrong](http://www.sics.se/~joe/thesi
 ##Code Design and refactoring
 - [Erlang and code style - Jesper L. Andersen](https://medium.com/@jlouis666/b5936dceb5e4)
 - [A comparative study of refactoring haskell and erlang programs - Huiqing Li and Simon Thompson](http://www.cs.kent.ac.uk/pubs/2006/2439/)
+- [How do you handle spurious messages?](http://erlang.org/pipermail/erlang-questions/2014-August/080415.html) 
 
 ###A trip from nested cases returning arbitrary {error, Reason} to monads
 - [9 Erlang pitfalls you should know about - MazenHarake](https://mazenharake.wordpress.com/2010/10/31/9-erlang-pitfalls-you-should-know-about/)
@@ -85,6 +86,7 @@ in the presence of sodware errors - Joe Armstrong](http://www.sics.se/~joe/thesi
 - [Don't fear the Monad - Brian Beckman](http://youtu.be/ZhuHCtR3xq8)
 - [The First Monad Tutorial - Phillip Wadler](http://yow.eventer.com/yow-2013-1080/the-first-monad-tutorial-by-phillip-wadler-1359)
 - [Comprehending Monads - Philip Wadler](http://ncatlab.org/nlab/files/WadlerMonads.pdf)
+
 
 ###Tools
 - [Wrangler](http://www.cs.kent.ac.uk/projects/wrangler/Wrangler/Home.html)
