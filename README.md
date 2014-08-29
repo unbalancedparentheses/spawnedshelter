@@ -75,6 +75,8 @@ in the presence of sodware errors - Joe Armstrong](http://www.sics.se/~joe/thesi
 - [Understanding the Erlang Scheduler](https://www.erlang-solutions.com/resources/webinars/understanding-erlang-scheduler)
 - [OTP internal documentation](https://github.com/erlang/otp/tree/maint/erts/emulator/internal_doc)
 - [Live Podcast on VM - Mostly Erlang](http://youtu.be/kuVC2TE748w)
+- [Understanding the Erlang Scheduler - Lukas Larsson](http://youtu.be/_Pwlvy3zz9M)
+- [Hitchhiker's Tour of the BEAM - Robert Virding](http://youtu.be/_Pwlvy3zz9M)
 
 ##Code Design and refactoring
 - [Erlang and code style - Jesper L. Andersen](https://medium.com/@jlouis666/b5936dceb5e4)
