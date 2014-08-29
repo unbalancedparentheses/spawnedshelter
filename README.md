@@ -11,6 +11,9 @@ After having a first working version I will start adding Elixir resources. Check
 - [Erlang is not a Concurrent Functional Programming Language - Kresten Krab](http://www.javalimit.com/2011/05/erlang-is-not-a-concurrent-functional-programming-language.html)
 - [Reliability Features of Erlang - LambdaLounge Krakow 2013](http://www.gar1t.com/blog/reliability-features-of-erlang-krakow.html)
 - [The Functional Revolution in C++ - Bartosz Milewski](https://etherpad.wikimedia.org/p/lfe-design-summit-euc2014) - Although the article is about C++, it addresses the problems solved by Erlang design decisions
+
+##Erlang compared to others
+- [Erlang and Akka](http://erlang.org/pipermail/erlang-questions/2014-August/thread.html#80699)
  
 ##Introduction
 - [Learn X in Y minutes Where X=erlang](http://learnxinyminutes.com/docs/erlang/)
