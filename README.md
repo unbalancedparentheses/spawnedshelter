@@ -79,6 +79,7 @@ in the presence of sodware errors - Joe Armstrong](http://www.sics.se/~joe/thesi
 - [Hitchhiker's Tour of the BEAM - Robert Virding](http://youtu.be/_Pwlvy3zz9M)
 
 ##Code Design and refactoring
+- [Stuff Goes Bad. Erlang in anger](http://www.erlang-in-anger.com/)
 - [Erlang and code style - Jesper L. Andersen](https://medium.com/@jlouis666/b5936dceb5e4)
 - [A comparative study of refactoring haskell and erlang programs - Huiqing Li and Simon Thompson](http://www.cs.kent.ac.uk/pubs/2006/2439/)
 - [How do you handle spurious messages?](http://erlang.org/pipermail/erlang-questions/2014-August/080415.html) 
