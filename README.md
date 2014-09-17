@@ -37,12 +37,18 @@ in the presence of sodware errors - Joe Armstrong](http://www.sics.se/~joe/thesi
 - [The Road we didn't go down - Joe Armstrong](http://armstrongonsoftware.blogspot.com.ar/2008/05/road-we-didnt-go-down.html) - Discussion about RPC
 
 ##Debugging, tracing and logging
+- [observer - Erlang Debugger](http://www.erlang.org/doc/apps/debugger/debugger_chapter.html)
+- [A GUI tool for observing an erlang system](A GUI tool for observing an erlang system)
 - [Taking the printf out of printf Debugging - Mats Cronqvist](http://youtu.be/S8SL0IpS9pk)
 - [Tracing Erlang Code](https://ferd.github.io/recon/recon_trace.html)
 - [Debugging with the Debug Helper](http://erlangcentral.org/wiki/index.php/Debugging_with_Debug_Helper)
 - [Eper - Redbug Manual](https://code.google.com/p/eper/wiki/redbug)
 - [lager](https://github.com/basho/lager)
 - [recon](https://ferd.github.io/recon/)
+- [fprof - The File Trace Profiler](http://www.erlang.org/doc/apps/tools/fprof_chapter.html)
+- [A simple Call Count Profiling Tool](http://www.erlang.org/doc/man/cprof.html)
+- [eprof - A Time Profiling Tool for Erlang](http://www.erlang.org/doc/man/eprof.html)
+- [erlgrind - Convert fprof to callgring output](https://github.com/isacssouza/erlgrind)
 
 ##Testing
 - [Testing Erlang - Zachary Kessin](https://github.com/zkessin/testing-erlang-book)
