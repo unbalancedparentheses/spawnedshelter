@@ -147,6 +147,7 @@ in the presence of sodware errors - Joe Armstrong](http://www.sics.se/~joe/thesi
 - [Adding Live updates to your Erlang library - Alex Kropivny](http://amtal.ca/2011/11/07/adding-live-updates-to-your-erlang-library.html)
 - [Solving Embarrasingly Obvious Problems in Erlang - Garret Smith](http://www.gar1t.com/blog/solving-embarrassingly-obvious-problems-in-erlang.html)
 - [Troubleshooting Down the Logplex Rabbit Hole](https://blog.heroku.com/archives/2013/11/7/logplex-down-the-rabbit-hole)
+- [Crashdump Viewer](http://www.erlang.org/doc/man/crashdump_viewer.html)
 
 ##Webservers
 - [Cowboy](https://github.com/extend/cowboy)
