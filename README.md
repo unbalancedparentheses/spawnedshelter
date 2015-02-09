@@ -24,13 +24,13 @@ After having a first working version I will start adding Elixir resources. Check
 - [Parallelism /= Concurrency - Simon Marlow](https://ghcmutterings.wordpress.com/2009/10/06/parallelism-concurrency/)
 
 ###Introductory Books
-- [Learn you som Erlang -  Fred Hebert](http://learnyousomeerlang.com/)
+- [Learn you some Erlang -  Fred Hebert](http://learnyousomeerlang.com/)
 - [Études for Erlang - J. David Eisenberg](http://chimera.labs.oreilly.com/books/1234000000726/index.html)
 
 ##Erlang design choices
 - [Making reliable
 distributed systems
-in the presence of sodware errors - Joe Armstrong](http://www.sics.se/~joe/thesis/armstrong_thesis_2003.pdf)
+in the presence of software errors - Joe Armstrong](http://www.sics.se/~joe/thesis/armstrong_thesis_2003.pdf)
 - [Why Erlang syntax is not based on LISP s-expressions?](https://groups.google.com/d/topic/erlang-programming/tB2NxpwIaKQ/discussion)
 - [It's About the Guarantees - Fred Hebert](http://ferd.ca/it-s-about-the-guarantees.html)
 - [Sequence and Order in Erlang - Dennis Byrne](http://notdennisbyrne.blogspot.com.ar/2008/04/sequence-and-order-in-erlang.html)
