@@ -116,8 +116,10 @@ in the presence of sodware errors - Joe Armstrong](http://www.sics.se/~joe/thesi
 - [Ports and Port Drivers](http://www.erlang.org/doc/reference_manual/ports.html)
 - [Ports](http://www.erlang.org/doc/tutorial/c_port.html)
 - [Port drivers](http://erlang.org/doc/tutorial/c_portdriver.html)
-- [ErlPort](http://erlport.org/)
 - [Haskell - Interfacing Erlang](http://www.haskell.org/haskellwiki/Applications_and_libraries/Interfacing_other_languages/Erlang)
+- [erlport](https://github.com/hdima/erlport) - Connect Erlang to Ruby and Python
+- [erlang_js](https://github.com/basho/erlang_js) - A linked-in driver for Erlang to Mozilla's Spidermonkey Javascript runtime
+- [cl](https://github.com/tonyrog/cl) - OpenCL binding for Erlang
 
 ##Comparison to other languages
 - [Some Thoughts on Go and Erlang - Tristan Sloughter](http://blog.erlware.org/2014/04/27/some-thoughts-on-go-and-erlang/)
@@ -174,11 +176,6 @@ in the presence of sodware errors - Joe Armstrong](http://www.sics.se/~joe/thesi
 - [Write a Template Compiler for Erlang- Evan Miller](http://www.evanmiller.org/write-a-template-compiler-for-erlang.html)
 - Building a Parser-Generator in Erlang - Sean Cribbs [Part1](http://seancribbs.com/tech/2009/05/27/building-a-parser-generator-in-erlang-part-1/) [Part 2](http://seancribbs.com/tech/2009/05/29/building-a-parser-generator-in-erlang-part-2/) [Part 3](http://seancribbs.com/tech/2009/06/11/building-a-parser-generator-in-erlang-part-3/) [Part 4](http://seancribbs.com/tech/2009/06/21/building-a-parser-generator-in-erlang-part-4/) [Part 5](http://seancribbs.com/tech/2009/06/21/building-a-parser-generator-in-erlang-part-5/)
 - [Neotoma - Erlang library and packrat parser-generator for parsing expression grammars](https://github.com/seancribbs/neotoma)
-
-## Working with other programming languages
-- [erlport](https://github.com/hdima/erlport) - Connect Erlang to Ruby and Python
-- [erlang_js](https://github.com/basho/erlang_js) - A linked-in driver for Erlang to Mozilla's Spidermonkey Javascript runtime
-- [cl](https://github.com/tonyrog/cl) - OpenCL binding for Erlang
 
 ##History
 - [A History of Erlang - Joe Armstrong](http://webcem01.cem.itesm.mx:8005/erlang/cd/downloads/hopl_erlang.pdf)
