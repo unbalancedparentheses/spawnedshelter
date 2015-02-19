@@ -84,6 +84,7 @@ in the presence of sodware errors - Joe Armstrong](http://www.sics.se/~joe/thesi
 - [Live Podcast on VM - Mostly Erlang](http://youtu.be/kuVC2TE748w)
 - [Understanding the Erlang Scheduler - Lukas Larsson](http://youtu.be/_Pwlvy3zz9M)
 - [Hitchhiker's Tour of the BEAM - Robert Virding](http://youtu.be/_Pwlvy3zz9M)
+- [Tackling Dirty Jobs with Erlang's Schedulers - Steve Vinoski](https://www.youtube.com/watch?v=nw2eIB6bTxY)
 
 ##Code Design and refactoring
 - [Stuff Goes Bad. Erlang in anger](http://www.erlang-in-anger.com/)
