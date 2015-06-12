@@ -90,6 +90,7 @@ in the presence of sodware errors - Joe Armstrong](http://www.sics.se/~joe/thesi
 - [Live Podcast on VM - Mostly Erlang](http://youtu.be/kuVC2TE748w)
 - [Understanding the Erlang Scheduler - Lukas Larsson](http://youtu.be/_Pwlvy3zz9M)
 - [Hitchhiker's Tour of the BEAM - Robert Virding](http://youtu.be/_Pwlvy3zz9M)
+- [Tackling Dirty Jobs with Erlang's Schedulers - Steve Vinoski](https://www.youtube.com/watch?v=nw2eIB6bTxY)
 
 ##Code Design and refactoring
 - [Stuff Goes Bad. Erlang in anger](http://www.erlang-in-anger.com/)
@@ -122,8 +123,10 @@ in the presence of sodware errors - Joe Armstrong](http://www.sics.se/~joe/thesi
 - [Ports and Port Drivers](http://www.erlang.org/doc/reference_manual/ports.html)
 - [Ports](http://www.erlang.org/doc/tutorial/c_port.html)
 - [Port drivers](http://erlang.org/doc/tutorial/c_portdriver.html)
-- [ErlPort](http://erlport.org/)
 - [Haskell - Interfacing Erlang](http://www.haskell.org/haskellwiki/Applications_and_libraries/Interfacing_other_languages/Erlang)
+- [erlport](https://github.com/hdima/erlport) - Connect Erlang to Ruby and Python
+- [erlang_js](https://github.com/basho/erlang_js) - A linked-in driver for Erlang to Mozilla's Spidermonkey Javascript runtime
+- [cl](https://github.com/tonyrog/cl) - OpenCL binding for Erlang
 
 ##Comparison to other languages
 - [Some Thoughts on Go and Erlang - Tristan Sloughter](http://blog.erlware.org/2014/04/27/some-thoughts-on-go-and-erlang/)
