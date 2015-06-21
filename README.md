@@ -1,8 +1,14 @@
 #Erlang Spawned Shelter
 
-I am building a web like [Superhero.js](http://superherojs.com/) but for Erlang. I will add only the links I find interesting from [ErlangBookmarks](https://github.com/0xAX/erlang-bookmarks/blob/master/ErlangBookmarks.md).
+We are building a web like [Superhero.js](http://superherojs.com/) but for Erlang. You can also check the [ErlangBookmarks](https://github.com/0xAX/erlang-bookmarks/blob/master/ErlangBookmarks.md).
 
-After having a first working version I will start adding Elixir resources. Check Robert Virding [Erlang/Elixir communities](http://rvirding.blogspot.co.uk/2014/03/erlangelixir-communities.html) to know why.
+## Contact Us
+For **questions** or **general comments** regarding the use of this library, please use our public
+[hipchat room](https://www.hipchat.com/gpBpW3SsT).
+
+If you find any **bugs** or have a **problem** while using this library, please [open an issue](https://github.com/inaka/spawnedshelter/issues/new) in this repo (or a pull request :)).
+
+And you can check all of our open-source projects at [inaka.github.io](http://inaka.github.io)
 
 ##Why Erlang?
 - [Real Time Bidding. Where Erlang Blooms - Fred Hebert](http://youtu.be/gWMTAhvz1kY)
