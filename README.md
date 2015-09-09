@@ -46,7 +46,7 @@ in the presence of software errors - Joe Armstrong](http://www.sics.se/~joe/thes
 
 ##Debugging, tracing and logging
 - [observer - Erlang Debugger](http://www.erlang.org/doc/apps/debugger/debugger_chapter.html)
-- [A GUI tool for observing an erlang system](A GUI tool for observing an erlang system)
+- [A GUI tool for observing an erlang system](http://www.erlang.org/doc/man/observer.html)
 - [Taking the printf out of printf Debugging - Mats Cronqvist](http://youtu.be/S8SL0IpS9pk)
 - [Tracing Erlang Code](https://ferd.github.io/recon/recon_trace.html)
 - [Debugging with the Debug Helper](http://erlangcentral.org/wiki/index.php/Debugging_with_Debug_Helper)
