@@ -1,0 +1,24 @@
+{
+  "name": "federicocarrone.com",
+  "version": "1.0.0",
+  "description": "Web page for Erlang starters",
+  "main": "index.js",
+  "dependencies": {
+    "browser-sync": "^2.8.2",
+    "stylus": "^0.52.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unbalancedparentheses/spawnedshelter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unbalancedparentheses/spawnedshelter/issues"
+  },
+  "homepage": "https://github.com/unbalancedparentheses/spawnedshelter#readme"
+}
