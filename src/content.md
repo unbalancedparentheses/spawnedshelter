@@ -1,15 +1,3 @@
-#Erlang Spawned Shelter
-
-We are building a web like [Superhero.js](http://superherojs.com/) but for Erlang. You can also check the [ErlangBookmarks](https://github.com/0xAX/erlang-bookmarks/blob/master/ErlangBookmarks.md).
-
-## Contact Us
-For **questions** or **general comments** regarding the use of this library, please use our public
-[hipchat room](https://www.hipchat.com/gpBpW3SsT).
-
-If you find any **bugs** or have a **problem** while using this library, please [open an issue](https://github.com/inaka/spawnedshelter/issues/new) in this repo (or a pull request :)).
-
-And you can check all of our open-source projects at [inaka.github.io](http://inaka.github.io)
-
 ##Why Erlang?
 - [Real Time Bidding. Where Erlang Blooms - Fred Hebert](http://youtu.be/gWMTAhvz1kY)
 - [When would you choose Erlang? - Brian L. Troutwine](http://blog.troutwine.us/2013/07/10/choose_erlang.html)
@@ -22,7 +10,7 @@ And you can check all of our open-source projects at [inaka.github.io](http://in
 
 ##Erlang compared to others
 - [Erlang and Akka](http://erlang.org/pipermail/erlang-questions/2014-August/thread.html#80699)
- 
+
 ##Introduction
 - [Learn X in Y minutes Where X=erlang](http://learnxinyminutes.com/docs/erlang/)
 - [An Open Letter to the Erlang Beginner (or Onlooker) - Fred Hebert](http://ferd.ca/an-open-letter-to-the-erlang-beginner-or-onlooker.html)
@@ -81,7 +69,7 @@ in the presence of software errors - Joe Armstrong](http://www.sics.se/~joe/thes
 - [Profiling Erlang programs using Percept2](https://www.youtube.com/watch?v=k3MKizclP28)
 - [Profiling with Percept2 - Huiqing Li](https://www.youtube.com/watch?v=Sd_rpvRzAO8)
 - [Multicore Profiling for Erlang Programs Using Percept2](http://kar.kent.ac.uk/34875/)
-- [Multi-level Visualization of Concurrent and Distributed Computation in Erlang](http://kar.kent.ac.uk/34968/) 
+- [Multi-level Visualization of Concurrent and Distributed Computation in Erlang](http://kar.kent.ac.uk/34968/)
 
 ##BEAM Internals
 - [The BEAM Dispatcher - Happi Blogging](http://stenmans.org/happi_blog/?p=194)
@@ -98,7 +86,7 @@ in the presence of software errors - Joe Armstrong](http://www.sics.se/~joe/thes
 - [Stuff Goes Bad. Erlang in anger](http://www.erlang-in-anger.com/)
 - [Erlang and code style - Jesper L. Andersen](https://medium.com/@jlouis666/b5936dceb5e4)
 - [A comparative study of refactoring haskell and erlang programs - Huiqing Li and Simon Thompson](http://www.cs.kent.ac.uk/pubs/2006/2439/)
-- [How do you handle spurious messages?](http://erlang.org/pipermail/erlang-questions/2014-August/080415.html) 
+- [How do you handle spurious messages?](http://erlang.org/pipermail/erlang-questions/2014-August/080415.html)
 
 ###A trip from nested cases returning arbitrary {error, Reason} to monads
 - [9 Erlang pitfalls you should know about - MazenHarake](https://mazenharake.wordpress.com/2010/10/31/9-erlang-pitfalls-you-should-know-about/)

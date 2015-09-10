@@ -7,6 +7,7 @@ INDEX_HTML = index.html
 
 SRC_DIR = src
 BUILD_DIR = build
+IMG_DIR = img
 
 PANDOC = pandoc
 STYLUS = ./node_modules/stylus/bin/stylus
@@ -23,8 +24,9 @@ clean:
 
 compile:
 	mkdir -p $(BUILD_DIR)
+	cp -R $(IMG_DIR) $(BUILD_DIR)/$(IMG_DIR)
 	$(STYLUS) $(SRC_DIR)/$(STYLE_STYL) -o $(BUILD_DIR)/$(STYLE_CSS)
-	$(PANDOC) --template $(SRC_DIR)/$(CONTENT_TEMPL) $(SRC_DIR)/$(CONTENT_MD) > $(BUILD_DIR)/$(INDEX_HTML)
+	$(PANDOC) --toc --toc-depth=2 --template $(SRC_DIR)/$(CONTENT_TEMPL) $(SRC_DIR)/$(CONTENT_MD) > $(BUILD_DIR)/$(INDEX_HTML)
 
 dev: compile
 	stalk -w 1 make $(SRC_DIR)&
