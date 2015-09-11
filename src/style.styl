@@ -1,26 +1,48 @@
-body
-  height: 100%
-  padding: 0
-  margin: 0
+html, body
+ margin: 0
+ padding: 0
+ height: 100%
+ width: 100%
 
+html
+ overflow: auto
+ overflow-y: scroll
+
+// header
 #header
   min-height: 100%
-  background-color: #7a1e99
-  background-image: url("./img/wolf.png")
-  background-repeat: no-repeat
-  background-position: right top
+  background-color: #242D4A
+
+  @media screen and (min-width: 1200px)
+    background-image: url("./img/wolf.png")
+    background-repeat: no-repeat
+    background-position: right top
+
   box-sizing: border-box
   background-size: auto 100%
 
 #header #intro
-  font-size: 30px
   color: white
+  font-size: 30px
+
+  @media screen and (min-width: 1200px)
+    position: absolute
+    bottom: 0
+    left: 50px
 
 #header h1
   margin: 0
   color: white
   font-size: 100px
+  font-family: 'Creepster', cursive
+  letter-spacing: 5px
+  color: #E9B427
 
+#header #intro-text
+  @media screen and (min-width: 1200px)
+    width: 40vw
+
+// toc
 #toc
   min-height: 100%
   background-color: #612A81
