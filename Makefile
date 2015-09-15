@@ -26,6 +26,8 @@ compile:
 	mkdir -p $(BUILD_DIR)
 	cp -R $(IMG_DIR) $(BUILD_DIR)/$(IMG_DIR)
 	$(STYLUS) $(SRC_DIR)/$(STYLE_STYL) -o $(BUILD_DIR)/$(STYLE_CSS)
+	postcss --use autoprefixer build/style.css > build/style.css.tmp
+	mv build/style.css.tmp build/style.css
 	$(PANDOC) --toc --toc-depth=2 --template $(SRC_DIR)/$(CONTENT_TEMPL) $(SRC_DIR)/$(CONTENT_MD) > $(BUILD_DIR)/$(INDEX_HTML)
 
 dev: compile
