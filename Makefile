@@ -12,6 +12,8 @@ IMG_DIR = img
 PANDOC = pandoc
 STYLUS = ./node_modules/stylus/bin/stylus
 SERVER = ./node_modules/browser-sync/bin/browser-sync.js start --reload-delay 500 --files $(BUILD_DIR) --server $(BUILD_DIR) --port 8000
+POSTCSS = ./node_modules/postcss-cli/bin/postcss --use autoprefixer
+STALK = stalk -w 1 make
 
 default: compile
 
@@ -26,10 +28,10 @@ compile:
 	mkdir -p $(BUILD_DIR)
 	cp -R $(IMG_DIR) $(BUILD_DIR)/$(IMG_DIR)
 	$(STYLUS) $(SRC_DIR)/$(STYLE_STYL) -o $(BUILD_DIR)/$(STYLE_CSS)
-	postcss --use autoprefixer build/style.css > build/style.css.tmp
-	mv build/style.css.tmp build/style.css
+	$(POSTCSS) $(BUILD_DIR)/$(STYLE_CSS) > $(BUILD_DIR)/$(STYLE_CSS).prefixed
+	mv $(BUILD_DIR)/$(STYLE_CSS).prefixed $(BUILD_DIR)/$(STYLE_CSS)
 	$(PANDOC) --toc --toc-depth=2 --template $(SRC_DIR)/$(CONTENT_TEMPL) $(SRC_DIR)/$(CONTENT_MD) > $(BUILD_DIR)/$(INDEX_HTML)
 
 dev: compile
-	stalk -w 1 make $(SRC_DIR)&
+	$(STALK) $(SRC_DIR)&
 	$(SERVER)
