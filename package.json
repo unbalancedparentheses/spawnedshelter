@@ -4,7 +4,9 @@
   "description": "Web page for Erlang starters",
   "main": "index.js",
   "dependencies": {
+    "autoprefixer": "^6.0.2",
     "browser-sync": "^2.8.2",
+    "postcss-cli": "^2.1.0",
     "stylus": "^0.52.0"
   },
   "devDependencies": {},
