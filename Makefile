@@ -30,7 +30,7 @@ compile:
 	$(STYLUS) $(SRC_DIR)/$(STYLE_STYL) -o $(BUILD_DIR)/$(STYLE_CSS)
 	$(POSTCSS) $(BUILD_DIR)/$(STYLE_CSS) > $(BUILD_DIR)/$(STYLE_CSS).prefixed
 	mv $(BUILD_DIR)/$(STYLE_CSS).prefixed $(BUILD_DIR)/$(STYLE_CSS)
-	$(PANDOC) --toc --toc-depth=2 --template $(SRC_DIR)/$(CONTENT_TEMPL) $(SRC_DIR)/$(CONTENT_MD) > $(BUILD_DIR)/$(INDEX_HTML)
+	$(PANDOC) --html5 --section-divs --toc --toc-depth=2 --template $(SRC_DIR)/$(CONTENT_TEMPL) $(SRC_DIR)/$(CONTENT_MD) > $(BUILD_DIR)/$(INDEX_HTML)
 
 dev: compile
 	$(STALK) $(SRC_DIR)&
