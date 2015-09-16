@@ -1,12 +1,11 @@
+phone = 480px
+desktop = 996px
+
 html, body
  margin: 0
  padding: 0
  height: 100%
  width: 100%
-
-html
- overflow: auto
- overflow-y: scroll
 
 // header
 #header
@@ -15,7 +14,7 @@ html
   flex-direction: row
   align-items: flex-start
 
-  @media screen and (min-width: 996px)
+  @media screen and (min-width: desktop)
     min-height: 100%
 
 #header #intro
@@ -24,10 +23,11 @@ html
   color: white
   padding: 1em
 
-  @media screen and (min-width: 480px)
+  @media screen and (min-width: phone)
     padding: 2em
 
-  @media screen and (min-width: 996px)
+  @media screen and (min-width: desktop)
+    align-self: flex-end
     flex-basis: 45%
     padding-top: 50px
     paddiing-left: 50px
@@ -36,13 +36,13 @@ html
   margin: 0
   font-family: 'Creepster'
   font-size: 2em
-  text-shadow: 5px 3px 5px rgba(0,0,0,0.5)
+  text-shadow: 3px 1px 2px rgba(0,0,0,0.5)
   letter-spacing: 5px
   color: #E9B427
 
-  @media screen and (min-width: 480px)
+  @media screen and (min-width: phone)
     font-size: 3em
-  @media screen and (min-width: 996px)
+  @media screen and (min-width: desktop)
     font-size: 4em
 
 #header #intro-text
@@ -51,7 +51,7 @@ html
   font-family: 'Montserrat'
   font-size: 16px
 
-  @media screen and (min-width: 480px)
+  @media screen and (min-width: phone)
     font-size: 20px
 
 #header #intro-text p
@@ -61,7 +61,8 @@ html
   flex-basis: 55%
   align-self: flex-end
   display: none
-  @media screen and (min-width: 996px)
+
+  @media screen and (min-width: desktop)
     display: initial
 
 #header #wolf img
@@ -69,18 +70,41 @@ html
   max-height: 100%
   float: right
 
-
 // toc
 #toc
-  min-height: 100%
-  background-color: #e9b427
-  background-image: url("./img/vampire.png")
-  background-repeat: no-repeat
-  background-position: left top
+  display: flex
+  background-color: #BB2518
 
-  box-sizing: border-box
-  background-size: auto 100%
+#toc #vampire
+  display: none
+
+  @media screen and (min-width: desktop)
+    display: initial
+    flex: 1
+    background-image: url("http://localhost:8000/img/vampire.png")
+    background-size: contain
+    background-repeat: no-repeat
+    background-position-x: 25%
+
+#toc #toc-text
+  color: white
+  padding: 3em
+  margin: 0px
+  font-size: 16px
+  font-family: 'Montserrat'
+  line-height: 1.45
+
+  @media screen and (min-width: desktop)
+    flex: 1
+    font-size: 18px
 
 #toc ul
-  padding: 0px
+  list-style-type: decimal;
   margin: 0px
+
+#toc li
+  margin-bottom: 0.75em
+
+#toc ul a
+  text-decoration: none
+  color: white
