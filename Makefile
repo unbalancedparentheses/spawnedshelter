@@ -10,10 +10,10 @@ BUILD_DIR = build
 IMG_DIR = img
 
 PANDOC = pandoc
+STALK = stalk -w 1 make
 STYLUS = ./node_modules/stylus/bin/stylus
 SERVER = ./node_modules/browser-sync/bin/browser-sync.js start --reload-delay 500 --files $(BUILD_DIR) --server $(BUILD_DIR) --port 8000
 POSTCSS = ./node_modules/postcss-cli/bin/postcss --use autoprefixer
-STALK = stalk -w 1 make
 
 default: compile
 
@@ -23,6 +23,7 @@ deps:
 
 clean:
 	rm -rf $(BUILD_DIR)/*
+	rm -rf $(BUILD_DIR)/.git
 
 compile:
 	mkdir -p $(BUILD_DIR)
@@ -35,3 +36,12 @@ compile:
 dev: compile
 	$(STALK) $(SRC_DIR)&
 	$(SERVER)
+
+publish: clean compile
+	cd $(BUILD_DIR) && \
+	git init && \
+	git remote add gh-pages git@github.com:unbalancedparentheses/spawnedshelter.git && \
+	git add . && \
+	git commit -m 'Update website' && \
+	git push -f gh-pages master:gh-pages
+	echo "check http://spawnedshelter.com/"
