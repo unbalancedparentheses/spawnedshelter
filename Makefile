@@ -39,6 +39,7 @@ dev: compile
 
 publish: clean compile
 	cd $(BUILD_DIR) && \
+	echo "spawnedshelter.com" > CNAME && \
 	git init && \
 	git remote add gh-pages git@github.com:unbalancedparentheses/spawnedshelter.git && \
 	git add . && \
