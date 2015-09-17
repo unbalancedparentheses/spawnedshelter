@@ -27,7 +27,7 @@ clean:
 
 compile:
 	mkdir -p $(BUILD_DIR)
-	cp -R $(IMG_DIR) $(BUILD_DIR)/$(IMG_DIR)
+	cp -R $(IMG_DIR) $(BUILD_DIR)
 	$(STYLUS) $(SRC_DIR)/$(STYLE_STYL) -o $(BUILD_DIR)/$(STYLE_CSS)
 	$(POSTCSS) $(BUILD_DIR)/$(STYLE_CSS) > $(BUILD_DIR)/$(STYLE_CSS).prefixed
 	mv $(BUILD_DIR)/$(STYLE_CSS).prefixed $(BUILD_DIR)/$(STYLE_CSS)
