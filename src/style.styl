@@ -30,7 +30,7 @@ html, body
     align-self: flex-end
     flex-basis: 45%
     padding-top: 50px
-    paddiing-left: 50px
+    padding-left: 50px
 
 #header h1
   font-family: 'Creepster'
@@ -72,7 +72,7 @@ html, body
   display: flex
   background-color: #BB2518
 
-#toc #vampire
+#toc #monsters
   display: none
 
   @media screen and (min-width: desktop)
@@ -111,28 +111,40 @@ html, body
 // content
 #content
   margin: 0 auto
-  max-width: 70em
 
 #content .level2
-  padding: 0 5em
-  padding-top: 5em
+  padding: 0 2em
+  padding-bottom: 2em
 
 #content h2
   margin: 0
   font-family: 'Creepster'
-  font-size: 2em
+  font-size: 1.8em
   letter-spacing: 2px
   color: #BB2518
 
 #content ul
+  padding: 0
+  font-size: 14px
   list-style-type: decimal
-  line-height: 1.5
 
 #content li
   padding: 0.5em 0
-  border-bottom: .09em dotted #f0f0f0
 
 #content a
   color: #384673
   text-decoration: none
-  font-size: 18px
+
+// footer
+#footer
+  background-color: #5e2979
+  padding: 1em
+  color: white
+
+  @media screen and (min-width: desktop)
+    font-size: 20px
+
+#footer a
+  color: white
+  font-weight: 800
+  text-decoration: none
