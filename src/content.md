@@ -6,7 +6,7 @@
 - [Reliability Features of Erlang - LambdaLounge Krakow 2013](http://www.gar1t.com/blog/reliability-features-of-erlang-krakow.html)
 - [What can I only do in Erlang?](http://erlang.org/pipermail/erlang-questions/2014-November/081570.html)
 - [My favorite Erlang program - Joe Armstrong](https://joearms.github.io/2013/11/21/My-favorite-erlang-program.html)
-- [The Functional Revolution in C++ - Bartosz Milewski](https://etherpad.wikimedia.org/p/lfe-design-summit-euc2014) - Although the article is about C++, it addresses the problems solved by Erlang design decisions
+- [The Functional Revolution in C++ - Bartosz Milewski](https://etherpad.wikimedia.org/p/lfe-design-summit-euc2014)
 
 ##Erlang compared to others
 - [Erlang and Akka](http://erlang.org/pipermail/erlang-questions/2014-August/thread.html#80699)
@@ -18,10 +18,6 @@
 - [Dabbling in Erlang, part 2: A minimal introduction - Agis Anastasopoulos](http://agis.io/2013/10/12/dabbling-in-erlang-a-minimal-introduction.html)
 - [On Erlang's Syntax - Fred Hebert](http://ferd.ca/on-erlang-s-syntax.html)
 - [Parallelism /= Concurrency - Simon Marlow](https://ghcmutterings.wordpress.com/2009/10/06/parallelism-concurrency/)
-
-###Introductory Books
-- [Learn you some Erlang -  Fred Hebert](http://learnyousomeerlang.com/)
-- [Études for Erlang - J. David Eisenberg](http://chimera.labs.oreilly.com/books/1234000000726/index.html)
 
 ##Erlang design choices
 - [Making reliable
