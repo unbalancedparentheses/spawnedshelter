@@ -1,4 +1,4 @@
-# :blue_book: [Spawned Shelter](http://spawnedshelter.com/)
+# [Spawned Shelter](http://spawnedshelter.com/)
 A collection of the best articles, videos and presentations related to Erlang
 
 ## Contribute!
