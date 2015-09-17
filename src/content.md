@@ -1,15 +1,3 @@
-#Erlang Spawned Shelter
-
-We are building a web like [Superhero.js](http://superherojs.com/) but for Erlang. You can also check the [ErlangBookmarks](https://github.com/0xAX/erlang-bookmarks/blob/master/ErlangBookmarks.md).
-
-## Contact Us
-For **questions** or **general comments** regarding the use of this library, please use our public
-[hipchat room](https://www.hipchat.com/gpBpW3SsT).
-
-If you find any **bugs** or have a **problem** while using this library, please [open an issue](https://github.com/inaka/spawnedshelter/issues/new) in this repo (or a pull request :)).
-
-And you can check all of our open-source projects at [inaka.github.io](http://inaka.github.io)
-
 ##Why Erlang?
 - [Real Time Bidding. Where Erlang Blooms - Fred Hebert](http://youtu.be/gWMTAhvz1kY)
 - [When would you choose Erlang? - Brian L. Troutwine](http://blog.troutwine.us/2013/07/10/choose_erlang.html)
@@ -18,11 +6,11 @@ And you can check all of our open-source projects at [inaka.github.io](http://in
 - [Reliability Features of Erlang - LambdaLounge Krakow 2013](http://www.gar1t.com/blog/reliability-features-of-erlang-krakow.html)
 - [What can I only do in Erlang?](http://erlang.org/pipermail/erlang-questions/2014-November/081570.html)
 - [My favorite Erlang program - Joe Armstrong](https://joearms.github.io/2013/11/21/My-favorite-erlang-program.html)
-- [The Functional Revolution in C++ - Bartosz Milewski](https://etherpad.wikimedia.org/p/lfe-design-summit-euc2014) - Although the article is about C++, it addresses the problems solved by Erlang design decisions
+- [The Functional Revolution in C++ - Bartosz Milewski](https://etherpad.wikimedia.org/p/lfe-design-summit-euc2014)
 
 ##Erlang compared to others
 - [Erlang and Akka](http://erlang.org/pipermail/erlang-questions/2014-August/thread.html#80699)
- 
+
 ##Introduction
 - [Learn X in Y minutes Where X=erlang](http://learnxinyminutes.com/docs/erlang/)
 - [An Open Letter to the Erlang Beginner (or Onlooker) - Fred Hebert](http://ferd.ca/an-open-letter-to-the-erlang-beginner-or-onlooker.html)
@@ -30,10 +18,6 @@ And you can check all of our open-source projects at [inaka.github.io](http://in
 - [Dabbling in Erlang, part 2: A minimal introduction - Agis Anastasopoulos](http://agis.io/2013/10/12/dabbling-in-erlang-a-minimal-introduction.html)
 - [On Erlang's Syntax - Fred Hebert](http://ferd.ca/on-erlang-s-syntax.html)
 - [Parallelism /= Concurrency - Simon Marlow](https://ghcmutterings.wordpress.com/2009/10/06/parallelism-concurrency/)
-
-###Introductory Books
-- [Learn you some Erlang -  Fred Hebert](http://learnyousomeerlang.com/)
-- [Études for Erlang - J. David Eisenberg](http://chimera.labs.oreilly.com/books/1234000000726/index.html)
 
 ##Erlang design choices
 - [Making reliable
@@ -81,7 +65,7 @@ in the presence of software errors - Joe Armstrong](http://www.sics.se/~joe/thes
 - [Profiling Erlang programs using Percept2](https://www.youtube.com/watch?v=k3MKizclP28)
 - [Profiling with Percept2 - Huiqing Li](https://www.youtube.com/watch?v=Sd_rpvRzAO8)
 - [Multicore Profiling for Erlang Programs Using Percept2](http://kar.kent.ac.uk/34875/)
-- [Multi-level Visualization of Concurrent and Distributed Computation in Erlang](http://kar.kent.ac.uk/34968/) 
+- [Multi-level Visualization of Concurrent and Distributed Computation in Erlang](http://kar.kent.ac.uk/34968/)
 
 ##BEAM Internals
 - [The BEAM Dispatcher - Happi Blogging](http://stenmans.org/happi_blog/?p=194)
@@ -98,7 +82,7 @@ in the presence of software errors - Joe Armstrong](http://www.sics.se/~joe/thes
 - [Stuff Goes Bad. Erlang in anger](http://www.erlang-in-anger.com/)
 - [Erlang and code style - Jesper L. Andersen](https://medium.com/@jlouis666/b5936dceb5e4)
 - [A comparative study of refactoring haskell and erlang programs - Huiqing Li and Simon Thompson](http://www.cs.kent.ac.uk/pubs/2006/2439/)
-- [How do you handle spurious messages?](http://erlang.org/pipermail/erlang-questions/2014-August/080415.html) 
+- [How do you handle spurious messages?](http://erlang.org/pipermail/erlang-questions/2014-August/080415.html)
 
 ###A trip from nested cases returning arbitrary {error, Reason} to monads
 - [9 Erlang pitfalls you should know about - MazenHarake](https://mazenharake.wordpress.com/2010/10/31/9-erlang-pitfalls-you-should-know-about/)
@@ -138,58 +122,9 @@ in the presence of software errors - Joe Armstrong](http://www.sics.se/~joe/thes
 - [Everything Your Professor Failed to Tell You About Functional Programming - Shannon Behrens](http://www.linuxjournal.com/article/8850)
 - [Purely Functional Data Structures - Chris Okasaki](http://www.cs.cmu.edu/~rwh/theses/okasaki.pdf)
 
-##Events
-- [Erlang Factory](http://www.erlang-factory.com/)
-- [Erlang DC](http://erlangdc.org/)
-- [Erlang User Conference](http://www.erlang-factory.com/conference/show/conference-23/home/)
-- [StrangeLoop](https://thestrangeloop.com/)
-- [LambdaJam](http://www.lambdajam.com/)
-- [Erlang Solutions Youtube Channel](https://www.youtube.com/user/ErlangSolutions)
-
-##General tools
-- [mixer](https://github.com/opscode/mixer) - Mix in functions from other modules
-- Extending the Erlang Shell - Ulf Wiger [Part 1](http://ulf.wiger.net/weblog/2007/11/20/extending-the-erlang-shell-part-1/) [Part 2](http://ulf.wiger.net/weblog/2007/11/21/extending-the-erlang-shell-part-2/)
-- [Adding Live updates to your Erlang library - Alex Kropivny](http://amtal.ca/2011/11/07/adding-live-updates-to-your-erlang-library.html)
-- [Solving Embarrasingly Obvious Problems in Erlang - Garret Smith](http://www.gar1t.com/blog/solving-embarrassingly-obvious-problems-in-erlang.html)
-- [Troubleshooting Down the Logplex Rabbit Hole](https://blog.heroku.com/archives/2013/11/7/logplex-down-the-rabbit-hole)
-- [Crashdump Viewer](http://www.erlang.org/doc/man/crashdump_viewer.html)
-
-##Webservers
-- [Cowboy](https://github.com/extend/cowboy)
-- [Webmachine](https://github.com/basho/webmachine)
-- [The Nitrogen Erlang Web Framework - Steve Vinoski](http://steve.vinoski.net/pdf/IC-Nitrogen_Web_Framework.pdf)
-- [Mochiweb](https://github.com/mochi/mochiweb)
-- [Elli](https://github.com/knutin/elli)
-- [Leptus](https://github.com/s1n4/leptus)
-
-##Network Servers
-- [Build an FTP server in 30 minutes with Ranch - Talk - Loic Hoguin](https://www.youtube.com/watch?v=4LeQnNoYJiQ)
-- [Build an FTP Server with Ranch in 30 Minutes - Article - Loic Hoguin](http://ninenines.eu/articles/ranch-ftp/)
-- [Building a non-blocking TCP server using OTP principles - Serge Aleynikov](http://www.trapexit.org/Building_a_Non-blocking_TCP_server_using_OTP_principles)
-
-##Json
-- [Jiffy](https://github.com/davisp/jiffy)
-- [Jsx](https://github.com/talentdeficit/jsx)
-
-##Json Helpers
-- [ej](https://github.com/seth/ej) - Helper module for working with Erlang terms representing JSON
-- [Introducing ej, an Erlang JSON helper library](http://userprimary.net/posts/2012/06/11/ej-erlang-json-helper-library/)
-
-##Network Clients
-- [ibrowse](https://github.com/cmullaparthi/ibrowse)
-- [gun](https://github.com/extend/gun)
-
 ##Parsing
 - [Parsing in Erlang](http://www.cs.dartmouth.edu/~mckeeman/cs118/languages/erlang/exprParser.html)
 - [Making Parsers with Yecc - Wikibooks](http://en.wikibooks.org/wiki/Erlang_Programming/Making_Parsers_with_yecc)
 - [Write a Template Compiler for Erlang- Evan Miller](http://www.evanmiller.org/write-a-template-compiler-for-erlang.html)
 - Building a Parser-Generator in Erlang - Sean Cribbs [Part1](http://seancribbs.com/tech/2009/05/27/building-a-parser-generator-in-erlang-part-1/) [Part 2](http://seancribbs.com/tech/2009/05/29/building-a-parser-generator-in-erlang-part-2/) [Part 3](http://seancribbs.com/tech/2009/06/11/building-a-parser-generator-in-erlang-part-3/) [Part 4](http://seancribbs.com/tech/2009/06/21/building-a-parser-generator-in-erlang-part-4/) [Part 5](http://seancribbs.com/tech/2009/06/21/building-a-parser-generator-in-erlang-part-5/)
 - [Neotoma - Erlang library and packrat parser-generator for parsing expression grammars](https://github.com/seancribbs/neotoma)
-
-##History
-- [A History of Erlang - Joe Armstrong](http://webcem01.cem.itesm.mx:8005/erlang/cd/downloads/hopl_erlang.pdf)
-
-##Other resources
-- [Mostly Erlang](http://mostlyerlang.com/) - Erlang podcast
-- [Erldocs](http://erldocs.com/)
-- [On HTTP Load Testing - Mark Nottingham](http://www.mnot.net/blog/2011/05/18/http_benchmark_rules)
