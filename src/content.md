@@ -8,8 +8,6 @@
 - [My favorite Erlang program - Joe Armstrong](https://joearms.github.io/2013/11/21/My-favorite-erlang-program.html)
 - [The Functional Revolution in C++ - Bartosz Milewski](https://etherpad.wikimedia.org/p/lfe-design-summit-euc2014)
 
-##Erlang compared to others
-- [Erlang and Akka](http://erlang.org/pipermail/erlang-questions/2014-August/thread.html#80699)
 
 ##Introduction
 - [Learn X in Y minutes Where X=erlang](http://learnxinyminutes.com/docs/erlang/)
@@ -114,7 +112,8 @@ in the presence of software errors - Joe Armstrong](http://www.sics.se/~joe/thes
 - [erlang_js](https://github.com/basho/erlang_js) - A linked-in driver for Erlang to Mozilla's Spidermonkey Javascript runtime
 - [cl](https://github.com/tonyrog/cl) - OpenCL binding for Erlang
 
-##Comparison to other languages
+##Comparison with other languages
+- [Erlang and Akka](http://erlang.org/pipermail/erlang-questions/2014-August/thread.html#80699)
 - [Some Thoughts on Go and Erlang - Tristan Sloughter](http://blog.erlware.org/2014/04/27/some-thoughts-on-go-and-erlang/)
 
 ##Functional Programming
