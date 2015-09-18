@@ -20,9 +20,12 @@
 
 ##Learning Erlang
 - [Learn you some Erlang - Fred Hebert](http://learnyousomeerlang.com/)
+- [Some Erlang Magic for Beginners](http://inaka.net/blog/2012/12/03/some-erlang-magic/)
 - [My favorite Erlang program - Joe Armstrong](https://joearms.github.io/2013/11/21/My-favorite-erlang-program.html)
+- [Canillita: Your First Erlang Server - Brujo Benavides](http://inaka.net/blog/2013/11/06/your-first-erlang-app-canillita/)
 - [On Erlang, State and Crashes - Jesper L. Andersen](http://jlouisramblings.blogspot.be/2010/11/on-erlang-state-and-crashes.html)
 - [Error Kernels, What are they? - Jesper L. Andersen](https://medium.com/@jlouis666/erlang-string-handling-7588daad8f05)
+- [Every-day Erlang: Handling Crashes in Erlang - Marcelo Gornstein](http://inaka.net/blog/2012/11/29/every-day-erlang/)
 - [9 Erlang pitfalls you should know about - MazenHarake](https://mazenharake.wordpress.com/2010/10/31/9-erlang-pitfalls-you-should-know-about/)
 - [The Erlang shell. Your secret weapon - Jesper L. Andersen](https://medium.com/@jlouis666/the-erlang-shell-ab8d8bec3972)
 - [REPL? A bit more (and less) than that - Fred Hebert](http://ferd.ca/repl-a-bit-more-and-less-than-that.html)
@@ -56,6 +59,7 @@
 - [mixer: Mix in functions from other modules](https://github.com/chef/mixer)
 - [relx: Sane, simple release creation for Erlang](https://github.com/erlware/relx)
 - [lager: A logging framework for Erlang/OTP](https://github.com/basho/lager)
+- [elvis: The king of code style](http://inaka.net/blog/2014/09/05/erlang-standards-and-elvis-rock/)
 - [erlando: Set of syntax extensions for Erlang](https://github.com/rabbitmq/erlando)
 - [riak core: Distributed systems framework](https://github.com/basho/riak_core)
 - [Building on top of riak core - Mark Allen](https://www.youtube.com/watch?v=LKsNbYf9mLw)
@@ -63,6 +67,7 @@
 ##Testing
 - [Eunit](http://www.erlang.org/doc/apps/eunit/chapter.html)
 - [Common Test Basics](http://www.erlang.org/doc/apps/common_test/basics_chapter.html)
+- [Erlang Meta Testing - Brujo Benavides](http://inaka.net/blog/2015/07/17/erlang-meta-test/)
 - [PropEr User Guide](http://proper.softlab.ntua.gr/User_Guide.html)
 - [Testing Erlang - Zachary Kessin](https://github.com/zkessin/testing-erlang-book)
 
@@ -79,6 +84,9 @@
 - [erlgrind: Convert fprof to callgring output](https://github.com/isacssouza/erlgrind)
 
 ##Performance
+- [Everyday Erlang: Quick and effective caching using ETS - Marcelo Gornstein](http://inaka.net/blog/2013/03/05/ETS-simple-cache/)
+- [Scaling Erlang - Brujo Benavides](http://inaka.net/blog/2011/10/07/scale-test-plan-simple-erlang-application/)
+- [Worker Pool - Brujo Benavides](http://inaka.net/blog/2014/09/25/worker-pool/)
 - [Planning for Overload - Ferd Hebert](https://www.youtube.com/watch?v=IuK2NvxjvWY)
 - [Erlang Factory 2014 - That's 'Billion' with a 'B': Scaling to the Next Level at WhatsApp](https://www.youtube.com/watch?v=c12cYAUTXXs)
 - [Realtime performance at scale - Fredrik Linder](https://www.youtube.com/watch?v=2Llc_k28a-U)
@@ -112,6 +120,7 @@
 - [Ports and Port Drivers](http://www.erlang.org/doc/reference_manual/ports.html)
 - [Ports](http://www.erlang.org/doc/tutorial/c_port.html)
 - [Port drivers](http://erlang.org/doc/tutorial/c_portdriver.html)
+- [From Erlang to Java and Back Again: Part 1 - Brujo Benavides](http://inaka.net/blog/2013/09/05/from-erlang-to-java-and-back-again-1/)
 - [Haskell - Interfacing Erlang](http://www.haskell.org/haskellwiki/Applications_and_libraries/Interfacing_other_languages/Erlang)
 - [erlport](https://github.com/hdima/erlport) - Connect Erlang to Ruby and Python
 - [erlang_js](https://github.com/basho/erlang_js) - A linked-in driver for Erlang to Mozilla's Spidermonkey Javascript runtime
