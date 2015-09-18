@@ -6,7 +6,6 @@
 - [Erlangs parallelism is not parallelism! - Jesper L. Andersen](http://jlouisramblings.blogspot.com.ar/2011/07/erlangs-parallelism-is-not-parallelism.html)
 - [Reliability Features of Erlang - LambdaLounge Krakow 2013](http://www.gar1t.com/blog/reliability-features-of-erlang-krakow.html)
 - [What can I only do in Erlang?](http://erlang.org/pipermail/erlang-questions/2014-November/081570.html)
-- [The Functional Revolution in C++ - Bartosz Milewski](https://etherpad.wikimedia.org/p/lfe-design-summit-euc2014)
 - [A response to "Erlang - overhyped or underestimated" - Jesper L. Andersen](http://jlouisramblings.blogspot.com.ar/2010/12/response-to-erlang-overhyped-or.html)
 
 ##Introduction
@@ -31,37 +30,11 @@
 - [Let it crash the right way - MazenHarake](https://mazenharake.wordpress.com/2009/09/14/let-it-crash-the-right-way/)
 - [Can you hear the drums, Erlando? -  Matthew Sackman](http://www.rabbitmq.com/blog/2011/05/17/can-you-hear-the-drums-erlando/)
 - [Stuff Goes Bad. Erlang in anger - Fred Hebert](http://www.erlang-in-anger.com/)
+- [Garrett Smith - Writing Beautiful Code](https://www.youtube.com/watch?v=IdJwECjylB4)
+- [Beyond OTP - Loïc Hoguin](https://www.youtube.com/watch?v=fyobN-6YyJY)
+- [Writing Quality Code in Erlang - Garrett Smith](https://youtu.be/CQyt9Vlkbis)
 - [Programming Rules and Conventions](http://erlang.se/doc/programming_rules.shtml)
 - [Erlang and code style - Jesper L. Andersen](https://medium.com/@jlouis666/b5936dceb5e4)
-
-##Useful tools and libraries
-- [sync: On-the-fly recompiling and reloading in Erlang](https://github.com/rustyio/sync)
-- [rebar3: Build tool](https://github.com/rebar/rebar3)
-- [erlang.mk: Build tool for Erlang that just works](https://github.com/ninenines/erlang.mk)
-- [mixer: Mix in functions from other modules](https://github.com/chef/mixer)
-- [relx: Sane, simple release creation for Erlang](https://github.com/erlware/relx)
-- [erlando: Set of syntax extensions for Erlang](https://github.com/rabbitmq/erlando)
-- [riak core: Distributed systems framework](https://github.com/basho/riak_core)
-
-##Testing
-- [Eunit](http://www.erlang.org/doc/apps/eunit/chapter.html)
-- [Common Test Basics](http://www.erlang.org/doc/apps/common_test/basics_chapter.html)
-- [PropEr User Guide](http://proper.softlab.ntua.gr/User_Guide.html)
-- [Testing Erlang - Zachary Kessin](https://github.com/zkessin/testing-erlang-book)
-
-##Debugging, tracing and logging
-- [observer - Erlang Debugger](http://www.erlang.org/doc/apps/debugger/debugger_chapter.html)
-- [A GUI tool for observing an erlang system](http://www.erlang.org/doc/man/observer.html)
-- [Taking the printf out of printf Debugging - Mats Cronqvist](http://youtu.be/S8SL0IpS9pk)
-- [Tracing Erlang Code](https://ferd.github.io/recon/recon_trace.html)
-- [Debugging with the Debug Helper](http://erlangcentral.org/wiki/index.php/Debugging_with_Debug_Helper)
-- [Eper - Redbug Manual](https://code.google.com/p/eper/wiki/redbug)
-- [lager](https://github.com/basho/lager)
-- [recon](https://ferd.github.io/recon/)
-- [fprof - The File Trace Profiler](http://www.erlang.org/doc/apps/tools/fprof_chapter.html)
-- [A simple Call Count Profiling Tool](http://www.erlang.org/doc/man/cprof.html)
-- [eprof - A Time Profiling Tool for Erlang](http://www.erlang.org/doc/man/eprof.html)
-- [erlgrind - Convert fprof to callgring output](https://github.com/isacssouza/erlgrind)
 
 ## Erlang design choices and BEAM Internals
 - [It's About the Guarantees - Fred Hebert](http://ferd.ca/it-s-about-the-guarantees.html)
@@ -76,7 +49,41 @@
 - [Live Podcast on VM - Mostly Erlang](http://youtu.be/kuVC2TE748w)
 - [OTP internal documentation](https://github.com/erlang/otp/tree/maint/erts/emulator/internal_doc)
 
+##Useful tools and libraries
+- [sync: On-the-fly recompiling and reloading in Erlang](https://github.com/rustyio/sync)
+- [rebar3: Build tool](https://github.com/rebar/rebar3)
+- [erlang.mk: Build tool for Erlang that just works](https://github.com/ninenines/erlang.mk)
+- [mixer: Mix in functions from other modules](https://github.com/chef/mixer)
+- [relx: Sane, simple release creation for Erlang](https://github.com/erlware/relx)
+- [lager](https://github.com/basho/lager)
+- [erlando: Set of syntax extensions for Erlang](https://github.com/rabbitmq/erlando)
+- [riak core: Distributed systems framework](https://github.com/basho/riak_core)
+- [Building on top of riak core - Mark Allen](https://www.youtube.com/watch?v=LKsNbYf9mLw)
+
+##Testing
+- [Eunit](http://www.erlang.org/doc/apps/eunit/chapter.html)
+- [Common Test Basics](http://www.erlang.org/doc/apps/common_test/basics_chapter.html)
+- [PropEr User Guide](http://proper.softlab.ntua.gr/User_Guide.html)
+- [Testing Erlang - Zachary Kessin](https://github.com/zkessin/testing-erlang-book)
+
+##Debugging, tracing and logging
+- [Debugging with the Debug Helper](http://erlangcentral.org/wiki/index.php/Debugging_with_Debug_Helper)
+- [A GUI tool for observing an erlang system](http://www.erlang.org/doc/man/observer.html)
+- [observer: Erlang Debugger](http://www.erlang.org/doc/apps/debugger/debugger_chapter.html)
+- [Taking the printf out of printf Debugging - Mats Cronqvist](http://youtu.be/S8SL0IpS9pk)
+- [eper: restricted debugging utility](https://github.com/massemanet/eper/blob/master/doc/redbug.txt)
+- [recon](https://ferd.github.io/recon/)
+- [fprof: The File Trace Profiler](http://www.erlang.org/doc/apps/tools/fprof_chapter.html)
+- [cprof: A simple Call Count Profiling Tool](http://www.erlang.org/doc/man/cprof.html)
+- [eprof: A Time Profiling Tool for Erlang](http://www.erlang.org/doc/man/eprof.html)
+- [erlgrind: Convert fprof to callgring output](https://github.com/isacssouza/erlgrind)
+
 ##Performance
+- [Planning for Overload - Ferd Hebert](https://www.youtube.com/watch?v=IuK2NvxjvWY)
+- [Erlang Factory 2014 - That's 'Billion' with a 'B': Scaling to the Next Level at WhatsApp](https://www.youtube.com/watch?v=c12cYAUTXXs)
+- [Realtime performance at scale - Fredrik Linder](https://www.youtube.com/watch?v=2Llc_k28a-U)
+- [Scalable is Awesome, Literally! - Garrett Smith](https://youtu.be/iquZl-CUR_U)
+- [Keeping a System Running Forever - Ferd Hebert](https://www.youtube.com/watch?v=cQohRGGqevo)
 - [Lessons Learned while Working on Large-Scale Server Software - Ferd Hebert](http://ferd.ca/lessons-learned-while-working-on-large-scale-server-software.html)
 - [Queues Don't Fix Overload - Ferd Hebert](http://ferd.ca/queues-don-t-fix-overload.html)
 - [On Scalability, Capacity, and Sensitivity - Jesper L. Andersen](https://medium.com/@jlouis666/on-scalability-capacity-and-sensitivity-b71941c36dc8)
@@ -116,3 +123,12 @@
 - [Write a Template Compiler for Erlang- Evan Miller](http://www.evanmiller.org/write-a-template-compiler-for-erlang.html)
 - [Building a Parser Generator in Erlang - Sean Cribbs](http://seancribbs.com/tech/2009/05/27/building-a-parser-generator-in-erlang-part-1/), [Part 2](http://seancribbs.com/tech/2009/05/29/building-a-parser-generator-in-erlang-part-2/), [Part 3](http://seancribbs.com/tech/2009/06/11/building-a-parser-generator-in-erlang-part-3/), [Part 4](http://seancribbs.com/tech/2009/06/21/building-a-parser-generator-in-erlang-part-4/), [Part 5](http://seancribbs.com/tech/2009/06/21/building-a-parser-generator-in-erlang-part-5/)
 - [Neotoma: Erlang library and packrat parser-generator for parsing expression grammars](https://github.com/seancribbs/neotoma)
+
+##Other BEAM languages
+- [Elixir](http://elixir-lang.org/)
+- [LFE](http://lfe.io/)
+- [Efene](http://efene.org/)
+- [Joxa](http://joxa.org/)
+- [Reia](http://reia-lang.org/)
+- [Luerl](https://github.com/rvirding/luerl)
+- [Erlog](https://github.com/rvirding/erlog)
