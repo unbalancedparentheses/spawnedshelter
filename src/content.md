@@ -10,6 +10,7 @@
 
 ##Introduction
 - [Learn X in Y minutes Where X=erlang](http://learnxinyminutes.com/docs/erlang/)
+- [Erlang Tic Tac Toe - 99s](http://ninenines.eu/articles/tictactoe/)
 - [An Open Letter to the Erlang Beginner (or Onlooker) - Fred Hebert](http://ferd.ca/an-open-letter-to-the-erlang-beginner-or-onlooker.html)
 - [The Joy of Erlang; Or, How To Ride A Toruk - Evan Miller](http://www.evanmiller.org/joy-of-erlang.html)
 - [On Erlang's Syntax - Fred Hebert](http://ferd.ca/on-erlang-s-syntax.html)
@@ -20,6 +21,7 @@
 - [Learn you some Erlang - Fred Hebert](http://learnyousomeerlang.com/)
 - [Some Erlang Magic for Beginners - Brujo Benavides](https://web.archive.org/web/2/http://inaka.net/blog/2012/12/03/some-erlang-magic/)
 - [My favorite Erlang program - Joe Armstrong](https://joearms.github.io/2013/11/21/My-favorite-erlang-program.html)
+- [Build an FTP Server with Ranch in 30 Minutes - 99s](http://ninenines.eu/articles/ranch-ftp/)
 - [Canillita: Your First Erlang Server - Brujo Benavides](https://web.archive.org/web/2/http://inaka.net/blog/2013/11/06/your-first-erlang-app-canillita/)
 - [On Erlang, State and Crashes - Jesper L. Andersen](http://jlouisramblings.blogspot.be/2010/11/on-erlang-state-and-crashes.html)
 - [Error Kernels, What are they? - Jesper L. Andersen](https://medium.com/@jlouis666/erlang-string-handling-7588daad8f05)
