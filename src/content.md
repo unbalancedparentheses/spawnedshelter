@@ -77,7 +77,7 @@
 - [observer: Erlang Debugger](http://www.erlang.org/doc/apps/debugger/debugger_chapter.html)
 - [Taking the printf out of printf Debugging - Mats Cronqvist](http://youtu.be/S8SL0IpS9pk)
 - [eper: restricted debugging utility](https://github.com/massemanet/eper/blob/master/doc/redbug.txt)
-- [recon](https://ferd.github.io/recon/)
+- [recon: Diagnose problems in production nodes](https://ferd.github.io/recon/)
 - [fprof: The File Trace Profiler](http://www.erlang.org/doc/apps/tools/fprof_chapter.html)
 - [cprof: A simple Call Count Profiling Tool](http://www.erlang.org/doc/man/cprof.html)
 - [eprof: A Time Profiling Tool for Erlang](http://www.erlang.org/doc/man/eprof.html)
