@@ -5,7 +5,7 @@ NODE_BIN_PATH = ./node_modules/.bin
 
 SERVER = $(NODE_BIN_PATH)/browser-sync start --reload-delay 500 --files $(BUILD_DIR) --server $(BUILD_DIR) --port 8000
 POSTCSS = $(NODE_BIN_PATH)/postcss --use autoprefixer
-LINTER_HTML = $(NODE_BIN_PATH)/htmllint
+LINTER_HTML = $(NODE_BIN_PATH)/htmlhint
 LINTER_CSS = $(NODE_BIN_PATH)/csslint
 PANDOC = pandoc
 STALK = stalk -w 1 make
@@ -39,6 +39,10 @@ compile:
 dev: compile
 	$(STALK) $(SRC_DIR)&
 	$(SERVER)
+
+lint: compile
+	$(LINTER_HTML) $(BUILD_DIR)/*.html
+	$(LINTER_CSS) $(BUILD_DIR)/*.css
 
 publish: clean compile
 	cd $(BUILD_DIR) && \
