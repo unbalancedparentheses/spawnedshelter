@@ -1,5 +1,5 @@
 phone = 480px
-desktop = 1025px
+desktop = 1024px
 
 html, body
  margin: 0
@@ -13,13 +13,11 @@ html, body
   background-color: #242D4A
   display: flex
   flex-direction: row
-  align-items: flex-start
 
   @media screen and (min-width: desktop)
     min-height: 100%
 
 #header #intro
-  flex: 1
   color: white
   padding: 1em
 
@@ -27,8 +25,7 @@ html, body
     padding: 2em
 
   @media screen and (min-width: desktop)
-    height: 100%
-    align-self: flex-end
+    flex: 1
 
     padding-top: 0px
     padding-bottom: 0px
@@ -40,9 +37,9 @@ html, body
   display: none
 
   @media screen and (min-width: desktop)
-    display: initial
-    width: 100%
     flex: 1
+    width: 100%
+    display: initial
     align-self: flex-end
     background-image: url("./img/moon.png")
     background-size: contain
@@ -51,6 +48,8 @@ html, body
 
 #header #intro-content
   @media screen and (min-width: desktop)
+    flex-shrink: 1
+    flex-grow: 0
     align-self: flex-end
 
 #header h1
@@ -81,12 +80,11 @@ html, body
   @media screen and (min-width: desktop)
     display: initial
     flex: 1
-    align-self: flex-end
-
-#header #wolf img
-  max-width: 100%
-  max-height: 100%
-  float: right
+    width: 100%
+    background-image: url("./img/wolf.png")
+    background-size: contain
+    background-repeat: no-repeat
+    background-position: right bottom
 
 // toc
 #toc
