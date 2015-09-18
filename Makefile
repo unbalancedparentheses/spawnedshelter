@@ -1,19 +1,22 @@
+SRC_DIR = src
+BUILD_DIR = build
+IMG_DIR = img
+NODE_BIN_PATH = ./node_modules/.bin
+
+SERVER = $(NODE_BIN_PATH)/browser-sync start --reload-delay 500 --files $(BUILD_DIR) --server $(BUILD_DIR) --port 8000
+POSTCSS = $(NODE_BIN_PATH)/postcss --use autoprefixer
+LINTER_HTML = $(NODE_BIN_PATH)/htmllint
+LINTER_CSS = $(NODE_BIN_PATH)/csslint
+PANDOC = pandoc
+STALK = stalk -w 1 make
+STYLUS = stylus
+
 STYLE_STYL = style.styl
 STYLE_CSS = style.css
 
 CONTENT_TEMPL = content.tmpl
 CONTENT_MD = content.md
 INDEX_HTML = index.html
-
-SRC_DIR = src
-BUILD_DIR = build
-IMG_DIR = img
-
-PANDOC = pandoc
-STALK = stalk -w 1 make
-STYLUS = ./node_modules/stylus/bin/stylus
-SERVER = ./node_modules/browser-sync/bin/browser-sync.js start --reload-delay 500 --files $(BUILD_DIR) --server $(BUILD_DIR) --port 8000
-POSTCSS = ./node_modules/postcss-cli/bin/postcss --use autoprefixer
 
 default: compile
 
