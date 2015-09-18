@@ -1,5 +1,5 @@
 ##Why Erlang?
-- [Real Time Bidding. Where Erlang Blooms - Fred Hebert](http://ferd.ca/rtb-where-erlang-blooms.html)
+- [Where Erlang Blooms - Fred Hebert](http://ferd.ca/rtb-where-erlang-blooms.html)
 - [Solving the wrong problem - Solving the wrong problem](https://joearms.github.io/2013/03/28/solving-the-wrong-problem.html)
 - [When would you choose Erlang? - Brian L. Troutwine](http://blog.troutwine.us/2013/07/10/choose_erlang.html)
 - [Erlang is not a Concurrent Functional Programming Language - Kresten Krab](http://www.javalimit.com/2011/05/erlang-is-not-a-concurrent-functional-programming-language.html)
@@ -28,11 +28,11 @@
 - [REPL? A bit more (and less) than that - Fred Hebert](http://ferd.ca/repl-a-bit-more-and-less-than-that.html)
 - [Code Janitor: nobody's dream, everyone's job (and how Erlang can help) - Fred Hebert](http://ferd.ca/code-janitor-nobody-s-dream-everyone-s-job-and-how-erlang-can-help.html)
 - [Let it crash the right way - MazenHarake](https://mazenharake.wordpress.com/2009/09/14/let-it-crash-the-right-way/)
-- [Can you hear the drums, Erlando? -  Matthew Sackman](http://www.rabbitmq.com/blog/2011/05/17/can-you-hear-the-drums-erlando/)
 - [Stuff Goes Bad. Erlang in anger - Fred Hebert](http://www.erlang-in-anger.com/)
 - [Garrett Smith - Writing Beautiful Code](https://www.youtube.com/watch?v=IdJwECjylB4)
 - [Beyond OTP - Loïc Hoguin](https://www.youtube.com/watch?v=fyobN-6YyJY)
 - [Writing Quality Code in Erlang - Garrett Smith](https://youtu.be/CQyt9Vlkbis)
+- [Can you hear the drums, Erlando? -  Matthew Sackman](http://www.rabbitmq.com/blog/2011/05/17/can-you-hear-the-drums-erlando/)
 - [Programming Rules and Conventions](http://erlang.se/doc/programming_rules.shtml)
 - [Erlang and code style - Jesper L. Andersen](https://medium.com/@jlouis666/b5936dceb5e4)
 
