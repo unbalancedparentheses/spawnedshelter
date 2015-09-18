@@ -18,7 +18,7 @@
 
 ##Learning Erlang
 - [Learn you some Erlang - Fred Hebert](http://learnyousomeerlang.com/)
-- [Some Erlang Magic for Beginners](https://web.archive.org/web/2/http://inaka.net/blog/2012/12/03/some-erlang-magic/)
+- [Some Erlang Magic for Beginners - Brujo Benavides](https://web.archive.org/web/2/http://inaka.net/blog/2012/12/03/some-erlang-magic/)
 - [My favorite Erlang program - Joe Armstrong](https://joearms.github.io/2013/11/21/My-favorite-erlang-program.html)
 - [Canillita: Your First Erlang Server - Brujo Benavides](https://web.archive.org/web/2/http://inaka.net/blog/2013/11/06/your-first-erlang-app-canillita/)
 - [On Erlang, State and Crashes - Jesper L. Andersen](http://jlouisramblings.blogspot.be/2010/11/on-erlang-state-and-crashes.html)
