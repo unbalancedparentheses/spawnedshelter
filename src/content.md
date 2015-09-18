@@ -55,7 +55,7 @@
 - [erlang.mk: Build tool for Erlang that just works](https://github.com/ninenines/erlang.mk)
 - [mixer: Mix in functions from other modules](https://github.com/chef/mixer)
 - [relx: Sane, simple release creation for Erlang](https://github.com/erlware/relx)
-- [lager](https://github.com/basho/lager)
+- [lager: A logging framework for Erlang/OTP](https://github.com/basho/lager)
 - [erlando: Set of syntax extensions for Erlang](https://github.com/rabbitmq/erlando)
 - [riak core: Distributed systems framework](https://github.com/basho/riak_core)
 - [Building on top of riak core - Mark Allen](https://www.youtube.com/watch?v=LKsNbYf9mLw)
