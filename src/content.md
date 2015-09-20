@@ -82,6 +82,7 @@
 - [cprof: A simple Call Count Profiling Tool](http://www.erlang.org/doc/man/cprof.html)
 - [eprof: A Time Profiling Tool for Erlang](http://www.erlang.org/doc/man/eprof.html)
 - [erlgrind: Convert fprof to callgring output](https://github.com/isacssouza/erlgrind)
+- [erlyberly: Debugger, tracer with GUI in Java](https://github.com/andytill/erlyberly)
 
 ##Performance
 - [Everyday Erlang: Quick and effective caching using ETS - Marcelo Gornstein](https://web.archive.org/web/2/http://inaka.net/blog/2013/03/05/ETS-simple-cache/)
