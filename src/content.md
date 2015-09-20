@@ -78,10 +78,17 @@
 - [Taking the printf out of printf Debugging - Mats Cronqvist](http://youtu.be/S8SL0IpS9pk)
 - [eper: restricted debugging utility](https://github.com/massemanet/eper/blob/master/doc/redbug.txt)
 - [recon: Diagnose problems in production nodes](https://ferd.github.io/recon/)
+
+##Profiling
 - [fprof: The File Trace Profiler](http://www.erlang.org/doc/apps/tools/fprof_chapter.html)
 - [cprof: A simple Call Count Profiling Tool](http://www.erlang.org/doc/man/cprof.html)
 - [eprof: A Time Profiling Tool for Erlang](http://www.erlang.org/doc/man/eprof.html)
 - [erlgrind: Convert fprof to callgring output](https://github.com/isacssouza/erlgrind)
+- [Percept 2 - an enhanced version of the Percept profiling tool from the Erlang/OTP distribution](https://refactoringtools.github.io/percept2/)
+- [Profiling Erlang programs using Percept2](https://www.youtube.com/watch?v=k3MKizclP28)
+- [Profiling with Percept2 - Huiqing Li](https://www.youtube.com/watch?v=Sd_rpvRzAO8)
+- [Multicore Profiling for Erlang Programs Using Percept2](http://kar.kent.ac.uk/34875/)
+- [Multi-level Visualization of Concurrent and Distributed Computation in Erlang](http://kar.kent.ac.uk/34968/)
 
 ##Performance
 - [Everyday Erlang: Quick and effective caching using ETS - Marcelo Gornstein](https://web.archive.org/web/2/http://inaka.net/blog/2013/03/05/ETS-simple-cache/)
@@ -106,11 +113,6 @@
 - [Social Platforms in Erlang - Lessons Learned](https://speakerdeck.com/kachayev/erlang-in-production-lessons-learned)
 - [Eliminating Single Process Bottlenecks with ETS Concurrency Patterns - Jay Nelson](http://youtu.be/XrkY9WRY8p0)
 - [Erlang Web Server Benchmarking - Steve Vinoski](http://steve.vinoski.net/blog/2011/05/09/erlang-web-server-benchmarking/)
-- [Percept 2 - an enhanced version of the Percept profiling tool from the Erlang/OTP distribution](https://refactoringtools.github.io/percept2/)
-- [Profiling Erlang programs using Percept2](https://www.youtube.com/watch?v=k3MKizclP28)
-- [Profiling with Percept2 - Huiqing Li](https://www.youtube.com/watch?v=Sd_rpvRzAO8)
-- [Multicore Profiling for Erlang Programs Using Percept2](http://kar.kent.ac.uk/34875/)
-- [Multi-level Visualization of Concurrent and Distributed Computation in Erlang](http://kar.kent.ac.uk/34968/)
 
 ##Erlang wants to talk to the outside world!
 - [Getting Erlang to talk to the outside world - Joe Armstrong](http://www.erlang.org/workshop/2002/Armstrong.pdf)
