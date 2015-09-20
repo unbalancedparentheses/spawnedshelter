@@ -78,6 +78,7 @@
 - [Taking the printf out of printf Debugging - Mats Cronqvist](http://youtu.be/S8SL0IpS9pk)
 - [eper: restricted debugging utility](https://github.com/massemanet/eper/blob/master/doc/redbug.txt)
 - [recon: Diagnose problems in production nodes](https://ferd.github.io/recon/)
+- [erlyberly: Debugger, tracer with GUI in Java](https://github.com/andytill/erlyberly)
 
 ##Profiling
 - [fprof: The File Trace Profiler](http://www.erlang.org/doc/apps/tools/fprof_chapter.html)
