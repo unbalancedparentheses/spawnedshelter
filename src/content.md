@@ -1,6 +1,6 @@
 ##Why Erlang?
 - [Where Erlang Blooms - Fred Hebert](http://ferd.ca/rtb-where-erlang-blooms.html)
-- [Solving the wrong problem - Solving the wrong problem](https://joearms.github.io/2013/03/28/solving-the-wrong-problem.html)
+- [Solving the wrong problem - Joe Armstrong](https://joearms.github.io/2013/03/28/solving-the-wrong-problem.html)
 - [When would you choose Erlang? - Brian L. Troutwine](http://blog.troutwine.us/2013/07/10/choose_erlang.html)
 - [Erlang is not a Concurrent Functional Programming Language - Kresten Krab](http://www.javalimit.com/2011/05/erlang-is-not-a-concurrent-functional-programming-language.html)
 - [Erlangs parallelism is not parallelism! - Jesper L. Andersen](http://jlouisramblings.blogspot.com.ar/2011/07/erlangs-parallelism-is-not-parallelism.html)
