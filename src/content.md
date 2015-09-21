@@ -63,7 +63,8 @@
 
 ##Useful tools and libraries
 - [sync: On-the-fly recompiling and reloading in Erlang](https://github.com/rustyio/sync)
-- [rebar3: Build tool](https://github.com/rebar/rebar3)
+- [rebar: Build tool](https://github.com/rebar/rebar)
+- [rebar3: New version of rebar](https://github.com/rebar/rebar3)
 - [erlang.mk: Build tool for Erlang that just works](https://github.com/ninenines/erlang.mk)
 - [mixer: Mix in functions from other modules](https://github.com/chef/mixer)
 - [relx: Sane, simple release creation for Erlang](https://github.com/erlware/relx)
@@ -77,8 +78,9 @@
 - [Eunit](http://www.erlang.org/doc/apps/eunit/chapter.html)
 - [Common Test Basics](http://www.erlang.org/doc/apps/common_test/basics_chapter.html)
 - [Erlang Meta Testing - Brujo Benavides](https://web.archive.org/web/2/http://inaka.net/blog/2015/07/17/erlang-meta-test/)
-- [PropEr User Guide](http://proper.softlab.ntua.gr/User_Guide.html)
 - [Testing Erlang - Zachary Kessin](https://github.com/zkessin/testing-erlang-book)
+- [PropEr User Guide](http://proper.softlab.ntua.gr/User_Guide.html)
+- [triq: Trifork QuickCheck](https://github.com/krestenkrab/triq)
 
 ##Debugging, tracing and logging
 - [Debugging with the Debug Helper](http://erlangcentral.org/wiki/index.php/Debugging_with_Debug_Helper)
