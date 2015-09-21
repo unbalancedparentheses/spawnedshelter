@@ -52,6 +52,13 @@
 - [Live Podcast on VM - Mostly Erlang](http://youtu.be/kuVC2TE748w)
 - [OTP internal documentation](https://github.com/erlang/otp/tree/maint/erts/emulator/internal_doc)
 
+##Forums - Community
+- [erlang-questions mailing list](http://erlang.org/pipermail/erlang-questions/)
+- [Erlang Central](http://erlangcentral.org)
+- [Advanced Erlang Initiative](http://advanced-erlang.com/)
+- [#erlang IRC channel at FreeNode](http://irc.lc/freenode/erlang)
+- [This OTP Life](http://thisotplife.tumblr.com)
+
 ##Useful tools and libraries
 - [sync: On-the-fly recompiling and reloading in Erlang](https://github.com/rustyio/sync)
 - [rebar3: Build tool](https://github.com/rebar/rebar3)
