@@ -14,6 +14,7 @@
 - [An Open Letter to the Erlang Beginner (or Onlooker) - Fred Hebert](http://ferd.ca/an-open-letter-to-the-erlang-beginner-or-onlooker.html)
 - [The Joy of Erlang; Or, How To Ride A Toruk - Evan Miller](http://www.evanmiller.org/joy-of-erlang.html)
 - [On Erlang's Syntax - Fred Hebert](http://ferd.ca/on-erlang-s-syntax.html)
+- [Erlang syntax again - Robert Virding](http://rvirding.blogspot.se/2014/01/erlang-syntax-again-and-again-and-again.html)
 - [Parallelism /= Concurrency - Simon Marlow](https://ghcmutterings.wordpress.com/2009/10/06/parallelism-concurrency/)
 - [Making reliable distributed systems in the presence of software errors - Joe Armstrong](http://www.sics.se/~joe/thesis/armstrong_thesis_2003.pdf)
 
@@ -23,6 +24,7 @@
 - [My favorite Erlang program - Joe Armstrong](https://joearms.github.io/2013/11/21/My-favorite-erlang-program.html)
 - [Build an FTP Server with Ranch in 30 Minutes - 99s](http://ninenines.eu/articles/ranch-ftp/)
 - [Canillita: Your First Erlang Server - Brujo Benavides](https://web.archive.org/web/2/http://inaka.net/blog/2013/11/06/your-first-erlang-app-canillita/)
+- [Extending OTP - Robert Virding](http://rvirding.blogspot.se/2014/04/extending-otp.html)
 - [On Erlang, State and Crashes - Jesper L. Andersen](http://jlouisramblings.blogspot.be/2010/11/on-erlang-state-and-crashes.html)
 - [Error Kernels, What are they? - Jesper L. Andersen](https://medium.com/@jlouis666/erlang-string-handling-7588daad8f05)
 - [Every-day Erlang: Handling Crashes in Erlang - Marcelo Gornstein](https://web.archive.org/web/2/http://inaka.net/blog/2012/11/29/every-day-erlang/)
