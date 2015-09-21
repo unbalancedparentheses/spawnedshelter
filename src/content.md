@@ -43,6 +43,7 @@
 - [Beyond OTP - Loïc Hoguin](https://www.youtube.com/watch?v=fyobN-6YyJY)
 - [Writing Quality Code in Erlang - Garrett Smith](https://youtu.be/CQyt9Vlkbis)
 - [Can you hear the drums, Erlando? -  Matthew Sackman](http://www.rabbitmq.com/blog/2011/05/17/can-you-hear-the-drums-erlando/)
+- [Inaka's Erlang Coding Guidelines](https://github.com/inaka/erlang_guidelines)
 - [Programming Rules and Conventions](http://erlang.se/doc/programming_rules.shtml)
 - [Erlang and code style - Jesper L. Andersen](https://medium.com/@jlouis666/b5936dceb5e4)
 
