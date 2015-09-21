@@ -68,9 +68,9 @@
 
 ##Useful tools and libraries
 - [sync: On-the-fly recompiling and reloading in Erlang](https://github.com/rustyio/sync)
-- [rebar: Build tool](https://github.com/rebar/rebar)
-- [rebar3: New version of rebar](https://github.com/rebar/rebar3)
 - [erlang.mk: Build tool for Erlang that just works](https://github.com/ninenines/erlang.mk)
+- [rebar3: Build tool](https://github.com/rebar/rebar3)
+- [rebar: Old rebar build tool](https://github.com/rebar/rebar)
 - [mixer: Mix in functions from other modules](https://github.com/chef/mixer)
 - [relx: Sane, simple release creation for Erlang](https://github.com/erlware/relx)
 - [lager: A logging framework for Erlang/OTP](https://github.com/basho/lager)
