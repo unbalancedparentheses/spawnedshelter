@@ -59,13 +59,6 @@
 - [Live Podcast on VM - Mostly Erlang](http://youtu.be/kuVC2TE748w)
 - [OTP internal documentation](https://github.com/erlang/otp/tree/maint/erts/emulator/internal_doc)
 
-##Forums - Community
-- [erlang-questions mailing list](http://erlang.org/pipermail/erlang-questions/)
-- [Erlang Central](http://erlangcentral.org)
-- [Advanced Erlang Initiative](http://advanced-erlang.com/)
-- [#erlang IRC channel at FreeNode](http://irc.lc/freenode/erlang)
-- [This OTP Life](http://thisotplife.tumblr.com)
-
 ##Useful tools and libraries
 - [sync: On-the-fly recompiling and reloading in Erlang](https://github.com/rustyio/sync)
 - [erlang.mk: Build tool for Erlang that just works](https://github.com/ninenines/erlang.mk)
@@ -151,6 +144,15 @@
 - [Write a Template Compiler for Erlang- Evan Miller](http://www.evanmiller.org/write-a-template-compiler-for-erlang.html)
 - [Building a Parser Generator in Erlang - Sean Cribbs](http://seancribbs.com/tech/2009/05/27/building-a-parser-generator-in-erlang-part-1/), [Part 2](http://seancribbs.com/tech/2009/05/29/building-a-parser-generator-in-erlang-part-2/), [Part 3](http://seancribbs.com/tech/2009/06/11/building-a-parser-generator-in-erlang-part-3/), [Part 4](http://seancribbs.com/tech/2009/06/21/building-a-parser-generator-in-erlang-part-4/), [Part 5](http://seancribbs.com/tech/2009/06/21/building-a-parser-generator-in-erlang-part-5/)
 - [Neotoma: Erlang library and packrat parser-generator for parsing expression grammars](https://github.com/seancribbs/neotoma)
+
+##Community
+- [Awesome Erlang: curated list of awesome Erlang libraries, resources and shiny things](https://github.com/drobakowski/awesome-erlang/blob/master/README.md)
+- [Erlang Bookmarks: Collection of links](https://github.com/0xAX/erlang-bookmarks/blob/master/ErlangBookmarks.md)
+- [Mailing list](http://erlang.org/pipermail/erlang-questions/)
+- [Erlang Central](http://erlangcentral.org)
+- [Advanced Erlang Initiative](http://advanced-erlang.com/)
+- [IRC channel](http://irc.lc/freenode/erlang)
+- [This OTP Life](http://thisotplife.tumblr.com)
 
 ##Other BEAM languages
 - [Elixir](http://elixir-lang.org/)
