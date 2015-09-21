@@ -20,6 +20,11 @@
 
 ##Learning Erlang
 - [Learn you some Erlang - Fred Hebert](http://learnyousomeerlang.com/)
+- [Erlang Master Class 1: Functional Programming](https://www.youtube.com/playlist?list=PLR812eVbehlwEArT3Bv3UfcM9wR3AEZb5)
+- [Erlang Master Class 2: Concurrent Programming](https://www.youtube.com/playlist?list=PLR812eVbehlwq4qbqswOWH7NLKjodnTIn)
+- [Erlang Master Class 3: OTP Behaviours and Releases](https://www.youtube.com/playlist?list=PLR812eVbehlx6vgWGf2FLHjkksAEDmFjc)
+
+##Advanced Erlang
 - [Some Erlang Magic for Beginners - Brujo Benavides](https://web.archive.org/web/2/http://inaka.net/blog/2012/12/03/some-erlang-magic/)
 - [My favorite Erlang program - Joe Armstrong](https://joearms.github.io/2013/11/21/My-favorite-erlang-program.html)
 - [Build an FTP Server with Ranch in 30 Minutes - 99s](http://ninenines.eu/articles/ranch-ftp/)
