@@ -23,22 +23,22 @@
 - [Erlang Master Class 1: Functional Programming](https://www.youtube.com/playlist?list=PLR812eVbehlwEArT3Bv3UfcM9wR3AEZb5)
 - [Erlang Master Class 2: Concurrent Programming](https://www.youtube.com/playlist?list=PLR812eVbehlwq4qbqswOWH7NLKjodnTIn)
 - [Erlang Master Class 3: OTP Behaviours and Releases](https://www.youtube.com/playlist?list=PLR812eVbehlx6vgWGf2FLHjkksAEDmFjc)
-
-##Advanced Erlang
 - [Some Erlang Magic for Beginners - Brujo Benavides](https://web.archive.org/web/2/http://inaka.net/blog/2012/12/03/some-erlang-magic/)
 - [My favorite Erlang program - Joe Armstrong](https://joearms.github.io/2013/11/21/My-favorite-erlang-program.html)
 - [Build an FTP Server with Ranch in 30 Minutes - 99s](http://ninenines.eu/articles/ranch-ftp/)
 - [Canillita: Your First Erlang Server - Brujo Benavides](https://web.archive.org/web/2/http://inaka.net/blog/2013/11/06/your-first-erlang-app-canillita/)
 - [Extending OTP - Robert Virding](http://rvirding.blogspot.se/2014/04/extending-otp.html)
+
+##Advanced Erlang
+- [Stuff Goes Bad. Erlang in anger - Fred Hebert](http://www.erlang-in-anger.com/)
 - [On Erlang, State and Crashes - Jesper L. Andersen](http://jlouisramblings.blogspot.be/2010/11/on-erlang-state-and-crashes.html)
 - [Error Kernels, What are they? - Jesper L. Andersen](https://medium.com/@jlouis666/erlang-string-handling-7588daad8f05)
 - [Every-day Erlang: Handling Crashes in Erlang - Marcelo Gornstein](https://web.archive.org/web/2/http://inaka.net/blog/2012/11/29/every-day-erlang/)
+- [Let it crash the right way - MazenHarake](https://mazenharake.wordpress.com/2009/09/14/let-it-crash-the-right-way/)
 - [9 Erlang pitfalls you should know about - MazenHarake](https://mazenharake.wordpress.com/2010/10/31/9-erlang-pitfalls-you-should-know-about/)
 - [The Erlang shell. Your secret weapon - Jesper L. Andersen](https://medium.com/@jlouis666/the-erlang-shell-ab8d8bec3972)
 - [REPL? A bit more (and less) than that - Fred Hebert](http://ferd.ca/repl-a-bit-more-and-less-than-that.html)
 - [Code Janitor: nobody's dream, everyone's job (and how Erlang can help) - Fred Hebert](http://ferd.ca/code-janitor-nobody-s-dream-everyone-s-job-and-how-erlang-can-help.html)
-- [Let it crash the right way - MazenHarake](https://mazenharake.wordpress.com/2009/09/14/let-it-crash-the-right-way/)
-- [Stuff Goes Bad. Erlang in anger - Fred Hebert](http://www.erlang-in-anger.com/)
 - [Garrett Smith - Writing Beautiful Code](https://www.youtube.com/watch?v=IdJwECjylB4)
 - [Beyond OTP - Loïc Hoguin](https://www.youtube.com/watch?v=fyobN-6YyJY)
 - [Writing Quality Code in Erlang - Garrett Smith](https://youtu.be/CQyt9Vlkbis)
