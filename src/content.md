@@ -72,6 +72,7 @@
 - [erlando: Set of syntax extensions for Erlang](https://github.com/rabbitmq/erlando)
 - [riak core: Distributed systems framework](https://github.com/basho/riak_core)
 - [Building on top of riak core - Mark Allen](https://www.youtube.com/watch?v=LKsNbYf9mLw)
+- [cloudi_core: Erlang service abstraction](https://github.com/CloudI/cloudi_core#readme) ([example](https://github.com/CloudI/CloudI/tree/develop/examples/hello_world5#readme))
 
 ##Testing
 - [Eunit](http://www.erlang.org/doc/apps/eunit/chapter.html)
@@ -133,6 +134,7 @@
 - [Ports and Port Drivers](http://www.erlang.org/doc/reference_manual/ports.html)
 - [Ports](http://www.erlang.org/doc/tutorial/c_port.html)
 - [Port drivers](http://erlang.org/doc/tutorial/c_portdriver.html)
+- [CloudI](http://cloudi.org) (C/C++, Erlang/Elixir, Java, JavaScript/node.js, Perl, PHP, Python and Ruby) ([Article 1](http://www.toptal.com/erlang/a-cloud-at-the-lowest-level-built-in-erlang), [Article 2](http://www.toptal.com/erlang/modernizing-legacy-software-an-example-using-erlang-and-cloudi)([source](https://github.com/okeuday/sillymud#readme)))
 - [From Erlang to Java and Back Again: Part 1 - Brujo Benavides](https://web.archive.org/web/2/http://inaka.net/blog/2013/09/05/from-erlang-to-java-and-back-again-1/)
 - [Haskell - Interfacing Erlang](http://www.haskell.org/haskellwiki/Applications_and_libraries/Interfacing_other_languages/Erlang)
 - [erlport](https://github.com/hdima/erlport) - Connect Erlang to Ruby and Python
