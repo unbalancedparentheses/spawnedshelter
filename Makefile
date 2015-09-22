@@ -5,11 +5,11 @@ NODE_BIN_PATH = ./node_modules/.bin
 
 SERVER = $(NODE_BIN_PATH)/browser-sync start --reload-delay 500 --files $(BUILD_DIR) --server $(BUILD_DIR) --port 8000
 POSTCSS = $(NODE_BIN_PATH)/postcss --use autoprefixer
+STYLUS = $(NODE_BIN_PATH)/stylus
 LINTER_HTML = $(NODE_BIN_PATH)/htmlhint
 LINTER_CSS = $(NODE_BIN_PATH)/csslint
 PANDOC = pandoc
 STALK = stalk -w 1 make
-STYLUS = stylus
 
 STYLE_STYL = style.styl
 STYLE_CSS = style.css
