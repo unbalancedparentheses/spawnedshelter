@@ -36,7 +36,7 @@ clean: build_dir
 favicon: build_dir
 	convert $(FAVICON) -define icon:auto-resize=128,64,48,32,16 $(BUILD_DIR)/favicon.ico
 	convert $(FAVICON) -resize 152x152 $(BUILD_DIR)/favicon-152.png
-	convert $(FAVICON) -resize 142x142 $(BUILD_DIR)/favicon-142.png
+	convert $(FAVICON) -resize 144x144 $(BUILD_DIR)/favicon-144.png
 	convert $(FAVICON) -resize 120x120 $(BUILD_DIR)/favicon-120.png
 	convert $(FAVICON) -resize 114x114 $(BUILD_DIR)/favicon-114.png
 	convert $(FAVICON) -resize 72x72 $(BUILD_DIR)/favicon-72.png
