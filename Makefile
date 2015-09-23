@@ -14,21 +14,35 @@ STALK = stalk -w 1 make
 STYLE_STYL = style.styl
 STYLE_CSS = style.css
 
+FAVICON = favicon.png
 CONTENT_TEMPL = content.tmpl
 CONTENT_MD = content.md
 INDEX_HTML = index.html
 
 default: compile
 
+build_dir:
+	mkdir -p $(BUILD_DIR)
+
 deps:
 	cabal install pandoc
 	npm install
 
-clean:
+clean: build_dir
 	rm -rf $(BUILD_DIR)/*
 	rm -rf $(BUILD_DIR)/.git
 
-compile:
+.PHONY: favicon
+favicon: build_dir
+	convert $(FAVICON) -define icon:auto-resize=128,64,48,32,16 $(BUILD_DIR)/favicon.ico
+	convert $(FAVICON) -resize 152x152 $(BUILD_DIR)/favicon-152.png
+	convert $(FAVICON) -resize 142x142 $(BUILD_DIR)/favicon-142.png
+	convert $(FAVICON) -resize 120x120 $(BUILD_DIR)/favicon-120.png
+	convert $(FAVICON) -resize 114x114 $(BUILD_DIR)/favicon-114.png
+	convert $(FAVICON) -resize 72x72 $(BUILD_DIR)/favicon-72.png
+	convert $(FAVICON) -resize 57x57 $(BUILD_DIR)/favicon-57.png
+
+compile: build_dir favicon
 	mkdir -p $(BUILD_DIR)
 	cp -R $(IMG_DIR) $(BUILD_DIR)
 	$(STYLUS) $(SRC_DIR)/$(STYLE_STYL) -o $(BUILD_DIR)/$(STYLE_CSS)
