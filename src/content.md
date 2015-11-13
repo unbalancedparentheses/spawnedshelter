@@ -5,7 +5,7 @@
 - [Erlang is not a Concurrent Functional Programming Language - Kresten Krab](http://www.javalimit.com/2011/05/erlang-is-not-a-concurrent-functional-programming-language.html)
 - [Erlangs parallelism is not parallelism! - Jesper L. Andersen](http://jlouisramblings.blogspot.com.ar/2011/07/erlangs-parallelism-is-not-parallelism.html)
 - [Reliability Features of Erlang - LambdaLounge Krakow 2013](http://www.gar1t.com/blog/reliability-features-of-erlang-krakow.html)
-- [What can I only do in Erlang?](http://erlang.org/pipermail/erlang-questions/2014-November/081570.html)
+- [What can I only do in Erlang? - Craig Everett](http://erlang.org/pipermail/erlang-questions/2014-November/081570.html)
 - [A response to "Erlang - overhyped or underestimated" - Jesper L. Andersen](http://jlouisramblings.blogspot.com.ar/2010/12/response-to-erlang-overhyped-or.html)
 
 ##Introduction
