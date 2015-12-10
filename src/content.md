@@ -20,6 +20,8 @@
 
 ##Learning Erlang
 - [Learn you some Erlang - Fred Hebert](http://learnyousomeerlang.com/)
+- [Functional Programming with Erlang - Simon Thompson](https://www.youtube.com/playlist?list=PLlML6SMLMRgAooeL26mW502jCgWikqx_n)
+- [Curso Erlang en Español - Rodrigo Dominguez](https://www.youtube.com/playlist?list=PLmoxkf3gS-juT5cDrzP_ARdkqqSFU5X_3)
 - [Erlang Master Class 1: Functional Programming](https://www.youtube.com/playlist?list=PLR812eVbehlwEArT3Bv3UfcM9wR3AEZb5)
 - [Erlang Master Class 2: Concurrent Programming](https://www.youtube.com/playlist?list=PLR812eVbehlwq4qbqswOWH7NLKjodnTIn)
 - [Erlang Master Class 3: OTP Behaviours and Releases](https://www.youtube.com/playlist?list=PLR812eVbehlx6vgWGf2FLHjkksAEDmFjc)
