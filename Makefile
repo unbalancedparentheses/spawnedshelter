@@ -25,8 +25,6 @@ build_dir:
 	mkdir -p $(BUILD_DIR)
 
 deps:
-	cabal update
-	cabal install pandoc
 	npm install
 
 clean: build_dir
