@@ -32,7 +32,6 @@
 - [Extending OTP - Robert Virding](http://rvirding.blogspot.se/2014/04/extending-otp.html)
 
 ##Advanced Erlang
-- [Stuff Goes Bad. Erlang in anger - Fred Hebert](http://www.erlang-in-anger.com/)
 - [On Erlang, State and Crashes - Jesper L. Andersen](http://jlouisramblings.blogspot.be/2010/11/on-erlang-state-and-crashes.html)
 - [Error Kernels, What are they? - Jesper L. Andersen](https://medium.com/@jlouis666/erlang-string-handling-7588daad8f05)
 - [Every-day Erlang: Handling Crashes in Erlang - Marcelo Gornstein](https://web.archive.org/web/2id_/http://inaka.net/blog/2012/11/29/every-day-erlang/)
@@ -61,6 +60,7 @@
 - [Tackling Dirty Jobs with Erlang's Schedulers - Steve Vinoski](https://www.youtube.com/watch?v=nw2eIB6bTxY)
 - [Live Podcast on VM - Mostly Erlang](http://youtu.be/kuVC2TE748w)
 - [OTP internal documentation](https://github.com/erlang/otp/tree/maint/erts/emulator/internal_doc)
+- [Interview with Jesper Louis Andersen about Erlang](https://medium.com/this-is-not-a-monad-tutorial/interview-with-jesper-louis-andersen-about-erlang-haskell-ocaml-go-idris-the-jvm-software-and-5628fe591295)
 
 ##Useful tools and libraries
 - [sync: On-the-fly recompiling and reloading in Erlang](https://github.com/rustyio/sync)
@@ -72,8 +72,13 @@
 - [lager: A logging framework for Erlang/OTP](https://github.com/basho/lager)
 - [elvis: The king of code style](https://web.archive.org/web/2id_/http://inaka.net/blog/2014/09/05/erlang-standards-and-elvis-rock/)
 - [erlando: Set of syntax extensions for Erlang](https://github.com/rabbitmq/erlando)
+- [sheriff: Check values against their type as defined through typespecs](https://github.com/extend/sheriff)
+- [gproc: Extended process registry for Erlang](https://github.com/uwiger/gproc)
+- [cuttlefish: sysctl-like syntax config for your apps](https://github.com/basho/cuttlefish)
+- [clique: Opinionated framework for building command line interfaces](https://github.com/basho/clique)
 - [riak core: Distributed systems framework](https://github.com/basho/riak_core)
 - [Building on top of riak core - Mark Allen](https://www.youtube.com/watch?v=LKsNbYf9mLw)
+- [Little Riak Core Book - Mariano Guerra](https://marianoguerra.github.io/little-riak-core-book/)
 
 ##Testing
 - [Eunit](http://www.erlang.org/doc/apps/eunit/chapter.html)
@@ -93,10 +98,10 @@
 - [erlyberly: Debugger, tracer with GUI in Java](https://github.com/andytill/erlyberly)
 
 ##Profiling
-- [fprof: The File Trace Profiler](http://www.erlang.org/doc/apps/tools/fprof_chapter.html)
 - [cprof: A simple Call Count Profiling Tool](http://www.erlang.org/doc/man/cprof.html)
 - [eprof: A Time Profiling Tool for Erlang](http://www.erlang.org/doc/man/eprof.html)
-- [erlgrind: Convert fprof to callgring output](https://github.com/isacssouza/erlgrind)
+- [fprof: The File Trace Profiler](http://www.erlang.org/doc/apps/tools/fprof_chapter.html)
+- [eep: Erlang Easy Profiling](https://github.com/virtan/eep)
 - [Percept 2 - an enhanced version of the Percept profiling tool from the Erlang/OTP distribution](https://refactoringtools.github.io/percept2/)
 - [Profiling Erlang programs using Percept2](https://www.youtube.com/watch?v=k3MKizclP28)
 - [Profiling with Percept2 - Huiqing Li](https://www.youtube.com/watch?v=Sd_rpvRzAO8)
@@ -104,17 +109,23 @@
 - [Multi-level Visualization of Concurrent and Distributed Computation in Erlang](http://kar.kent.ac.uk/34968/)
 
 ##Performance
-- [Everyday Erlang: Quick and effective caching using ETS - Marcelo Gornstein](https://web.archive.org/web/2id_/http://inaka.net/blog/2013/03/05/ETS-simple-cache/)
+- [Stuff Goes Bad. Erlang in anger - Fred Hebert](http://www.erlang-in-anger.com/)
 - [Scaling Erlang - Brujo Benavides](https://web.archive.org/web/2id_/http://inaka.net/blog/2011/10/07/scale-test-plan-simple-erlang-application/)
 - [Worker Pool - Brujo Benavides](https://web.archive.org/web/2id_/http://inaka.net/blog/2014/09/25/worker-pool/)
 - [Planning for Overload - Ferd Hebert](https://www.youtube.com/watch?v=IuK2NvxjvWY)
+- [Lessons Learned while Working on Large-Scale Server Software - Ferd Hebert](http://ferd.ca/lessons-learned-while-working-on-large-scale-server-software.html)
+- [Queues Don't Fix Overload - Ferd Hebert](http://ferd.ca/queues-don-t-fix-overload.html)
+- [dispcount:  task dispatcher based on ETS counters](https://github.com/ferd/dispcount)
+- [pobox: External buffer processes to protect against mailbox overflow](https://github.com/ferd/pobox)
+- [On Scalability, Capacity, and Sensitivity - Jesper L. Andersen](https://medium.com/@jlouis666/on-scalability-capacity-and-sensitivity-b71941c36dc8)
+- [fuse: Circuit Breaker](https://github.com/jlouis/fuse)
+- [safetyvalve: Safety valve for your erlang node](https://github.com/jlouis/safetyvalve)
+- [epocxy: Erlang patterns of Concurrency](https://github.com/duomark/epocxy)
+- [Everyday Erlang: Quick and effective caching using ETS - Marcelo Gornstein](https://web.archive.org/web/2id_/http://inaka.net/blog/2013/03/05/ETS-simple-cache/)
 - [Erlang Factory 2014 - That's 'Billion' with a 'B': Scaling to the Next Level at WhatsApp](https://www.youtube.com/watch?v=c12cYAUTXXs)
 - [Realtime performance at scale - Fredrik Linder](https://www.youtube.com/watch?v=2Llc_k28a-U)
 - [Scalable is Awesome, Literally! - Garrett Smith](https://youtu.be/iquZl-CUR_U)
 - [Keeping a System Running Forever - Ferd Hebert](https://www.youtube.com/watch?v=cQohRGGqevo)
-- [Lessons Learned while Working on Large-Scale Server Software - Ferd Hebert](http://ferd.ca/lessons-learned-while-working-on-large-scale-server-software.html)
-- [Queues Don't Fix Overload - Ferd Hebert](http://ferd.ca/queues-don-t-fix-overload.html)
-- [On Scalability, Capacity, and Sensitivity - Jesper L. Andersen](https://medium.com/@jlouis666/on-scalability-capacity-and-sensitivity-b71941c36dc8)
 - [System Limits - Erlang](http://www.erlang.org/doc/efficiency_guide/advanced.html)
 - [Erlang String Handling - How to be efficient at handling string data in Erlang - Jesper L. Andersen](https://medium.com/@jlouis666/erlang-string-handling-7588daad8f05)
 - [How WhatsApp Grew To Nearly 500 Million Users, 11,000 Cores, And 70 Million Messages A Second - High Scalability](http://highscalability.com/blog/2014/3/31/how-whatsapp-grew-to-nearly-500-million-users-11000-cores-an.html)
@@ -138,8 +149,10 @@
 - [From Erlang to Java and Back Again: Part 1 - Brujo Benavides](https://web.archive.org/web/2id_/http://inaka.net/blog/2013/09/05/from-erlang-to-java-and-back-again-1/)
 - [Haskell - Interfacing Erlang](http://www.haskell.org/haskellwiki/Applications_and_libraries/Interfacing_other_languages/Erlang)
 - [erlport](https://github.com/hdima/erlport) - Connect Erlang to Ruby and Python
+- [JavaErlang](https://github.com/fredlund/JavaErlang) - Facilitate the communication between Java and Erlang nodes
 - [erlang_js](https://github.com/basho/erlang_js) - A linked-in driver for Erlang to Mozilla's Spidermonkey Javascript runtime
 - [cl](https://github.com/tonyrog/cl) - OpenCL binding for Erlang
+- [sh](https://github.com/synrc/sh.git) - Erlang Shell Executor
 
 ##Parsing
 - [Parsing in Erlang](http://www.cs.dartmouth.edu/~mckeeman/cs118/languages/erlang/exprParser.html)
@@ -147,6 +160,14 @@
 - [Write a Template Compiler for Erlang- Evan Miller](http://www.evanmiller.org/write-a-template-compiler-for-erlang.html)
 - [Building a Parser Generator in Erlang - Sean Cribbs](http://seancribbs.com/tech/2009/05/27/building-a-parser-generator-in-erlang-part-1/), [Part 2](http://seancribbs.com/tech/2009/05/29/building-a-parser-generator-in-erlang-part-2/), [Part 3](http://seancribbs.com/tech/2009/06/11/building-a-parser-generator-in-erlang-part-3/), [Part 4](http://seancribbs.com/tech/2009/06/21/building-a-parser-generator-in-erlang-part-4/), [Part 5](http://seancribbs.com/tech/2009/06/21/building-a-parser-generator-in-erlang-part-5/)
 - [Neotoma: Erlang library and packrat parser-generator for parsing expression grammars](https://github.com/seancribbs/neotoma)
+
+##Learn through reading some awesome code!
+- [ranch: socket acceptor pool for TCP protocols](https://github.com/ninenines/ranch)
+- [cowboy: small, fast, modular HTTP server](https://github.com/ninenines/cowboy)
+- [riak: distributed, decentralized data storage system]()
+- [rabbitmq: feature rich, multi-protocol messaging broker](https://github.com/rabbitmq/rabbitmq-server)
+- [ejabberd: massively scalable XMPP server](https://github.com/processone/ejabberd)
+- [vernemq: distributed MQTT message broker](https://github.com/erlio/vernemq)
 
 ##Community
 - [Awesome Erlang: curated list of awesome Erlang libraries, resources and shiny things](https://github.com/drobakowski/awesome-erlang/blob/master/README.md)
