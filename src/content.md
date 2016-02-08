@@ -61,6 +61,7 @@
 - [Live Podcast on VM - Mostly Erlang](http://youtu.be/kuVC2TE748w)
 - [OTP internal documentation](https://github.com/erlang/otp/tree/maint/erts/emulator/internal_doc)
 - [Interview with Jesper Louis Andersen about Erlang](https://medium.com/this-is-not-a-monad-tutorial/interview-with-jesper-louis-andersen-about-erlang-haskell-ocaml-go-idris-the-jvm-software-and-5628fe591295)
+- [Erlang Garbage Collection Details and Why It Matters - Hamidreza Soleimani](https://hamidreza-s.github.io/erlang%20garbage%20collection%20memory%20layout%20soft%20realtime/2015/08/24/erlang-garbage-collection-details-and-why-it-matters.html)
 
 ##Useful tools and libraries
 - [sync: On-the-fly recompiling and reloading in Erlang](https://github.com/rustyio/sync)
