@@ -12,6 +12,7 @@ To build Spawned Shelter, the following requirements must be met:
 
 - [npm](https://www.npmjs.com/)
 - [pandoc](http://pandoc.org/installing.html)
+- [imagemagick](http://www.imagemagick.org/script/binary-releases.php)
 
 Download the dependecies:
 
