@@ -1,7 +1,7 @@
 {
   "name": "federicocarrone.com",
   "version": "1.0.0",
-  "description": "Web page for Erlang starters",
+  "description": "collection of the best articles, videos and presentations related to Erlang",
   "main": "index.js",
   "dependencies": {
     "autoprefixer": "^6.0.2",
@@ -11,16 +11,12 @@
     "postcss-cli": "^2.1.0",
     "stylus": "^0.52.0"
   },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/unbalancedparentheses/spawnedshelter.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Federico Carrone",
+  "license": "BSD",
   "bugs": {
     "url": "https://github.com/unbalancedparentheses/spawnedshelter/issues"
   },
