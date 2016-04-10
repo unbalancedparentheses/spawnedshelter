@@ -64,5 +64,5 @@ publish: clean compile
 	git remote add gh-pages git@github.com:unbalancedparentheses/spawnedshelter.git && \
 	git add . && \
 	git commit -m 'Update website' && \
-	git push -f gh-pages master:gh-pages
+	git push -f gh-pages master:gh-pages  && \
 	echo "check http://spawnedshelter.com/"
