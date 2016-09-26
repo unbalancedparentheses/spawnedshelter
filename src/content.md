@@ -97,7 +97,7 @@
 - [A GUI tool for observing an erlang system](http://www.erlang.org/doc/man/observer.html)
 - [observer: Erlang Debugger](http://www.erlang.org/doc/apps/debugger/debugger_chapter.html)
 - [Taking the printf out of printf Debugging - Mats Cronqvist](http://youtu.be/S8SL0IpS9pk)
-- [eper: restricted debugging utility](https://github.com/massemanet/eper/blob/master/doc/redbug.txt)
+- [eper: restricted debugging utility](https://github.com/massemanet/eper)
 - [recon: Diagnose problems in production nodes](https://ferd.github.io/recon/)
 - [erlyberly: Debugger, tracer with GUI in Java](https://github.com/andytill/erlyberly)
 
