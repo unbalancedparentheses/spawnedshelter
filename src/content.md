@@ -1,4 +1,4 @@
-##Why Erlang?
+## Why Erlang?
 - [The Zen of Erlang - Fred Hebert](http://ferd.ca/the-zen-of-erlang.html)
 - [Where Erlang Blooms - Fred Hebert](http://ferd.ca/rtb-where-erlang-blooms.html)
 - [When would you choose Erlang? - Brian L. Troutwine](http://blog.troutwine.us/2013/07/10/choose_erlang.html)
@@ -8,7 +8,7 @@
 - [What can I only do in Erlang? - Craig Everett](http://erlang.org/pipermail/erlang-questions/2014-November/081570.html)
 - [A response to "Erlang - overhyped or underestimated" - Jesper L. Andersen](http://jlouisramblings.blogspot.com.ar/2010/12/response-to-erlang-overhyped-or.html)
 
-##Introduction
+## Introduction
 - [Learn X in Y minutes Where X=erlang](http://learnxinyminutes.com/docs/erlang/)
 - [Erlang Tic Tac Toe - 99s](http://ninenines.eu/articles/tictactoe/)
 - [An Open Letter to the Erlang Beginner (or Onlooker) - Fred Hebert](http://ferd.ca/an-open-letter-to-the-erlang-beginner-or-onlooker.html)
@@ -18,7 +18,7 @@
 - [Parallelism /= Concurrency - Simon Marlow](https://ghcmutterings.wordpress.com/2009/10/06/parallelism-concurrency/)
 - [Making reliable distributed systems in the presence of software errors - Joe Armstrong](http://www.sics.se/~joe/thesis/armstrong_thesis_2003.pdf)
 
-##Learning Erlang
+## Learning Erlang
 - [Learn you some Erlang - Fred Hebert](http://learnyousomeerlang.com/)
 - [Functional Programming with Erlang - Simon Thompson](https://www.youtube.com/playlist?list=PLlML6SMLMRgAooeL26mW502jCgWikqx_n)
 - [Curso Erlang en Español - Rodrigo Dominguez](https://www.youtube.com/playlist?list=PLmoxkf3gS-juT5cDrzP_ARdkqqSFU5X_3)
@@ -31,7 +31,7 @@
 - [Canillita: Your First Erlang Server - Brujo Benavides](https://web.archive.org/web/2id_/http://inaka.net/blog/2013/11/06/your-first-erlang-app-canillita/)
 - [Extending OTP - Robert Virding](http://rvirding.blogspot.se/2014/04/extending-otp.html)
 
-##Advanced Erlang
+## Advanced Erlang
 - [10 Essential Erlang Tools for Erlang Developers - Brujo Benavides](http://tutorials.pluralsight.com/erlang/10-essential-erlang-tools-for-erlang-developers)
 - [On Erlang, State and Crashes - Jesper L. Andersen](http://jlouisramblings.blogspot.be/2010/11/on-erlang-state-and-crashes.html)
 - [Error Kernels, What are they? - Jesper L. Andersen](https://medium.com/@jlouis666/erlang-string-handling-7588daad8f05)
@@ -61,13 +61,14 @@
 - [Hitchhiker's Tour of the BEAM - Robert Virding](http://youtu.be/_Pwlvy3zz9M)
 - [Tackling Dirty Jobs with Erlang's Schedulers - Steve Vinoski](https://www.youtube.com/watch?v=nw2eIB6bTxY)
 - [Live Podcast on VM - Mostly Erlang](http://youtu.be/kuVC2TE748w)
+- [The Beam Book](https://github.com/happi/theBeamBook/)
 - [OTP internal documentation](https://github.com/erlang/otp/tree/maint/erts/emulator/internal_doc)
 - [Interview with Jesper Louis Andersen about Erlang](https://medium.com/this-is-not-a-monad-tutorial/interview-with-jesper-louis-andersen-about-erlang-haskell-ocaml-go-idris-the-jvm-software-and-5628fe591295)
 - [Erlang Garbage Collection Details and Why It Matters - Hamidreza Soleimani](https://hamidreza-s.github.io/erlang%20garbage%20collection%20memory%20layout%20soft%20realtime/2015/08/24/erlang-garbage-collection-details-and-why-it-matters.html)
 - [Erlang 19.0 Garbage Collector - Lukas Larsson](https://www.erlang-solutions.com/blog/erlang-19-0-garbage-collector.html)
 - [BEAM VM Wisdoms - Collection of easy to read articles - Dmytro Lytovchenko](http://beam-wisdoms.clau.se/)
 
-##Useful tools and libraries
+## Useful tools and libraries
 - [sync: On-the-fly recompiling and reloading in Erlang](https://github.com/rustyio/sync)
 - [erlang.mk: Build tool for Erlang that just works](https://github.com/ninenines/erlang.mk)
 - [rebar3: Build tool](https://github.com/rebar/rebar3)
@@ -85,7 +86,7 @@
 - [Building on top of riak core - Mark Allen](https://www.youtube.com/watch?v=LKsNbYf9mLw)
 - [Little Riak Core Book - Mariano Guerra](https://marianoguerra.github.io/little-riak-core-book/)
 
-##Testing
+## Testing
 - [Eunit](http://www.erlang.org/doc/apps/eunit/chapter.html)
 - [Common Test Basics](http://www.erlang.org/doc/apps/common_test/basics_chapter.html)
 - [Erlang Meta Testing - Brujo Benavides](https://web.archive.org/web/2id_/http://inaka.net/blog/2015/07/17/erlang-meta-test/)
@@ -93,7 +94,7 @@
 - [PropEr User Guide](http://proper.softlab.ntua.gr/User_Guide.html)
 - [triq: Trifork QuickCheck](https://github.com/krestenkrab/triq)
 
-##Debugging, tracing and logging
+## Debugging, tracing and logging
 - [Debugging with the Debug Helper](http://erlangcentral.org/wiki/index.php/Debugging_with_Debug_Helper)
 - [A GUI tool for observing an erlang system](http://www.erlang.org/doc/man/observer.html)
 - [observer: Erlang Debugger](http://www.erlang.org/doc/apps/debugger/debugger_chapter.html)
@@ -102,7 +103,7 @@
 - [recon: Diagnose problems in production nodes](https://ferd.github.io/recon/)
 - [erlyberly: Debugger, tracer with GUI in Java](https://github.com/andytill/erlyberly)
 
-##Profiling
+## Profiling
 - [cprof: A simple Call Count Profiling Tool](http://www.erlang.org/doc/man/cprof.html)
 - [eprof: A Time Profiling Tool for Erlang](http://www.erlang.org/doc/man/eprof.html)
 - [fprof: The File Trace Profiler](http://www.erlang.org/doc/apps/tools/fprof_chapter.html)
@@ -113,7 +114,7 @@
 - [Multicore Profiling for Erlang Programs Using Percept2](http://kar.kent.ac.uk/34875/)
 - [Multi-level Visualization of Concurrent and Distributed Computation in Erlang](http://kar.kent.ac.uk/34968/)
 
-##Performance
+## Performance
 - [Stuff Goes Bad. Erlang in anger - Fred Hebert](http://www.erlang-in-anger.com/)
 - [Scaling Erlang - Brujo Benavides](https://web.archive.org/web/2id_/http://inaka.net/blog/2011/10/07/scale-test-plan-simple-erlang-application/)
 - [Worker Pool - Brujo Benavides](https://web.archive.org/web/2id_/http://inaka.net/blog/2014/09/25/worker-pool/)
@@ -143,7 +144,7 @@
 - [Eliminating Single Process Bottlenecks with ETS Concurrency Patterns - Jay Nelson](http://youtu.be/XrkY9WRY8p0)
 - [Erlang Web Server Benchmarking - Steve Vinoski](http://steve.vinoski.net/blog/2011/05/09/erlang-web-server-benchmarking/)
 
-##Erlang wants to talk to the outside world!
+## Erlang wants to talk to the outside world!
 - [Getting Erlang to talk to the outside world - Joe Armstrong](http://www.erlang.org/workshop/2002/Armstrong.pdf)
 - [erl_nif](http://www.erlang.org/doc/man/erl_nif.html)
 - [Writing an Erlang port using OTP principles - Erlang Central](https://erlangcentral.org/wiki/index.php?title=Writing_an_Erlang_Port_using_OTP_Principles)
@@ -159,14 +160,14 @@
 - [cl](https://github.com/tonyrog/cl) - OpenCL binding for Erlang
 - [sh](https://github.com/synrc/sh.git) - Erlang Shell Executor
 
-##Parsing
+## Parsing
 - [Parsing in Erlang](http://www.cs.dartmouth.edu/~mckeeman/cs118/languages/erlang/exprParser.html)
 - [Making Parsers with Yecc - Wikibooks](http://en.wikibooks.org/wiki/Erlang_Programming/Making_Parsers_with_yecc)
 - [Write a Template Compiler for Erlang- Evan Miller](http://www.evanmiller.org/write-a-template-compiler-for-erlang.html)
 - [Building a Parser Generator in Erlang - Sean Cribbs](http://seancribbs.com/tech/2009/05/27/building-a-parser-generator-in-erlang-part-1/), [Part 2](http://seancribbs.com/tech/2009/05/29/building-a-parser-generator-in-erlang-part-2/), [Part 3](http://seancribbs.com/tech/2009/06/11/building-a-parser-generator-in-erlang-part-3/), [Part 4](http://seancribbs.com/tech/2009/06/21/building-a-parser-generator-in-erlang-part-4/), [Part 5](http://seancribbs.com/tech/2009/06/21/building-a-parser-generator-in-erlang-part-5/)
 - [Neotoma: Erlang library and packrat parser-generator for parsing expression grammars](https://github.com/seancribbs/neotoma)
 
-##Learn through reading some awesome code!
+## Learn through reading some awesome code!
 - [ranch: socket acceptor pool for TCP protocols](https://github.com/ninenines/ranch)
 - [cowboy: small, fast, modular HTTP server](https://github.com/ninenines/cowboy)
 - [riak: distributed, decentralized data storage system]()
@@ -174,7 +175,7 @@
 - [ejabberd: massively scalable XMPP server](https://github.com/processone/ejabberd)
 - [vernemq: distributed MQTT message broker](https://github.com/erlio/vernemq)
 
-##Community
+## Community
 - [Awesome Erlang: curated list of awesome Erlang libraries, resources and shiny things](https://github.com/drobakowski/awesome-erlang/blob/master/README.md)
 - [Erlang Bookmarks: Collection of links](https://github.com/0xAX/erlang-bookmarks/blob/master/ErlangBookmarks.md)
 - [Mailing list](http://erlang.org/pipermail/erlang-questions/)
@@ -183,11 +184,10 @@
 - [IRC channel](http://irc.lc/freenode/erlang)
 - [This OTP Life](http://thisotplife.tumblr.com)
 
-##Other BEAM languages
+## Other BEAM languages
 - [Elixir](http://elixir-lang.org/)
 - [LFE](http://lfe.io/)
+- [Alpaca](https://github.com/alpaca-lang/alpaca)
 - [Efene](http://efene.org/)
-- [Joxa](http://joxa.org/)
-- [Reia](http://reia-lang.org/)
 - [Luerl](https://github.com/rvirding/luerl)
 - [Erlog](https://github.com/rvirding/erlog)
