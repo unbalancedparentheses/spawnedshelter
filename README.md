@@ -1,4 +1,4 @@
-# [Spawned Shelter](http://spawnedshelter.com/)
+# [Spawned Shelter](http://spawnedshelter.com/) [![Build Status](https://travis-ci.org/unbalancedparentheses/spawnedshelter.svg?branch=master)](https://travis-ci.org/unbalancedparentheses/spawnedshelter)
 A collection of the best articles, videos and presentations related to Erlang
 
 ![](https://raw.githubusercontent.com/unbalancedparentheses/spawnedshelter/master/screenshot.png)
