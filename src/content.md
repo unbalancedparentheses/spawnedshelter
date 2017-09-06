@@ -170,7 +170,7 @@
 ## Learn through reading some awesome code!
 - [ranch: socket acceptor pool for TCP protocols](https://github.com/ninenines/ranch)
 - [cowboy: small, fast, modular HTTP server](https://github.com/ninenines/cowboy)
-- [riak: distributed, decentralized data storage system]()
+- [riak: distributed, decentralized data storage system](https://github.com/basho/riak)
 - [rabbitmq: feature rich, multi-protocol messaging broker](https://github.com/rabbitmq/rabbitmq-server)
 - [ejabberd: massively scalable XMPP server](https://github.com/processone/ejabberd)
 - [vernemq: distributed MQTT message broker](https://github.com/erlio/vernemq)
