@@ -26,7 +26,7 @@
 - [Erlang Master Class 2: Concurrent Programming](https://www.youtube.com/playlist?list=PLR812eVbehlwq4qbqswOWH7NLKjodnTIn)
 - [Erlang Master Class 3: OTP Behaviours and Releases](https://www.youtube.com/playlist?list=PLR812eVbehlx6vgWGf2FLHjkksAEDmFjc)
 - [Some Erlang Magic for Beginners - Brujo Benavides](https://web.archive.org/web/2id_/http://inaka.net/blog/2012/12/03/some-erlang-magic/)
-- [My favorite Erlang program - Joe Armstrong](https://joearms.github.io/2013/11/21/My-favorite-erlang-program.html)
+- [My favorite Erlang program - Joe Armstrong](https://joearms.github.io/published/2013-11-21-My-favorite-erlang-program.html)
 - [Build an FTP Server with Ranch in 30 Minutes - 99s](http://ninenines.eu/articles/ranch-ftp/)
 - [Canillita: Your First Erlang Server - Brujo Benavides](https://web.archive.org/web/2id_/http://inaka.net/blog/2013/11/06/your-first-erlang-app-canillita/)
 - [Extending OTP - Robert Virding](http://rvirding.blogspot.se/2014/04/extending-otp.html)
