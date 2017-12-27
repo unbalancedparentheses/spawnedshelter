@@ -32,6 +32,7 @@
 - [Extending OTP - Robert Virding](http://rvirding.blogspot.se/2014/04/extending-otp.html)
 
 ## Advanced Erlang
+- [Erlang Patterns](http://www.erlangpatterns.org/patterns.html)
 - [10 Essential Erlang Tools for Erlang Developers - Brujo Benavides](http://tutorials.pluralsight.com/erlang/10-essential-erlang-tools-for-erlang-developers)
 - [On Erlang, State and Crashes - Jesper L. Andersen](http://jlouisramblings.blogspot.be/2010/11/on-erlang-state-and-crashes.html)
 - [Error Kernels, What are they? - Jesper L. Andersen](https://medium.com/@jlouis666/erlang-string-handling-7588daad8f05)
