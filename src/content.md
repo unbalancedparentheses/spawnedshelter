@@ -84,6 +84,7 @@
 - [cuttlefish: sysctl-like syntax config for your apps](https://github.com/basho/cuttlefish)
 - [clique: Opinionated framework for building command line interfaces](https://github.com/basho/clique)
 - [riak core: Distributed systems framework](https://github.com/basho/riak_core)
+- [riak_core tutorial](https://github.com/lambdaclass/riak_core_tutorial/)
 - [Building on top of riak core - Mark Allen](https://www.youtube.com/watch?v=LKsNbYf9mLw)
 - [Little Riak Core Book - Mariano Guerra](https://marianoguerra.github.io/little-riak-core-book/)
 
