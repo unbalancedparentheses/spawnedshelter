@@ -193,3 +193,4 @@
 - [Efene](http://efene.org/)
 - [Luerl](https://github.com/rvirding/luerl)
 - [Erlog](https://github.com/rvirding/erlog)
+- [Clojerl](http://clojerl.org/)
