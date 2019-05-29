@@ -176,7 +176,7 @@
 - [riak: distributed, decentralized data storage system](https://github.com/basho/riak)
 - [rabbitmq: feature rich, multi-protocol messaging broker](https://github.com/rabbitmq/rabbitmq-server)
 - [ejabberd: massively scalable XMPP server](https://github.com/processone/ejabberd)
-- [vernemq: distributed MQTT message broker](https://github.com/erlio/vernemq)
+- [vernemq: distributed MQTT message broker](https://github.com/vernemq/vernemq)
 
 ## Community
 - [Awesome Erlang: curated list of awesome Erlang libraries, resources and shiny things](https://github.com/drobakowski/awesome-erlang/blob/master/README.md)
