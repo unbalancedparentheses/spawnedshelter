@@ -157,6 +157,7 @@
 - [Port drivers](http://erlang.org/doc/tutorial/c_portdriver.html)
 - [From Erlang to Java and Back Again: Part 1 - Brujo Benavides](https://web.archive.org/web/2id_/http://inaka.net/blog/2013/09/05/from-erlang-to-java-and-back-again-1/)
 - [Haskell - Interfacing Erlang](http://www.haskell.org/haskellwiki/Applications_and_libraries/Interfacing_other_languages/Erlang)
+- [Rustler - Safe Rust bridge for creating Erlang NIF functions](https://github.com/rusterlium/rustler)
 - [erlport](https://github.com/hdima/erlport) - Connect Erlang to Ruby and Python
 - [JavaErlang](https://github.com/fredlund/JavaErlang) - Facilitate the communication between Java and Erlang nodes
 - [erlang_js](https://github.com/basho/erlang_js) - A linked-in driver for Erlang to Mozilla's Spidermonkey Javascript runtime
