@@ -96,6 +96,7 @@
 - [Testing Erlang - Zachary Kessin](https://github.com/zkessin/testing-erlang-book)
 - [PropEr User Guide](http://proper.softlab.ntua.gr/User_Guide.html)
 - [triq: Trifork QuickCheck](https://github.com/krestenkrab/triq)
+- [PropEr Testing](https://propertesting.com)
 
 ## Debugging, tracing and logging
 - [Debugging with the Debug Helper](http://erlangcentral.org/wiki/index.php/Debugging_with_Debug_Helper)
