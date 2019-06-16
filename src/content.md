@@ -42,6 +42,7 @@
 - [The Erlang shell. Your secret weapon - Jesper L. Andersen](https://medium.com/@jlouis666/the-erlang-shell-ab8d8bec3972)
 - [REPL? A bit more (and less) than that - Fred Hebert](http://ferd.ca/repl-a-bit-more-and-less-than-that.html)
 - [Code Janitor: nobody's dream, everyone's job (and how Erlang can help) - Fred Hebert](http://ferd.ca/code-janitor-nobody-s-dream-everyone-s-job-and-how-erlang-can-help.html)
+- [The Hitchhiker's Guide to the Unexpected - Fred Hebert](https://www.youtube.com/watch?v=W0BR_tWZChQ)
 - [Garrett Smith - Writing Beautiful Code](https://www.youtube.com/watch?v=IdJwECjylB4)
 - [Beyond OTP - Loïc Hoguin](https://www.youtube.com/watch?v=fyobN-6YyJY)
 - [Writing Quality Code in Erlang - Garrett Smith](https://youtu.be/CQyt9Vlkbis)
