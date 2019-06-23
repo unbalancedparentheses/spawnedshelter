@@ -198,3 +198,4 @@
 - [Luerl](https://github.com/rvirding/luerl)
 - [Erlog](https://github.com/rvirding/erlog)
 - [Clojerl](http://clojerl.org/)
+- [Gleam](https://github.com/lpil/gleam)
