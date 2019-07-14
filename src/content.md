@@ -59,7 +59,7 @@
 - [The BEAM Dispatcher - Happi Blogging](http://stenmans.org/happi_blog/?p=194)
 - [The Erlang Tagging Scheme - Happi Blogging](http://stenmans.org/happi_blog/?p=176)
 - [How Erlang does scheduling - Jesper L. Andersen](http://jlouisramblings.blogspot.com.ar/2013/01/how-erlang-does-scheduling.html)
-- [Understanding the Erlang Scheduler](https://www.erlang-solutions.com/resources/webinars/understanding-erlang-scheduler)
+- [Understanding the Erlang Scheduler](https://youtu.be/tBAM_N9qPno)
 - [Erlang Scheduler Details and Why It Matters - Hamidreza Soleimani](https://hamidreza-s.github.io/erlang/scheduling/real-time/preemptive/migration/2016/02/09/erlang-scheduler-details.html)
 - [Hitchhiker's Tour of the BEAM - Robert Virding](http://youtu.be/_Pwlvy3zz9M)
 - [Tackling Dirty Jobs with Erlang's Schedulers - Steve Vinoski](https://www.youtube.com/watch?v=nw2eIB6bTxY)
