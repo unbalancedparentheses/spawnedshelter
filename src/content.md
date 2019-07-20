@@ -54,7 +54,7 @@
 ## Erlang design choices and BEAM Internals
 - [It's About the Guarantees - Fred Hebert](http://ferd.ca/it-s-about-the-guarantees.html)
 - [Stacking Theory for Systems Design - Jesper L. Andersen](https://medium.com/@jlouis666/stacking-theory-for-systems-design-2450e6300689)
-- [Sequence and Order in Erlang - Dennis Byrne](http://notdennisbyrne.blogspot.com.ar/2008/04/sequence-and-order-in-erlang.html)
+- [Sequence and Order in Erlang - Dennis Byrne](https://web.archive.org/web/20160314094058/http://notdennisbyrne.blogspot.com.ar/2008/04/sequence-and-order-in-erlang.html)
 - [The Road we didn't go down - Joe Armstrong](http://armstrongonsoftware.blogspot.com.ar/2008/05/road-we-didnt-go-down.html) - Discussion about RPC
 - [The BEAM Dispatcher - Happi Blogging](http://stenmans.org/happi_blog/?p=194)
 - [The Erlang Tagging Scheme - Happi Blogging](http://stenmans.org/happi_blog/?p=176)
