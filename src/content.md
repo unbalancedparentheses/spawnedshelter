@@ -6,7 +6,8 @@
 - [Erlangs parallelism is not parallelism! - Jesper L. Andersen](http://jlouisramblings.blogspot.com.ar/2011/07/erlangs-parallelism-is-not-parallelism.html)
 - [Reliability Features of Erlang - LambdaLounge Krakow 2013](http://www.gar1t.com/blog/reliability-features-of-erlang-krakow.html)
 - [What can I only do in Erlang? - Craig Everett](http://erlang.org/pipermail/erlang-questions/2014-November/081570.html)
-- [A response to "Erlang - overhyped or underestimated" - Jesper L. Andersen](http://jlouisramblings.blogspot.com.ar/2010/12/response-to-erlang-overhyped-or.html)
+- [A response to "Erlang - overhyped or underestimated"   - Jesper L. Andersen](http://jlouisramblings.blogspot.com.ar/2010/12/response-to-erlang-overhyped-or.html)
+-[Adopting Erlang](http://adoptingerlang.org/)
 
 ## Introduction
 - [Learn X in Y minutes Where X=erlang](http://learnxinyminutes.com/docs/erlang/)
@@ -70,6 +71,7 @@
 - [Erlang Garbage Collection Details and Why It Matters - Hamidreza Soleimani](https://hamidreza-s.github.io/erlang%20garbage%20collection%20memory%20layout%20soft%20realtime/2015/08/24/erlang-garbage-collection-details-and-why-it-matters.html)
 - [Erlang 19.0 Garbage Collector - Lukas Larsson](https://www.erlang-solutions.com/blog/erlang-19-0-garbage-collector.html)
 - [BEAM VM Wisdoms - Collection of easy to read articles - Dmytro Lytovchenko](http://beam-wisdoms.clau.se/)
+- [The Erlang Runtime System](https://blog.stenmans.org/theBeamBook/)
 
 ## Useful tools and libraries
 - [sync: On-the-fly recompiling and reloading in Erlang](https://github.com/rustyio/sync)
@@ -89,6 +91,7 @@
 - [riak_core tutorial](https://github.com/lambdaclass/riak_core_tutorial/)
 - [Building on top of riak core - Mark Allen](https://www.youtube.com/watch?v=LKsNbYf9mLw)
 - [Little Riak Core Book - Mariano Guerra](https://marianoguerra.github.io/little-riak-core-book/)
+http://adoptingerlang.org/
 
 ## Testing
 - [Eunit](http://www.erlang.org/doc/apps/eunit/chapter.html)
