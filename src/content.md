@@ -91,7 +91,6 @@
 - [riak_core tutorial](https://github.com/lambdaclass/riak_core_tutorial/)
 - [Building on top of riak core - Mark Allen](https://www.youtube.com/watch?v=LKsNbYf9mLw)
 - [Little Riak Core Book - Mariano Guerra](https://marianoguerra.github.io/little-riak-core-book/)
-http://adoptingerlang.org/
 
 ## Testing
 - [Eunit](http://www.erlang.org/doc/apps/eunit/chapter.html)
