@@ -7,7 +7,7 @@
 - [Reliability Features of Erlang - LambdaLounge Krakow 2013](http://www.gar1t.com/blog/reliability-features-of-erlang-krakow.html)
 - [What can I only do in Erlang? - Craig Everett](http://erlang.org/pipermail/erlang-questions/2014-November/081570.html)
 - [A response to "Erlang - overhyped or underestimated"   - Jesper L. Andersen](http://jlouisramblings.blogspot.com.ar/2010/12/response-to-erlang-overhyped-or.html)
--[Adopting Erlang](http://adoptingerlang.org/)
+- [Adopting Erlang](http://adoptingerlang.org/)
 
 ## Introduction
 - [Learn X in Y minutes Where X=erlang](http://learnxinyminutes.com/docs/erlang/)
