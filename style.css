@@ -1,0 +1,262 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+}
+#header {
+  background-color: #242d4a;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+}
+@media screen and (min-width: 1024px) {
+  #header {
+    min-height: 100%;
+  }
+}
+#header #intro {
+  color: #fff;
+  padding: 1em;
+}
+@media screen and (min-width: 480px) {
+  #header #intro {
+    padding: 2em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #header #intro {
+    -ms-flex: 1;
+        flex: 1;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+}
+#header #moon {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  #header #moon {
+    -ms-flex: 1;
+        flex: 1;
+    width: 100%;
+    display: initial;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    background-image: url("./img/moon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #header #intro-content {
+    -ms-flex-negative: 1;
+        flex-shrink: 1;
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+  }
+}
+#header h1 {
+  font-family: 'Creepster';
+  font-size: 3em;
+  text-shadow: 3px 1px 2px rgba(0,0,0,0.5);
+  letter-spacing: 5px;
+  color: #e9b427;
+  margin: 0;
+}
+@media screen and (min-width: 1024px) {
+  #header h1 {
+    font-size: 4em;
+  }
+}
+#header #intro-text {
+  margin: 0;
+  line-height: 1.45;
+  font-family: 'Montserrat';
+}
+@media screen and (min-width: 1024px) {
+  #header #intro-text {
+    font-size: 20px;
+  }
+}
+#header #intro-text p {
+  margin-top: 10px;
+}
+#header #wolf {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  #header #wolf {
+    display: initial;
+    -ms-flex: 1;
+        flex: 1;
+    width: 100%;
+    background-image: url("./img/wolf.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
+}
+#toc {
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #bb2518;
+}
+#toc #monsters {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  #toc #monsters {
+    display: initial;
+    -ms-flex: 1;
+        flex: 1;
+    background-image: url("./img/monsters.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 25%;
+  }
+}
+#toc #toc-text {
+  color: #fff;
+  font-family: 'Montserrat';
+  line-height: 1.45;
+  padding: 1em;
+  margin: 0px;
+}
+@media screen and (min-width: 480px) {
+  #toc #toc-text {
+    padding: 2em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #toc #toc-text {
+    -ms-flex: 1;
+        flex: 1;
+    font-size: 20px;
+  }
+}
+#toc ul {
+  list-style-type: decimal;
+  margin: 0px;
+}
+#toc li {
+  margin-bottom: 0.75em;
+}
+#toc ul a {
+  text-decoration: none;
+  color: #fff;
+}
+#toc ul a:hover {
+  color: #242d4a;
+}
+#content {
+  margin: 4em 1em;
+  max-width: 800px;
+}
+@media screen and (min-width: 1024px) {
+  #content {
+    margin: 4em auto;
+  }
+}
+#content .level2 {
+  padding: 0 1.5em;
+  padding-bottom: 2em;
+}
+#content h2 {
+  margin: 0;
+  font-family: 'Creepster';
+  font-size: 1.8em;
+  letter-spacing: 2px;
+  color: #bb2518;
+}
+#content ul {
+  padding: 0;
+  font-size: 14px;
+  list-style-type: decimal;
+}
+@media screen and (min-width: 480px) {
+  #content ul {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #content ul {
+    font-size: 18px;
+  }
+}
+#content li {
+  padding: 0.5em 0;
+}
+#content a {
+  color: #384673;
+  text-decoration: none;
+}
+#content a:hover {
+  color: #bb2518;
+}
+#footer {
+  background-color: #5e2979;
+  padding: 2em;
+  color: #fff;
+}
+@media screen and (min-width: 1024px) {
+  #footer {
+    font-size: 18px;
+  }
+}
+#footer #container {
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  max-width: 800px;
+}
+@media screen and (min-width: 1024px) {
+  #footer #footer-text {
+    -ms-flex: 1;
+        flex: 1;
+  }
+}
+#footer h1 {
+  font-family: 'Creepster';
+  letter-spacing: 3px;
+}
+#footer ul {
+  padding: 0;
+}
+#footer li {
+  display: inline-block;
+  background-color: #242d4a;
+  padding: 8px;
+  margin: 5px;
+  list-style: none;
+  border-bottom: 3px solid #5b73c1;
+}
+#footer a {
+  color: #fff;
+  text-decoration: none;
+}
+#footer #vampire {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  #footer #vampire {
+    -ms-flex: 1;
+        flex: 1;
+    display: initial;
+    background-image: url("./img/vampire.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}

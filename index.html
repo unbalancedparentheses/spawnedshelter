@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Spawned Shelter - Erlang and Elixir training with the the best articles, videos, books and talks. Learn about Erlang internals of its virtual machine and other languages that run on top of it</title>
+        <meta name="author" content="Federico Carrone">
+        <!-- facebook graph -->
+        <meta property="og:title" content="Spawned Shelter"/>
+        <meta property="og:description" content=" Erlang and Elixir training with the the best articles, videos, books and talks. Learn about Erlang internals of its virtual machine and other languages that run on top of it"/>
+        <meta property="og:url" content="http://spawnedshelter.com/index.html"/>
+        <meta property="og:image" content="https://raw.githubusercontent.com/unbalancedparentheses/spawnedshelter/master/screenshot.png"/>
+        <!-- favicon -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="msapplication-TileColor" content="#FFFFFF">
+        <meta name="msapplication-TileImage" content="./favicon-144.png">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="./favicon-152.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="./favicon-144.png">
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="./favicon-120.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./favicon-114.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./favicon-72.png">
+        <link rel="apple-touch-icon-precomposed" href="./favicon-57.png">
+
+        <link href="./style.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Creepster|Montserrat" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+        <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
+    </head>
+
+    <body>
+        <a href="https://github.com/unbalancedparentheses/spawnedshelter"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/52760788cde945287fbb584134c4cbc2bc36f904/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f77686974655f6666666666662e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png"></a>
+        <section id="header">
+            <section id="intro">
+
+                <div id="moon"></div>
+
+                <section id="intro-content">
+                    <h1>Spawned Shelter!</h1>
+
+                    <article id="intro-text">
+                        <p>Erlang is a programming language that was designed to create reliable, evolvable and low latency systems. It facilitates the job of engineers building fault tolerant and maintainable systems. That is why, in contrast to most programming languages, fault tolerance, concurrency, distribution and tracing were built into the core language from the beginning.</p>
+                        <p>If you need training in Erlang, Elixir or the BEAM send me an email to mail@fcarrone.com</p>
+                    </article>
+                </section>
+            </section>
+
+            <div id="wolf"></div>
+        </section>
+
+        <section id="toc">
+            <div id="monsters"></div>
+
+            <section id="toc-text">
+                <p>
+                    This page is a collection of the best articles, videos and books for learning Erlang, the internals of its virtual machine and  other languages that run on top of it like Elixir, LFE and Efene.
+                </p>
+                <ul>
+                <li><a href="#why-erlang">Why Erlang?</a></li>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#learning-erlang">Learning Erlang</a></li>
+                <li><a href="#advanced-erlang">Advanced Erlang</a></li>
+                <li><a href="#erlang-design-choices-and-beam-internals">Erlang design choices and BEAM Internals</a></li>
+                <li><a href="#useful-tools-and-libraries">Useful tools and libraries</a></li>
+                <li><a href="#testing">Testing</a></li>
+                <li><a href="#debugging-tracing-and-logging">Debugging, tracing and logging</a></li>
+                <li><a href="#profiling">Profiling</a></li>
+                <li><a href="#performance">Performance</a></li>
+                <li><a href="#erlang-wants-to-talk-to-the-outside-world">Erlang wants to talk to the outside world!</a></li>
+                <li><a href="#parsing">Parsing</a></li>
+                <li><a href="#learn-through-reading-some-awesome-code">Learn through reading some awesome code!</a></li>
+                <li><a href="#community">Community</a></li>
+                <li><a href="#other-beam-languages">Other BEAM languages</a></li>
+                </ul>
+            </section>
+        </section>
+
+        <section id="content">
+            <section id="why-erlang" class="level2">
+            <h2>Why Erlang?</h2>
+            <ul>
+            <li><a href="http://ferd.ca/the-zen-of-erlang.html">The Zen of Erlang - Fred Hebert</a></li>
+            <li><a href="http://ferd.ca/rtb-where-erlang-blooms.html">Where Erlang Blooms - Fred Hebert</a></li>
+            <li><a href="http://blog.troutwine.us/2013/07/10/choose_erlang.html">When would you choose Erlang? - Brian L. Troutwine</a></li>
+            <li><a href="http://www.javalimit.com/2011/05/erlang-is-not-a-concurrent-functional-programming-language.html">Erlang is not a Concurrent Functional Programming Language - Kresten Krab</a></li>
+            <li><a href="http://jlouisramblings.blogspot.com.ar/2011/07/erlangs-parallelism-is-not-parallelism.html">Erlangs parallelism is not parallelism! - Jesper L. Andersen</a></li>
+            <li><a href="http://www.gar1t.com/blog/reliability-features-of-erlang-krakow.html">Reliability Features of Erlang - LambdaLounge Krakow 2013</a></li>
+            <li><a href="http://erlang.org/pipermail/erlang-questions/2014-November/081570.html">What can I only do in Erlang? - Craig Everett</a></li>
+            <li><a href="http://jlouisramblings.blogspot.com.ar/2010/12/response-to-erlang-overhyped-or.html">A response to &quot;Erlang - overhyped or underestimated&quot; - Jesper L. Andersen</a></li>
+            <li><a href="http://adoptingerlang.org/">Adopting Erlang</a></li>
+            </ul>
+            </section>
+            <section id="introduction" class="level2">
+            <h2>Introduction</h2>
+            <ul>
+            <li><a href="http://learnxinyminutes.com/docs/erlang/">Learn X in Y minutes Where X=erlang</a></li>
+            <li><a href="http://ninenines.eu/articles/tictactoe/">Erlang Tic Tac Toe - 99s</a></li>
+            <li><a href="http://ferd.ca/an-open-letter-to-the-erlang-beginner-or-onlooker.html">An Open Letter to the Erlang Beginner (or Onlooker) - Fred Hebert</a></li>
+            <li><a href="http://www.evanmiller.org/joy-of-erlang.html">The Joy of Erlang; Or, How To Ride A Toruk - Evan Miller</a></li>
+            <li><a href="http://ferd.ca/on-erlang-s-syntax.html">On Erlang's Syntax - Fred Hebert</a></li>
+            <li><a href="http://rvirding.blogspot.se/2014/01/erlang-syntax-again-and-again-and-again.html">Erlang syntax again - Robert Virding</a></li>
+            <li><a href="https://ghcmutterings.wordpress.com/2009/10/06/parallelism-concurrency/">Parallelism /= Concurrency - Simon Marlow</a></li>
+            <li><a href="http://www.sics.se/~joe/thesis/armstrong_thesis_2003.pdf">Making reliable distributed systems in the presence of software errors - Joe Armstrong</a></li>
+            </ul>
+            </section>
+            <section id="learning-erlang" class="level2">
+            <h2>Learning Erlang</h2>
+            <ul>
+            <li><a href="http://learnyousomeerlang.com/">Learn you some Erlang - Fred Hebert</a></li>
+            <li><a href="https://www.youtube.com/playlist?list=PLlML6SMLMRgAooeL26mW502jCgWikqx_n">Functional Programming with Erlang - Simon Thompson</a></li>
+            <li><a href="https://www.youtube.com/playlist?list=PLmoxkf3gS-juT5cDrzP_ARdkqqSFU5X_3">Curso Erlang en Español - Rodrigo Dominguez</a></li>
+            <li><a href="https://www.youtube.com/playlist?list=PLR812eVbehlwEArT3Bv3UfcM9wR3AEZb5">Erlang Master Class 1: Functional Programming</a></li>
+            <li><a href="https://www.youtube.com/playlist?list=PLR812eVbehlwq4qbqswOWH7NLKjodnTIn">Erlang Master Class 2: Concurrent Programming</a></li>
+            <li><a href="https://www.youtube.com/playlist?list=PLR812eVbehlx6vgWGf2FLHjkksAEDmFjc">Erlang Master Class 3: OTP Behaviours and Releases</a></li>
+            <li><a href="https://web.archive.org/web/2id_/http://inaka.net/blog/2012/12/03/some-erlang-magic/">Some Erlang Magic for Beginners - Brujo Benavides</a></li>
+            <li><a href="https://joearms.github.io/published/2013-11-21-My-favorite-erlang-program.html">My favorite Erlang program - Joe Armstrong</a></li>
+            <li><a href="http://ninenines.eu/articles/ranch-ftp/">Build an FTP Server with Ranch in 30 Minutes - 99s</a></li>
+            <li><a href="https://web.archive.org/web/2id_/http://inaka.net/blog/2013/11/06/your-first-erlang-app-canillita/">Canillita: Your First Erlang Server - Brujo Benavides</a></li>
+            <li><a href="http://rvirding.blogspot.se/2014/04/extending-otp.html">Extending OTP - Robert Virding</a></li>
+            </ul>
+            </section>
+            <section id="advanced-erlang" class="level2">
+            <h2>Advanced Erlang</h2>
+            <ul>
+            <li><a href="http://www.erlangpatterns.org/patterns.html">Erlang Patterns</a></li>
+            <li><a href="https://www.pluralsight.com/guides/10-essential-erlang-tools-for-erlang-developers">10 Essential Erlang Tools for Erlang Developers - Brujo Benavides</a></li>
+            <li><a href="http://jlouisramblings.blogspot.be/2010/11/on-erlang-state-and-crashes.html">On Erlang, State and Crashes - Jesper L. Andersen</a></li>
+            <li><a href="https://medium.com/@jlouis666/erlang-string-handling-7588daad8f05">Error Kernels, What are they? - Jesper L. Andersen</a></li>
+            <li><a href="https://web.archive.org/web/2id_/http://inaka.net/blog/2012/11/29/every-day-erlang/">Every-day Erlang: Handling Crashes in Erlang - Marcelo Gornstein</a></li>
+            <li><a href="https://mazenharake.wordpress.com/2009/09/14/let-it-crash-the-right-way/">Let it crash the right way - MazenHarake</a></li>
+            <li><a href="https://mazenharake.wordpress.com/2010/10/31/9-erlang-pitfalls-you-should-know-about/">9 Erlang pitfalls you should know about - MazenHarake</a></li>
+            <li><a href="https://medium.com/@jlouis666/the-erlang-shell-ab8d8bec3972">The Erlang shell. Your secret weapon - Jesper L. Andersen</a></li>
+            <li><a href="http://ferd.ca/repl-a-bit-more-and-less-than-that.html">REPL? A bit more (and less) than that - Fred Hebert</a></li>
+            <li><a href="http://ferd.ca/code-janitor-nobody-s-dream-everyone-s-job-and-how-erlang-can-help.html">Code Janitor: nobody's dream, everyone's job (and how Erlang can help) - Fred Hebert</a></li>
+            <li><a href="https://www.youtube.com/watch?v=W0BR_tWZChQ">The Hitchhiker's Guide to the Unexpected - Fred Hebert</a></li>
+            <li><a href="https://www.youtube.com/watch?v=IdJwECjylB4">Garrett Smith - Writing Beautiful Code</a></li>
+            <li><a href="https://www.youtube.com/watch?v=fyobN-6YyJY">Beyond OTP - Loïc Hoguin</a></li>
+            <li><a href="https://youtu.be/CQyt9Vlkbis">Writing Quality Code in Erlang - Garrett Smith</a></li>
+            <li><a href="http://www.rabbitmq.com/blog/2011/05/17/can-you-hear-the-drums-erlando/">Can you hear the drums, Erlando? - Matthew Sackman</a></li>
+            <li><a href="https://github.com/inaka/erlang_guidelines">Inaka's Erlang Coding Guidelines</a></li>
+            <li><a href="http://erlang.se/doc/programming_rules.shtml">Programming Rules and Conventions</a></li>
+            <li><a href="https://medium.com/@jlouis666/b5936dceb5e4">Erlang and code style - Jesper L. Andersen</a></li>
+            </ul>
+            </section>
+            <section id="erlang-design-choices-and-beam-internals" class="level2">
+            <h2>Erlang design choices and BEAM Internals</h2>
+            <ul>
+            <li><a href="http://ferd.ca/it-s-about-the-guarantees.html">It's About the Guarantees - Fred Hebert</a></li>
+            <li><a href="https://medium.com/@jlouis666/stacking-theory-for-systems-design-2450e6300689">Stacking Theory for Systems Design - Jesper L. Andersen</a></li>
+            <li><a href="https://web.archive.org/web/20160314094058/http://notdennisbyrne.blogspot.com.ar/2008/04/sequence-and-order-in-erlang.html">Sequence and Order in Erlang - Dennis Byrne</a></li>
+            <li><a href="http://armstrongonsoftware.blogspot.com.ar/2008/05/road-we-didnt-go-down.html">The Road we didn't go down - Joe Armstrong</a> - Discussion about RPC</li>
+            <li><a href="http://stenmans.org/happi_blog/?p=194">The BEAM Dispatcher - Happi Blogging</a></li>
+            <li><a href="http://stenmans.org/happi_blog/?p=176">The Erlang Tagging Scheme - Happi Blogging</a></li>
+            <li><a href="http://jlouisramblings.blogspot.com.ar/2013/01/how-erlang-does-scheduling.html">How Erlang does scheduling - Jesper L. Andersen</a></li>
+            <li><a href="https://youtu.be/tBAM_N9qPno">Understanding the Erlang Scheduler</a></li>
+            <li><a href="https://hamidreza-s.github.io/erlang/scheduling/real-time/preemptive/migration/2016/02/09/erlang-scheduler-details.html">Erlang Scheduler Details and Why It Matters - Hamidreza Soleimani</a></li>
+            <li><a href="http://youtu.be/_Pwlvy3zz9M">Hitchhiker's Tour of the BEAM - Robert Virding</a></li>
+            <li><a href="https://www.youtube.com/watch?v=nw2eIB6bTxY">Tackling Dirty Jobs with Erlang's Schedulers - Steve Vinoski</a></li>
+            <li><a href="http://youtu.be/kuVC2TE748w">Live Podcast on VM - Mostly Erlang</a></li>
+            <li><a href="https://github.com/happi/theBeamBook/">The Beam Book</a></li>
+            <li><a href="https://github.com/erlang/otp/tree/maint/erts/emulator/internal_doc">OTP internal documentation</a></li>
+            <li><a href="https://medium.com/this-is-not-a-monad-tutorial/interview-with-jesper-louis-andersen-about-erlang-haskell-ocaml-go-idris-the-jvm-software-and-5628fe591295">Interview with Jesper Louis Andersen about Erlang</a></li>
+            <li><a href="https://hamidreza-s.github.io/erlang%20garbage%20collection%20memory%20layout%20soft%20realtime/2015/08/24/erlang-garbage-collection-details-and-why-it-matters.html">Erlang Garbage Collection Details and Why It Matters - Hamidreza Soleimani</a></li>
+            <li><a href="https://www.erlang-solutions.com/blog/erlang-19-0-garbage-collector.html">Erlang 19.0 Garbage Collector - Lukas Larsson</a></li>
+            <li><a href="http://beam-wisdoms.clau.se/">BEAM VM Wisdoms - Collection of easy to read articles - Dmytro Lytovchenko</a></li>
+            <li><a href="https://blog.stenmans.org/theBeamBook/">The Erlang Runtime System</a></li>
+            </ul>
+            </section>
+            <section id="useful-tools-and-libraries" class="level2">
+            <h2>Useful tools and libraries</h2>
+            <ul>
+            <li><a href="https://github.com/rustyio/sync">sync: On-the-fly recompiling and reloading in Erlang</a></li>
+            <li><a href="https://github.com/ninenines/erlang.mk">erlang.mk: Build tool for Erlang that just works</a></li>
+            <li><a href="https://github.com/rebar/rebar3">rebar3: Build tool</a></li>
+            <li><a href="https://github.com/rebar/rebar">rebar: Old rebar build tool</a></li>
+            <li><a href="https://github.com/chef/mixer">mixer: Mix in functions from other modules</a></li>
+            <li><a href="https://github.com/erlware/relx">relx: Sane, simple release creation for Erlang</a></li>
+            <li><a href="https://github.com/basho/lager">lager: A logging framework for Erlang/OTP</a></li>
+            <li><a href="https://web.archive.org/web/2id_/http://inaka.net/blog/2014/09/05/erlang-standards-and-elvis-rock/">elvis: The king of code style</a></li>
+            <li><a href="https://github.com/rabbitmq/erlando">erlando: Set of syntax extensions for Erlang</a></li>
+            <li><a href="https://github.com/extend/sheriff">sheriff: Check values against their type as defined through typespecs</a></li>
+            <li><a href="https://github.com/uwiger/gproc">gproc: Extended process registry for Erlang</a></li>
+            <li><a href="https://github.com/basho/cuttlefish">cuttlefish: sysctl-like syntax config for your apps</a></li>
+            <li><a href="https://github.com/basho/clique">clique: Opinionated framework for building command line interfaces</a></li>
+            <li><a href="https://github.com/basho/riak_core">riak core: Distributed systems framework</a></li>
+            <li><a href="https://github.com/lambdaclass/riak_core_tutorial/">riak_core tutorial</a></li>
+            <li><a href="https://www.youtube.com/watch?v=LKsNbYf9mLw">Building on top of riak core - Mark Allen</a></li>
+            <li><a href="https://marianoguerra.github.io/little-riak-core-book/">Little Riak Core Book - Mariano Guerra</a></li>
+            </ul>
+            </section>
+            <section id="testing" class="level2">
+            <h2>Testing</h2>
+            <ul>
+            <li><a href="http://www.erlang.org/doc/apps/eunit/chapter.html">Eunit</a></li>
+            <li><a href="http://www.erlang.org/doc/apps/common_test/basics_chapter.html">Common Test Basics</a></li>
+            <li><a href="https://web.archive.org/web/2id_/http://inaka.net/blog/2015/07/17/erlang-meta-test/">Erlang Meta Testing - Brujo Benavides</a></li>
+            <li><a href="https://github.com/zkessin/testing-erlang-book">Testing Erlang - Zachary Kessin</a></li>
+            <li><a href="http://proper.softlab.ntua.gr/User_Guide.html">PropEr User Guide</a></li>
+            <li><a href="https://github.com/krestenkrab/triq">triq: Trifork QuickCheck</a></li>
+            <li><a href="https://propertesting.com">PropEr Testing</a></li>
+            </ul>
+            </section>
+            <section id="debugging-tracing-and-logging" class="level2">
+            <h2>Debugging, tracing and logging</h2>
+            <ul>
+            <li><a href="http://erlangcentral.org/wiki/index.php/Debugging_with_Debug_Helper">Debugging with the Debug Helper</a></li>
+            <li><a href="http://www.erlang.org/doc/man/observer.html">A GUI tool for observing an erlang system</a></li>
+            <li><a href="http://www.erlang.org/doc/apps/debugger/debugger_chapter.html">observer: Erlang Debugger</a></li>
+            <li><a href="http://youtu.be/S8SL0IpS9pk">Taking the printf out of printf Debugging - Mats Cronqvist</a></li>
+            <li><a href="https://github.com/massemanet/eper">eper: restricted debugging utility</a></li>
+            <li><a href="https://ferd.github.io/recon/">recon: Diagnose problems in production nodes</a></li>
+            <li><a href="https://github.com/andytill/erlyberly">erlyberly: Debugger, tracer with GUI in Java</a></li>
+            </ul>
+            </section>
+            <section id="profiling" class="level2">
+            <h2>Profiling</h2>
+            <ul>
+            <li><a href="http://www.erlang.org/doc/man/cprof.html">cprof: A simple Call Count Profiling Tool</a></li>
+            <li><a href="http://www.erlang.org/doc/man/eprof.html">eprof: A Time Profiling Tool for Erlang</a></li>
+            <li><a href="http://www.erlang.org/doc/apps/tools/fprof_chapter.html">fprof: The File Trace Profiler</a></li>
+            <li><a href="https://github.com/virtan/eep">eep: Erlang Easy Profiling</a></li>
+            <li><a href="https://refactoringtools.github.io/percept2/">Percept 2 - an enhanced version of the Percept profiling tool from the Erlang/OTP distribution</a></li>
+            <li><a href="https://www.youtube.com/watch?v=k3MKizclP28">Profiling Erlang programs using Percept2</a></li>
+            <li><a href="https://www.youtube.com/watch?v=Sd_rpvRzAO8">Profiling with Percept2 - Huiqing Li</a></li>
+            <li><a href="http://kar.kent.ac.uk/34875/">Multicore Profiling for Erlang Programs Using Percept2</a></li>
+            <li><a href="http://kar.kent.ac.uk/34968/">Multi-level Visualization of Concurrent and Distributed Computation in Erlang</a></li>
+            </ul>
+            </section>
+            <section id="performance" class="level2">
+            <h2>Performance</h2>
+            <ul>
+            <li><a href="http://www.erlang-in-anger.com/">Stuff Goes Bad. Erlang in anger - Fred Hebert</a></li>
+            <li><a href="https://web.archive.org/web/2id_/http://inaka.net/blog/2011/10/07/scale-test-plan-simple-erlang-application/">Scaling Erlang - Brujo Benavides</a></li>
+            <li><a href="https://web.archive.org/web/2id_/http://inaka.net/blog/2014/09/25/worker-pool/">Worker Pool - Brujo Benavides</a></li>
+            <li><a href="https://www.youtube.com/watch?v=IuK2NvxjvWY">Planning for Overload - Ferd Hebert</a></li>
+            <li><a href="http://ferd.ca/lessons-learned-while-working-on-large-scale-server-software.html">Lessons Learned while Working on Large-Scale Server Software - Ferd Hebert</a></li>
+            <li><a href="http://ferd.ca/queues-don-t-fix-overload.html">Queues Don't Fix Overload - Ferd Hebert</a></li>
+            <li><a href="https://github.com/ferd/dispcount">dispcount: task dispatcher based on ETS counters</a></li>
+            <li><a href="https://github.com/ferd/pobox">pobox: External buffer processes to protect against mailbox overflow</a></li>
+            <li><a href="https://medium.com/@jlouis666/on-scalability-capacity-and-sensitivity-b71941c36dc8">On Scalability, Capacity, and Sensitivity - Jesper L. Andersen</a></li>
+            <li><a href="https://github.com/jlouis/fuse">fuse: Circuit Breaker</a></li>
+            <li><a href="https://github.com/jlouis/safetyvalve">safetyvalve: Safety valve for your erlang node</a></li>
+            <li><a href="https://github.com/duomark/epocxy">epocxy: Erlang patterns of Concurrency</a></li>
+            <li><a href="https://web.archive.org/web/2id_/http://inaka.net/blog/2013/03/05/ETS-simple-cache/">Everyday Erlang: Quick and effective caching using ETS - Marcelo Gornstein</a></li>
+            <li><a href="https://www.youtube.com/watch?v=c12cYAUTXXs">Erlang Factory 2014 - That's 'Billion' with a 'B': Scaling to the Next Level at WhatsApp</a></li>
+            <li><a href="https://www.youtube.com/watch?v=2Llc_k28a-U">Realtime performance at scale - Fredrik Linder</a></li>
+            <li><a href="https://youtu.be/iquZl-CUR_U">Scalable is Awesome, Literally! - Garrett Smith</a></li>
+            <li><a href="https://www.youtube.com/watch?v=cQohRGGqevo">Keeping a System Running Forever - Ferd Hebert</a></li>
+            <li><a href="http://www.erlang.org/doc/efficiency_guide/advanced.html">System Limits - Erlang</a></li>
+            <li><a href="https://medium.com/@jlouis666/erlang-string-handling-7588daad8f05">Erlang String Handling - How to be efficient at handling string data in Erlang - Jesper L. Andersen</a></li>
+            <li><a href="http://highscalability.com/blog/2014/3/31/how-whatsapp-grew-to-nearly-500-million-users-11000-cores-an.html">How WhatsApp Grew To Nearly 500 Million Users, 11,000 Cores, And 70 Million Messages A Second - High Scalability</a></li>
+            <li><a href="http://prog21.dadgum.com/50.html?print">Tales of a Former Disassembly Addict</a></li>
+            <li><a href="http://prog21.dadgum.com/1.html">A Deeper Look at Tails Recursion in Erlang - Programming in the 21st Century</a></li>
+            <li><a href="http://prog21.dadgum.com/15.html">Why Garbage Collection Paranoia is Still (sometimes) Justified - Programming in the 21st Century</a></li>
+            <li><a href="http://dieswaytoofast.blogspot.ca/2012/12/erlang-binaries-and-garbage-collection.html">Erlang, Binaries, and Garbage Collection (Sigh)</a></li>
+            <li><a href="https://web.archive.org/web/2id_/http://inaka.net/blog/2011/10/07/scale-test-plan-simple-erlang-application/">Scaling Erlang - Inaka Networks</a></li>
+            <li><a href="https://speakerdeck.com/kachayev/erlang-in-production-lessons-learned">Social Platforms in Erlang - Lessons Learned</a></li>
+            <li><a href="http://youtu.be/XrkY9WRY8p0">Eliminating Single Process Bottlenecks with ETS Concurrency Patterns - Jay Nelson</a></li>
+            <li><a href="http://steve.vinoski.net/blog/2011/05/09/erlang-web-server-benchmarking/">Erlang Web Server Benchmarking - Steve Vinoski</a></li>
+            </ul>
+            </section>
+            <section id="erlang-wants-to-talk-to-the-outside-world" class="level2">
+            <h2>Erlang wants to talk to the outside world!</h2>
+            <ul>
+            <li><a href="http://www.erlang.org/workshop/2002/Armstrong.pdf">Getting Erlang to talk to the outside world - Joe Armstrong</a></li>
+            <li><a href="http://www.erlang.org/doc/man/erl_nif.html">erl_nif</a></li>
+            <li><a href="https://erlangcentral.org/wiki/index.php?title=Writing_an_Erlang_Port_using_OTP_Principles">Writing an Erlang port using OTP principles - Erlang Central</a></li>
+            <li><a href="http://www.erlang.org/doc/apps/erts/driver.html">How to implement a driver</a></li>
+            <li><a href="http://www.erlang.org/doc/reference_manual/ports.html">Ports and Port Drivers</a></li>
+            <li><a href="http://www.erlang.org/doc/tutorial/c_port.html">Ports</a></li>
+            <li><a href="http://erlang.org/doc/tutorial/c_portdriver.html">Port drivers</a></li>
+            <li><a href="https://web.archive.org/web/2id_/http://inaka.net/blog/2013/09/05/from-erlang-to-java-and-back-again-1/">From Erlang to Java and Back Again: Part 1 - Brujo Benavides</a></li>
+            <li><a href="http://www.haskell.org/haskellwiki/Applications_and_libraries/Interfacing_other_languages/Erlang">Haskell - Interfacing Erlang</a></li>
+            <li><a href="https://github.com/rusterlium/rustler">Rustler - Safe Rust bridge for creating Erlang NIF functions</a></li>
+            <li><a href="https://github.com/hdima/erlport">erlport</a> - Connect Erlang to Ruby and Python</li>
+            <li><a href="https://github.com/fredlund/JavaErlang">JavaErlang</a> - Facilitate the communication between Java and Erlang nodes</li>
+            <li><a href="https://github.com/basho/erlang_js">erlang_js</a> - A linked-in driver for Erlang to Mozilla's Spidermonkey Javascript runtime</li>
+            <li><a href="https://github.com/tonyrog/cl">cl</a> - OpenCL binding for Erlang</li>
+            <li><a href="https://github.com/synrc/sh.git">sh</a> - Erlang Shell Executor</li>
+            </ul>
+            </section>
+            <section id="parsing" class="level2">
+            <h2>Parsing</h2>
+            <ul>
+            <li><a href="http://www.cs.dartmouth.edu/~mckeeman/cs118/languages/erlang/exprParser.html">Parsing in Erlang</a></li>
+            <li><a href="http://en.wikibooks.org/wiki/Erlang_Programming/Making_Parsers_with_yecc">Making Parsers with Yecc - Wikibooks</a></li>
+            <li><a href="http://www.evanmiller.org/write-a-template-compiler-for-erlang.html">Write a Template Compiler for Erlang- Evan Miller</a></li>
+            <li><a href="http://seancribbs.com/tech/2009/05/27/building-a-parser-generator-in-erlang-part-1/">Building a Parser Generator in Erlang - Sean Cribbs</a>, <a href="http://seancribbs.com/tech/2009/05/29/building-a-parser-generator-in-erlang-part-2/">Part 2</a>, <a href="http://seancribbs.com/tech/2009/06/11/building-a-parser-generator-in-erlang-part-3/">Part 3</a>, <a href="http://seancribbs.com/tech/2009/06/21/building-a-parser-generator-in-erlang-part-4/">Part 4</a>, <a href="http://seancribbs.com/tech/2009/06/21/building-a-parser-generator-in-erlang-part-5/">Part 5</a></li>
+            <li><a href="https://github.com/seancribbs/neotoma">Neotoma: Erlang library and packrat parser-generator for parsing expression grammars</a></li>
+            </ul>
+            </section>
+            <section id="learn-through-reading-some-awesome-code" class="level2">
+            <h2>Learn through reading some awesome code!</h2>
+            <ul>
+            <li><a href="https://github.com/ninenines/ranch">ranch: socket acceptor pool for TCP protocols</a></li>
+            <li><a href="https://github.com/ninenines/cowboy">cowboy: small, fast, modular HTTP server</a></li>
+            <li><a href="https://github.com/basho/riak">riak: distributed, decentralized data storage system</a></li>
+            <li><a href="https://github.com/rabbitmq/rabbitmq-server">rabbitmq: feature rich, multi-protocol messaging broker</a></li>
+            <li><a href="https://github.com/processone/ejabberd">ejabberd: massively scalable XMPP server</a></li>
+            <li><a href="https://github.com/vernemq/vernemq">vernemq: distributed MQTT message broker</a></li>
+            </ul>
+            </section>
+            <section id="community" class="level2">
+            <h2>Community</h2>
+            <ul>
+            <li><a href="https://github.com/drobakowski/awesome-erlang/blob/master/README.md">Awesome Erlang: curated list of awesome Erlang libraries, resources and shiny things</a></li>
+            <li><a href="https://github.com/0xAX/erlang-bookmarks/blob/master/ErlangBookmarks.md">Erlang Bookmarks: Collection of links</a></li>
+            <li><a href="http://erlang.org/pipermail/erlang-questions/">Mailing list</a></li>
+            <li><a href="http://erlangcentral.org">Erlang Central</a></li>
+            <li><a href="http://advanced-erlang.com/">Advanced Erlang Initiative</a></li>
+            <li><a href="http://irc.lc/freenode/erlang">IRC channel</a></li>
+            <li><a href="http://thisotplife.tumblr.com">This OTP Life</a></li>
+            </ul>
+            </section>
+            <section id="other-beam-languages" class="level2">
+            <h2>Other BEAM languages</h2>
+            <ul>
+            <li><a href="http://elixir-lang.org/">Elixir</a></li>
+            <li><a href="http://lfe.io/">LFE</a></li>
+            <li><a href="https://github.com/alpaca-lang/alpaca">Alpaca</a></li>
+            <li><a href="http://efene.org/">Efene</a></li>
+            <li><a href="https://github.com/rvirding/luerl">Luerl</a></li>
+            <li><a href="https://github.com/rvirding/erlog">Erlog</a></li>
+            <li><a href="http://clojerl.org/">Clojerl</a></li>
+            <li><a href="https://github.com/lpil/gleam">Gleam</a></li>
+            </ul>
+            </section>
+        </section>
+
+        <section id="footer">
+            <div id="container">
+                <section id="footer-text">
+                    <section id="created-by">
+                        <h1>Spawned by</h1>
+
+                        <ul>
+                            <li>
+                                <a href="http://federicocarrone.com/">Federico Carrone</a>
+                            </li>
+
+                            <li>
+                                <a href="https://manuelolmos.github.io/resume/">Manuel Olmos</a>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section id="thanks">
+                        <h1>Thanks to</h1>
+                        <ul>
+                            <li>
+                                <a href="http://superherojs.com/">Superhero.js</a>
+                            </li>
+
+                            <li>
+                                <a href="http://inaka.net/">
+                                    Inaka
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.erlang-solutions.com/">
+                                    Erlang Solutions
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://about.me/elbrujohalcon">
+                                    Fernando 'Brujo' Benavides
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/igaray">
+                                    Iñaki Garay
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+                </section>
+
+                <div id="vampire"></div>
+            </div>
+        </section>
+    </body>
+</html>
