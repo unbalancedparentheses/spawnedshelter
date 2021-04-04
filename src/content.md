@@ -193,11 +193,14 @@
 - [This OTP Life](http://thisotplife.tumblr.com)
 
 ## Other BEAM languages
-- [Elixir](http://elixir-lang.org/)
-- [LFE](http://lfe.io/)
-- [Alpaca](https://github.com/alpaca-lang/alpaca)
-- [Efene](http://efene.org/)
+- [Elixir](https://elixir-lang.org/)
+- [LFE](https://lfe.io/)
+- [Purerl](https://github.com/purerl/purerl)
 - [Luerl](https://github.com/rvirding/luerl)
 - [Erlog](https://github.com/rvirding/erlog)
 - [Clojerl](http://clojerl.org/)
 - [Gleam](https://github.com/lpil/gleam)
+- [Caramel](https://caramel.run/)
+- [Fez](https://github.com/kjnilsson/fez) (unmaintained)
+- [Alpaca](https://github.com/alpaca-lang/alpaca) (unmaintained)
+- [Efene](https://github.com/efene/efene) (unmaintained)
