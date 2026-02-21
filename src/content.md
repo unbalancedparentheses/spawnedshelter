@@ -54,7 +54,7 @@
 - [Erlangs parallelism is not parallelism! - Jesper L. Andersen](https://jlouisramblings.blogspot.com/2011/07/erlangs-parallelism-is-not-parallelism.html)
 - [Reliability Features of Erlang - LambdaLounge Krakow 2013](https://web.archive.org/web/20220430092728/http://www.gar1t.com/blog/reliability-features-of-erlang-krakow.html)
 - [What can I only do in Erlang? - Craig Everett](https://erlang.org/pipermail/erlang-questions/2014-November/081570.html)
-- [A response to "Erlang - overhyped or underestimated"   - Jesper L. Andersen](https://jlouisramblings.blogspot.com/2010/12/response-to-erlang-overhyped-or.html)
+- [A response to "Erlang - overhyped or underestimated" - Jesper L. Andersen](https://jlouisramblings.blogspot.com/2010/12/response-to-erlang-overhyped-or.html)
 - [Adopting Erlang](https://adoptingerlang.org/)
 
 ## Introduction
@@ -93,9 +93,9 @@
 - [Code Janitor: nobody's dream, everyone's job (and how Erlang can help) - Fred Hebert](https://ferd.ca/code-janitor-nobody-s-dream-everyone-s-job-and-how-erlang-can-help.html)
 - [The Hitchhiker's Guide to the Unexpected - Fred Hebert](https://www.youtube.com/watch?v=W0BR_tWZChQ)
 - [Garrett Smith - Writing Beautiful Code](https://www.youtube.com/watch?v=IdJwECjylB4)
-- [Beyond OTP - Loïc Hoguin](https://www.youtube.com/watch?v=fyobN-6YyJY)
+- [Beyond OTP - Loic Hoguin](https://www.youtube.com/watch?v=fyobN-6YyJY)
 - [Writing Quality Code in Erlang - Garrett Smith](https://youtu.be/CQyt9Vlkbis)
-- [Can you hear the drums, Erlando? -  Matthew Sackman](https://www.rabbitmq.com/blog/2011/05/17/can-you-hear-the-drums-erlando/)
+- [Can you hear the drums, Erlando? - Matthew Sackman](https://www.rabbitmq.com/blog/2011/05/17/can-you-hear-the-drums-erlando/)
 - [Inaka's Erlang Coding Guidelines](https://github.com/inaka/erlang_guidelines)
 - [Programming Rules and Conventions](https://web.archive.org/web/20211018191823/http://www.erlang.se/doc/programming_rules.shtml)
 - [Erlang and code style - Jesper L. Andersen](https://medium.com/@jlouis666/b5936dceb5e4)
@@ -126,15 +126,15 @@
 - [Xref: A cross reference tool for analyzing dependencies](https://www.erlang.org/doc/apps/tools/xref_chapter.html)
 - [sync: On-the-fly recompiling and reloading in Erlang](https://github.com/rustyio/sync)
 - [erlang.mk: Build tool for Erlang that just works](https://github.com/ninenines/erlang.mk)
-- [rebar3: Build tool](https://github.com/rebar/rebar3)
+- [rebar3: Build tool](https://github.com/erlang/rebar3)
 - [hex.pm: Package manager for the BEAM ecosystem](https://hex.pm/)
-- [rebar: Old rebar build tool](https://github.com/rebar/rebar)
+- [rebar: Old rebar build tool](https://github.com/rebar/rebar) (archived)
 - [mixer: Mix in functions from other modules](https://github.com/chef/mixer)
 - [relx: Sane, simple release creation for Erlang](https://github.com/erlware/relx)
 - [lager: A logging framework for Erlang/OTP](https://github.com/basho/lager) (unmaintained)
 - [elvis: The king of code style](https://web.archive.org/web/20180317191435/http://inaka.net/blog/2014/09/05/erlang-standards-and-elvis-rock/)
 - [erlando: Set of syntax extensions for Erlang](https://github.com/rabbitmq/erlando)
-- [sheriff: Check values against their type as defined through typespecs](https://github.com/extend/sheriff)
+- [sheriff: Check values against their type as defined through typespecs](https://github.com/extend/sheriff) (archived)
 - [gproc: Extended process registry for Erlang](https://github.com/uwiger/gproc)
 - [cuttlefish: sysctl-like syntax config for your apps](https://github.com/basho/cuttlefish) (unmaintained)
 - [clique: Opinionated framework for building command line interfaces](https://github.com/basho/clique) (unmaintained)
@@ -148,7 +148,7 @@
 - [Common Test Basics](https://www.erlang.org/doc/apps/common_test/basics_chapter.html)
 - [Erlang Meta Testing - Brujo Benavides](https://web.archive.org/web/20160422071209/http://inaka.net/blog/2015/07/17/erlang-meta-test/)
 - [Testing Erlang - Zachary Kessin](https://github.com/zkessin/testing-erlang-book)
-- [PropEr User Guide](https://proper-testing.github.io/User_Guide.html)
+- [PropEr User Guide](https://proper-testing.github.io/userguide.html)
 - [triq: Trifork QuickCheck](https://github.com/krestenkrab/triq)
 - [PropEr Testing](https://propertesting.com)
 
@@ -176,10 +176,10 @@
 - [Stuff Goes Bad. Erlang in anger - Fred Hebert](https://www.erlang-in-anger.com/)
 - [Scaling Erlang - Brujo Benavides](https://web.archive.org/web/20180317191901/http://inaka.net/blog/2011/10/07/scale-test-plan-simple-erlang-application/)
 - [Worker Pool - Brujo Benavides](https://web.archive.org/web/20170602054156/http://inaka.net/blog/2014/09/25/worker-pool/)
-- [Planning for Overload - Ferd Hebert](https://www.youtube.com/watch?v=IuK2NvxjvWY)
-- [Lessons Learned while Working on Large-Scale Server Software - Ferd Hebert](https://ferd.ca/lessons-learned-while-working-on-large-scale-server-software.html)
-- [Queues Don't Fix Overload - Ferd Hebert](https://ferd.ca/queues-don-t-fix-overload.html)
-- [dispcount:  task dispatcher based on ETS counters](https://github.com/ferd/dispcount)
+- [Planning for Overload - Fred Hebert](https://www.youtube.com/watch?v=IuK2NvxjvWY)
+- [Lessons Learned while Working on Large-Scale Server Software - Fred Hebert](https://ferd.ca/lessons-learned-while-working-on-large-scale-server-software.html)
+- [Queues Don't Fix Overload - Fred Hebert](https://ferd.ca/queues-don-t-fix-overload.html)
+- [dispcount: task dispatcher based on ETS counters](https://github.com/ferd/dispcount)
 - [pobox: External buffer processes to protect against mailbox overflow](https://github.com/ferd/pobox)
 - [On Scalability, Capacity, and Sensitivity - Jesper L. Andersen](https://medium.com/@jlouis666/on-scalability-capacity-and-sensitivity-b71941c36dc8)
 - [fuse: Circuit Breaker](https://github.com/jlouis/fuse)
@@ -189,11 +189,11 @@
 - [Erlang Factory 2014 - That's 'Billion' with a 'B': Scaling to the Next Level at WhatsApp](https://www.youtube.com/watch?v=c12cYAUTXXs)
 - [Realtime performance at scale - Fredrik Linder](https://www.youtube.com/watch?v=2Llc_k28a-U)
 - [Scalable is Awesome, Literally! - Garrett Smith](https://youtu.be/iquZl-CUR_U)
-- [Keeping a System Running Forever - Ferd Hebert](https://www.youtube.com/watch?v=cQohRGGqevo)
+- [Keeping a System Running Forever - Fred Hebert](https://www.youtube.com/watch?v=cQohRGGqevo)
 - [System Limits - Erlang](https://www.erlang.org/doc/efficiency_guide/advanced.html)
 - [Erlang String Handling - How to be efficient at handling string data in Erlang - Jesper L. Andersen](https://medium.com/@jlouis666/erlang-string-handling-7588daad8f05)
 - [How WhatsApp Grew To Nearly 500 Million Users, 11,000 Cores, And 70 Million Messages A Second - High Scalability](https://highscalability.com/blog/2014/3/31/how-whatsapp-grew-to-nearly-500-million-users-11000-cores-an.html)
-- [Tales of a Former Disassembly Addict](https://prog21.dadgum.com/50.html?print)
+- [Tales of a Former Disassembly Addict](https://prog21.dadgum.com/50.html)
 - [A Deeper Look at Tails Recursion in Erlang - Programming in the 21st Century](https://prog21.dadgum.com/1.html)
 - [Why Garbage Collection Paranoia is Still (sometimes) Justified - Programming in the 21st Century](https://prog21.dadgum.com/15.html)
 - [Erlang, Binaries, and Garbage Collection (Sigh)](https://dieswaytoofast.blogspot.com/2012/12/erlang-binaries-and-garbage-collection.html)
@@ -216,12 +216,12 @@
 - [JavaErlang](https://github.com/fredlund/JavaErlang) - Facilitate the communication between Java and Erlang nodes
 - [erlang_js](https://github.com/basho/erlang_js) - A linked-in driver for Erlang to Mozilla's Spidermonkey Javascript runtime
 - [cl](https://github.com/tonyrog/cl) - OpenCL binding for Erlang
-- [sh](https://github.com/synrc/sh.git) - Erlang Shell Executor
+- [exe](https://github.com/synrc/exe) - Erlang Shell Executor
 
 ## Parsing
 - [Parsing in Erlang](https://web.archive.org/web/20190916023508/https://www.cs.dartmouth.edu/~mckeeman/cs118/languages/erlang/exprParser.html)
 - [Making Parsers with Yecc - Wikibooks](https://en.wikibooks.org/wiki/Erlang_Programming/Making_Parsers_with_yecc)
-- [Write a Template Compiler for Erlang- Evan Miller](https://www.evanmiller.org/write-a-template-compiler-for-erlang.html)
+- [Write a Template Compiler for Erlang - Evan Miller](https://www.evanmiller.org/write-a-template-compiler-for-erlang.html)
 - [Building a Parser Generator in Erlang - Sean Cribbs](https://seancribbs.com/tech/2009/05/27/building-a-parser-generator-in-erlang-part-1/), [Part 2](https://seancribbs.com/tech/2009/05/29/building-a-parser-generator-in-erlang-part-2/), [Part 3](https://seancribbs.com/tech/2009/06/11/building-a-parser-generator-in-erlang-part-3/), [Part 4](https://seancribbs.com/tech/2009/06/21/building-a-parser-generator-in-erlang-part-4/), [Part 5](https://seancribbs.com/tech/2009/06/21/building-a-parser-generator-in-erlang-part-5/)
 - [Neotoma: Erlang library and packrat parser-generator for parsing expression grammars](https://github.com/seancribbs/neotoma)
 
