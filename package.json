@@ -4,12 +4,12 @@
   "description": "collection of the best articles, videos and presentations related to Erlang",
   "main": "index.js",
   "dependencies": {
-    "autoprefixer": "^6.0.2",
-    "browser-sync": "^2.8.2",
-    "csslint": "^0.10.0",
-    "htmlhint": "^0.9.7",
-    "postcss-cli": "^2.1.0",
-    "stylus": "^0.52.0"
+    "autoprefixer": "^10.4.20",
+    "browser-sync": "^3.0.3",
+    "csslint": "^1.0.5",
+    "htmlhint": "^1.1.4",
+    "postcss-cli": "^11.0.0",
+    "stylus": "^0.63.0"
   },
   "repository": {
     "type": "git",
