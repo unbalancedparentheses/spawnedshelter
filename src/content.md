@@ -1,3 +1,34 @@
+## Not yet reviewed
+
+> These resources were recently found and have not been reviewed yet.
+
+### Erlang/OTP Releases
+- [Erlang/OTP 25 Highlights](https://www.erlang.org/blog/my-otp-25-highlights/) - ARM64 JIT, type-based native code optimizations, `maybe` expression
+- [Type-Based Optimizations in the JIT - Bjorn Gustavsson (2023)](https://www.erlang.org/blog/type-based-optimizations-in-the-jit/) - How the JIT eliminates redundant type checks
+- [Erlang/OTP 27 Highlights](https://www.erlang.org/blog/highlights-otp-27/) - Safe destructive tuple update, native JIT coverage, quantum-resistant TLS
+
+### Gleam
+- [Gleam Version 1 - Louis Pilfold (March 2024)](https://gleam.run/news/gleam-version-1/) - Statically typed language compiling to Erlang or JavaScript on the BEAM
+- [The Gleam Language Tour](https://tour.gleam.run/) - Browser-based interactive tour via WebAssembly
+- [Gleam on Exercism](https://exercism.org/tracks/gleam) - 33 concepts and 122 exercises with mentoring
+
+### BEAM Performance
+- [Performance Testing the JIT Compiler - Lukas Larsson (Erlang Solutions, 2024)](https://www.erlang-solutions.com/blog/performance-testing-the-jit-compiler-for-the-beam-vm/) - 30-50% more RabbitMQ throughput, 30-130% CPU-bound improvements
+
+### Talks & Articles
+- [My Favorite Erlang Container - Fred Hebert (2022)](https://ferd.ca/my-favorite-erlang-container.html) - Shipping Erlang in containers with live code upgrades via K8s sidecar
+- [A Distributed Systems Reading List - Fred Hebert (2024)](https://ferd.ca/a-distributed-systems-reading-list.html) - Annotated reading list connecting distributed systems papers to BEAM/OTP design
+- [Problem Solving with Erlang and the BEAM - Virding & Cesarini (GOTO 2023)](https://gotopia.tech/sessions/2969/problem-solving-with-erlang-and-the-beam) - Original design motivations and Erlang's future
+
+### Elixir Ecosystem
+- [Hugging Face Arrives in the Elixir Community (Bumblebee)](https://huggingface.co/blog/elixir-bumblebee) - GPT-2, Stable Diffusion in pure Elixir via Nx
+- [Programming Phoenix LiveView - Tate & DeBenedetto (Pragmatic, 2023)](https://pragprog.com/titles/liveview/programming-phoenix-liveview/) - Definitive LiveView book
+- [Machine Learning in Elixir - Sean Moriarity (Pragmatic, 2024)](https://pragprog.com/titles/smelixir/machine-learning-in-elixir/) - Neural networks, CV, NLP using Elixir's Nx stack
+
+### Books
+- [Elixir in Action, Third Edition - Sasa Juric (Manning, 2024)](https://www.manning.com/books/elixir-in-action-third-edition) - Updated to Elixir 1.15 and current OTP
+- [Concurrent Data Processing in Elixir - Svilen Gospodinov (Pragmatic, 2021)](https://pragprog.com/titles/sgdpelixir/concurrent-data-processing-in-elixir/) - GenStage, Flow, and Broadway for data pipelines
+
 ## Table of Contents
 - [Why Erlang?](#why-erlang)
 - [Introduction](#introduction)
