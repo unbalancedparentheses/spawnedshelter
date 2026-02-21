@@ -1,3 +1,20 @@
+## Table of Contents
+- [Why Erlang?](#why-erlang)
+- [Introduction](#introduction)
+- [Learning Erlang](#learning-erlang)
+- [Advanced Erlang](#advanced-erlang)
+- [Erlang design choices and BEAM Internals](#erlang-design-choices-and-beam-internals)
+- [Useful tools and libraries](#useful-tools-and-libraries)
+- [Testing](#testing)
+- [Debugging, tracing and logging](#debugging-tracing-and-logging)
+- [Profiling](#profiling)
+- [Performance](#performance)
+- [Erlang wants to talk to the outside world!](#erlang-wants-to-talk-to-the-outside-world)
+- [Parsing](#parsing)
+- [Learn through reading some awesome code!](#learn-through-reading-some-awesome-code)
+- [Community](#community)
+- [Other BEAM languages](#other-beam-languages)
+
 ## Why Erlang?
 - [The Zen of Erlang - Fred Hebert](https://ferd.ca/the-zen-of-erlang.html)
 - [Where Erlang Blooms - Fred Hebert](https://ferd.ca/rtb-where-erlang-blooms.html)
