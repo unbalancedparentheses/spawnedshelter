@@ -1,62 +1,3 @@
-## Not yet reviewed
-
-> These resources were recently found and have not been reviewed yet.
-
-### Erlang/OTP Releases
-- [Erlang/OTP 25 Highlights](https://www.erlang.org/blog/my-otp-25-highlights/) - ARM64 JIT, type-based native code optimizations, `maybe` expression
-- [Type-Based Optimizations in the JIT - Bjorn Gustavsson (2023)](https://www.erlang.org/blog/type-based-optimizations-in-the-jit/) - How the JIT eliminates redundant type checks
-- [Erlang/OTP 27 Highlights](https://www.erlang.org/blog/highlights-otp-27/) - Safe destructive tuple update, native JIT coverage, quantum-resistant TLS
-
-### Gleam
-- [Gleam Version 1 - Louis Pilfold (March 2024)](https://gleam.run/news/gleam-version-1/) - Statically typed language compiling to Erlang or JavaScript on the BEAM
-- [The Gleam Language Tour](https://tour.gleam.run/) - Browser-based interactive tour via WebAssembly
-- [Gleam on Exercism](https://exercism.org/tracks/gleam) - 33 concepts and 122 exercises with mentoring
-
-### BEAM Performance
-- [Performance Testing the JIT Compiler - Lukas Larsson (Erlang Solutions, 2024)](https://www.erlang-solutions.com/blog/performance-testing-the-jit-compiler-for-the-beam-vm/) - 30-50% more RabbitMQ throughput, 30-130% CPU-bound improvements
-
-### Talks & Articles
-- [My Favorite Erlang Container - Fred Hebert (2022)](https://ferd.ca/my-favorite-erlang-container.html) - Shipping Erlang in containers with live code upgrades via K8s sidecar
-- [A Distributed Systems Reading List - Fred Hebert (2024)](https://ferd.ca/a-distributed-systems-reading-list.html) - Annotated reading list connecting distributed systems papers to BEAM/OTP design
-- [Problem Solving with Erlang and the BEAM - Virding & Cesarini (GOTO 2023)](https://gotopia.tech/sessions/2969/problem-solving-with-erlang-and-the-beam) - Original design motivations and Erlang's future
-
-### Elixir Ecosystem
-- [Hugging Face Arrives in the Elixir Community (Bumblebee)](https://huggingface.co/blog/elixir-bumblebee) - GPT-2, Stable Diffusion in pure Elixir via Nx
-- [Programming Phoenix LiveView - Tate & DeBenedetto (Pragmatic, 2023)](https://pragprog.com/titles/liveview/programming-phoenix-liveview/) - Definitive LiveView book
-- [Machine Learning in Elixir - Sean Moriarity (Pragmatic, 2024)](https://pragprog.com/titles/smelixir/machine-learning-in-elixir/) - Neural networks, CV, NLP using Elixir's Nx stack
-
-### Books
-- [Elixir in Action, Third Edition - Sasa Juric (Manning, 2024)](https://www.manning.com/books/elixir-in-action-third-edition) - Updated to Elixir 1.15 and current OTP
-- [Concurrent Data Processing in Elixir - Svilen Gospodinov (Pragmatic, 2021)](https://pragprog.com/titles/sgdpelixir/concurrent-data-processing-in-elixir/) - GenStage, Flow, and Broadway for data pipelines
-
-### Erlang/OTP 28 & Language Features (New)
-- [Erlang/OTP 28 Highlights (May 2025)](https://www.erlang.org/blog/highlights-otp-28/) - Priority messages, zip generators, nominal types (EEP 69), PCRE2, smarter compiler error suggestions
-- [EEP 69: Nominal Types in Erlang](https://www.erlang.org/eeps/eep-0069) - Nominal types (`-nominal meter() :: integer()`) to prevent accidental misuse of structurally identical types; shipped in OTP 28
-- [Gradual Set-Theoretic Types in Elixir](https://hexdocs.pm/elixir/gradual-set-theoretic-types.html) - Elixir's new gradual type system using unions, intersections, and negations; rolled out incrementally 1.18-1.20 (2024-2026)
-
-### BEAM Internals & Research (New)
-- [The BEAM Book: Understanding the Erlang Runtime System - Stenman (2025)](https://www.amazon.com/BEAM-Book-Understanding-Erlang-Runtime/dp/9153142535) - Definitive published book on BEAM internals: schedulers, process memory, GC, compiler pipeline, performance tuning
-- [Why I Wrote the BEAM Book - Stenman (2025)](https://happihacking.com/blog/posts/2025/why_I_wrote_theBEAMBook/) - Motivation and decade-long journey behind the comprehensive BEAM internals reference
-- [A Stop-the-World Debugger for Erlang - Gorin, Gustavsson & Aloi (24th Erlang Workshop, 2025)](https://dl.acm.org/doi/10.1145/3759161.3763047) - Novel stop-the-world debugging approach for BEAM systems
-
-### Embedded BEAM & IoT (New)
-- [AtomVM 2025 Year in Review - Bettio (2026)](https://medium.com/@Bettio/atomvm-2025-year-in-review-c669597d396c) - JIT/AoT compiler in Erlang, distributed Erlang for microcontroller clusters, four execution modes
-- [Evaluating AtomVM for Fault-Tolerant ESP32-Based Systems - Ferenczi et al. (24th Erlang Workshop, 2025)](https://dl.acm.org/doi/10.1145/3759161.3763048) - Measures cost of fault tolerance on ESP32-based AtomVM systems
-
-### New Books 2025 (New)
-- [Network Programming in Elixir and Erlang - Leopardi (PragProg, 2025)](https://pragprog.com/titles/alnpee/network-programming-in-elixir-and-erlang/) - TCP, UDP, DNS, HTTP, WebSockets on BEAM; builds chat server and Redis client
-- [Elixir Patterns: The Essential BEAM Handbook - Koutmos (PragProg, 2025)](https://pragprog.com/titles/d-akelixir/elixir-patterns/) - Supervision trees, ETS, persistent_term, leveraging Erlang stdlib from Elixir; includes Livebook notebooks
-- [Engineering Elixir Applications - Fairholm & Giralt D'Lacoste (PragProg, 2025)](https://pragprog.com/titles/beamops/engineering-elixir-applications/) - BEAMOps paradigm: Terraform, Docker, GitHub Actions CI/CD, and AWS deployment for Phoenix LiveView
-- [Ash Framework: Create Declarative Elixir Web Apps - Le & Daniel (PragProg, 2025)](https://pragprog.com/titles/ldash/ash-framework/) - Official guide to building declarative, resource-oriented Elixir applications
-- [Real-World Event Sourcing - Hoffman (PragProg, 2025)](https://pragprog.com/titles/khpes/real-world-event-sourcing/) - Event-sourcing patterns in Elixir: aggregates, projectors, process managers, schema evolution
-
-### Gleam Ecosystem (New)
-- [Gleam v1.7-v1.14 Release Notes (2025)](https://gleam.run/news/) - 8 releases in 2025: fault-tolerant compilation, auto-imports, zip generators, language server improvements
-
-### Conferences (New)
-- [Keynote: The AtomVM and New Horizons for Elixir - Bettio & Front (ElixirConf EU 2025)](https://elixirforum.com/t/keynote-the-atomvm-and-new-horizons-for-elixir-davide-bettio-mateusz-front-elixirconf-eu-2025/71192) - Running Elixir, Erlang, and Gleam on microcontrollers via AtomVM
-- [Keynote: Gang of None? Design Patterns in Elixir - Jose Valim (ElixirConf EU 2024)](https://elixirforum.com/t/keynote-gang-of-none-design-patterns-in-elixir-jose-valim-elixirconf-eu-2024/63550) - How Gang of Four patterns map (or don't) to idiomatic Elixir on the BEAM
-
 ## Table of Contents
 - [Why Erlang?](#why-erlang)
 - [Introduction](#introduction)
@@ -281,3 +222,62 @@
 - [Fez](https://github.com/kjnilsson/fez) (unmaintained) - F# to BEAM compiler, an experiment in running .NET-style functional code on the BEAM
 - [Alpaca](https://github.com/alpaca-lang/alpaca) (unmaintained) - ML-style statically typed language for the BEAM with type inference and pattern matching
 - [Efene](https://github.com/efene/efene) (unmaintained) - Python and JavaScript inspired syntax for the BEAM, aimed at lowering the barrier to entry
+
+## Not yet reviewed
+
+> These resources were recently found and have not been reviewed yet.
+
+### Erlang/OTP Releases
+- [Erlang/OTP 25 Highlights](https://www.erlang.org/blog/my-otp-25-highlights/) - ARM64 JIT, type-based native code optimizations, `maybe` expression
+- [Type-Based Optimizations in the JIT - Bjorn Gustavsson (2023)](https://www.erlang.org/blog/type-based-optimizations-in-the-jit/) - How the JIT eliminates redundant type checks
+- [Erlang/OTP 27 Highlights](https://www.erlang.org/blog/highlights-otp-27/) - Safe destructive tuple update, native JIT coverage, quantum-resistant TLS
+
+### Gleam
+- [Gleam Version 1 - Louis Pilfold (March 2024)](https://gleam.run/news/gleam-version-1/) - Statically typed language compiling to Erlang or JavaScript on the BEAM
+- [The Gleam Language Tour](https://tour.gleam.run/) - Browser-based interactive tour via WebAssembly
+- [Gleam on Exercism](https://exercism.org/tracks/gleam) - 33 concepts and 122 exercises with mentoring
+
+### BEAM Performance
+- [Performance Testing the JIT Compiler - Lukas Larsson (Erlang Solutions, 2024)](https://www.erlang-solutions.com/blog/performance-testing-the-jit-compiler-for-the-beam-vm/) - 30-50% more RabbitMQ throughput, 30-130% CPU-bound improvements
+
+### Talks & Articles
+- [My Favorite Erlang Container - Fred Hebert (2022)](https://ferd.ca/my-favorite-erlang-container.html) - Shipping Erlang in containers with live code upgrades via K8s sidecar
+- [A Distributed Systems Reading List - Fred Hebert (2024)](https://ferd.ca/a-distributed-systems-reading-list.html) - Annotated reading list connecting distributed systems papers to BEAM/OTP design
+- [Problem Solving with Erlang and the BEAM - Virding & Cesarini (GOTO 2023)](https://gotopia.tech/sessions/2969/problem-solving-with-erlang-and-the-beam) - Original design motivations and Erlang's future
+
+### Elixir Ecosystem
+- [Hugging Face Arrives in the Elixir Community (Bumblebee)](https://huggingface.co/blog/elixir-bumblebee) - GPT-2, Stable Diffusion in pure Elixir via Nx
+- [Programming Phoenix LiveView - Tate & DeBenedetto (Pragmatic, 2023)](https://pragprog.com/titles/liveview/programming-phoenix-liveview/) - Definitive LiveView book
+- [Machine Learning in Elixir - Sean Moriarity (Pragmatic, 2024)](https://pragprog.com/titles/smelixir/machine-learning-in-elixir/) - Neural networks, CV, NLP using Elixir's Nx stack
+
+### Books
+- [Elixir in Action, Third Edition - Sasa Juric (Manning, 2024)](https://www.manning.com/books/elixir-in-action-third-edition) - Updated to Elixir 1.15 and current OTP
+- [Concurrent Data Processing in Elixir - Svilen Gospodinov (Pragmatic, 2021)](https://pragprog.com/titles/sgdpelixir/concurrent-data-processing-in-elixir/) - GenStage, Flow, and Broadway for data pipelines
+
+### Erlang/OTP 28 & Language Features (New)
+- [Erlang/OTP 28 Highlights (May 2025)](https://www.erlang.org/blog/highlights-otp-28/) - Priority messages, zip generators, nominal types (EEP 69), PCRE2, smarter compiler error suggestions
+- [EEP 69: Nominal Types in Erlang](https://www.erlang.org/eeps/eep-0069) - Nominal types (`-nominal meter() :: integer()`) to prevent accidental misuse of structurally identical types; shipped in OTP 28
+- [Gradual Set-Theoretic Types in Elixir](https://hexdocs.pm/elixir/gradual-set-theoretic-types.html) - Elixir's new gradual type system using unions, intersections, and negations; rolled out incrementally 1.18-1.20 (2024-2026)
+
+### BEAM Internals & Research (New)
+- [The BEAM Book: Understanding the Erlang Runtime System - Stenman (2025)](https://www.amazon.com/BEAM-Book-Understanding-Erlang-Runtime/dp/9153142535) - Definitive published book on BEAM internals: schedulers, process memory, GC, compiler pipeline, performance tuning
+- [Why I Wrote the BEAM Book - Stenman (2025)](https://happihacking.com/blog/posts/2025/why_I_wrote_theBEAMBook/) - Motivation and decade-long journey behind the comprehensive BEAM internals reference
+- [A Stop-the-World Debugger for Erlang - Gorin, Gustavsson & Aloi (24th Erlang Workshop, 2025)](https://dl.acm.org/doi/10.1145/3759161.3763047) - Novel stop-the-world debugging approach for BEAM systems
+
+### Embedded BEAM & IoT (New)
+- [AtomVM 2025 Year in Review - Bettio (2026)](https://medium.com/@Bettio/atomvm-2025-year-in-review-c669597d396c) - JIT/AoT compiler in Erlang, distributed Erlang for microcontroller clusters, four execution modes
+- [Evaluating AtomVM for Fault-Tolerant ESP32-Based Systems - Ferenczi et al. (24th Erlang Workshop, 2025)](https://dl.acm.org/doi/10.1145/3759161.3763048) - Measures cost of fault tolerance on ESP32-based AtomVM systems
+
+### New Books 2025 (New)
+- [Network Programming in Elixir and Erlang - Leopardi (PragProg, 2025)](https://pragprog.com/titles/alnpee/network-programming-in-elixir-and-erlang/) - TCP, UDP, DNS, HTTP, WebSockets on BEAM; builds chat server and Redis client
+- [Elixir Patterns: The Essential BEAM Handbook - Koutmos (PragProg, 2025)](https://pragprog.com/titles/d-akelixir/elixir-patterns/) - Supervision trees, ETS, persistent_term, leveraging Erlang stdlib from Elixir; includes Livebook notebooks
+- [Engineering Elixir Applications - Fairholm & Giralt D'Lacoste (PragProg, 2025)](https://pragprog.com/titles/beamops/engineering-elixir-applications/) - BEAMOps paradigm: Terraform, Docker, GitHub Actions CI/CD, and AWS deployment for Phoenix LiveView
+- [Ash Framework: Create Declarative Elixir Web Apps - Le & Daniel (PragProg, 2025)](https://pragprog.com/titles/ldash/ash-framework/) - Official guide to building declarative, resource-oriented Elixir applications
+- [Real-World Event Sourcing - Hoffman (PragProg, 2025)](https://pragprog.com/titles/khpes/real-world-event-sourcing/) - Event-sourcing patterns in Elixir: aggregates, projectors, process managers, schema evolution
+
+### Gleam Ecosystem (New)
+- [Gleam v1.7-v1.14 Release Notes (2025)](https://gleam.run/news/) - 8 releases in 2025: fault-tolerant compilation, auto-imports, zip generators, language server improvements
+
+### Conferences (New)
+- [Keynote: The AtomVM and New Horizons for Elixir - Bettio & Front (ElixirConf EU 2025)](https://elixirforum.com/t/keynote-the-atomvm-and-new-horizons-for-elixir-davide-bettio-mateusz-front-elixirconf-eu-2025/71192) - Running Elixir, Erlang, and Gleam on microcontrollers via AtomVM
+- [Keynote: Gang of None? Design Patterns in Elixir - Jose Valim (ElixirConf EU 2024)](https://elixirforum.com/t/keynote-gang-of-none-design-patterns-in-elixir-jose-valim-elixirconf-eu-2024/63550) - How Gang of Four patterns map (or don't) to idiomatic Elixir on the BEAM
