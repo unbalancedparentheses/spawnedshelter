@@ -29,6 +29,34 @@
 - [Elixir in Action, Third Edition - Sasa Juric (Manning, 2024)](https://www.manning.com/books/elixir-in-action-third-edition) - Updated to Elixir 1.15 and current OTP
 - [Concurrent Data Processing in Elixir - Svilen Gospodinov (Pragmatic, 2021)](https://pragprog.com/titles/sgdpelixir/concurrent-data-processing-in-elixir/) - GenStage, Flow, and Broadway for data pipelines
 
+### Erlang/OTP 28 & Language Features (New)
+- [Erlang/OTP 28 Highlights (May 2025)](https://www.erlang.org/blog/highlights-otp-28/) - Priority messages, zip generators, nominal types (EEP 69), PCRE2, smarter compiler error suggestions
+- [EEP 69: Nominal Types in Erlang](https://www.erlang.org/eeps/eep-0069) - Nominal types (`-nominal meter() :: integer()`) to prevent accidental misuse of structurally identical types; shipped in OTP 28
+- [Gradual Set-Theoretic Types in Elixir](https://hexdocs.pm/elixir/gradual-set-theoretic-types.html) - Elixir's new gradual type system using unions, intersections, and negations; rolled out incrementally 1.18-1.20 (2024-2026)
+
+### BEAM Internals & Research (New)
+- [The BEAM Book: Understanding the Erlang Runtime System - Stenman (2025)](https://www.amazon.com/BEAM-Book-Understanding-Erlang-Runtime/dp/9153142535) - Definitive published book on BEAM internals: schedulers, process memory, GC, compiler pipeline, performance tuning
+- [Why I Wrote the BEAM Book - Stenman (2025)](https://happihacking.com/blog/posts/2025/why_I_wrote_theBEAMBook/) - Motivation and decade-long journey behind the comprehensive BEAM internals reference
+- [A Stop-the-World Debugger for Erlang - Gorin, Gustavsson & Aloi (24th Erlang Workshop, 2025)](https://dl.acm.org/doi/10.1145/3759161.3763047) - Novel stop-the-world debugging approach for BEAM systems
+
+### Embedded BEAM & IoT (New)
+- [AtomVM 2025 Year in Review - Bettio (2026)](https://medium.com/@Bettio/atomvm-2025-year-in-review-c669597d396c) - JIT/AoT compiler in Erlang, distributed Erlang for microcontroller clusters, four execution modes
+- [Evaluating AtomVM for Fault-Tolerant ESP32-Based Systems - Ferenczi et al. (24th Erlang Workshop, 2025)](https://dl.acm.org/doi/10.1145/3759161.3763048) - Measures cost of fault tolerance on ESP32-based AtomVM systems
+
+### New Books 2025 (New)
+- [Network Programming in Elixir and Erlang - Leopardi (PragProg, 2025)](https://pragprog.com/titles/alnpee/network-programming-in-elixir-and-erlang/) - TCP, UDP, DNS, HTTP, WebSockets on BEAM; builds chat server and Redis client
+- [Elixir Patterns: The Essential BEAM Handbook - Koutmos (PragProg, 2025)](https://pragprog.com/titles/d-akelixir/elixir-patterns/) - Supervision trees, ETS, persistent_term, leveraging Erlang stdlib from Elixir; includes Livebook notebooks
+- [Engineering Elixir Applications - Fairholm & Giralt D'Lacoste (PragProg, 2025)](https://pragprog.com/titles/beamops/engineering-elixir-applications/) - BEAMOps paradigm: Terraform, Docker, GitHub Actions CI/CD, and AWS deployment for Phoenix LiveView
+- [Ash Framework: Create Declarative Elixir Web Apps - Le & Daniel (PragProg, 2025)](https://pragprog.com/titles/ldash/ash-framework/) - Official guide to building declarative, resource-oriented Elixir applications
+- [Real-World Event Sourcing - Hoffman (PragProg, 2025)](https://pragprog.com/titles/khpes/real-world-event-sourcing/) - Event-sourcing patterns in Elixir: aggregates, projectors, process managers, schema evolution
+
+### Gleam Ecosystem (New)
+- [Gleam v1.7-v1.14 Release Notes (2025)](https://gleam.run/news/) - 8 releases in 2025: fault-tolerant compilation, auto-imports, zip generators, language server improvements
+
+### Conferences (New)
+- [Keynote: The AtomVM and New Horizons for Elixir - Bettio & Front (ElixirConf EU 2025)](https://elixirforum.com/t/keynote-the-atomvm-and-new-horizons-for-elixir-davide-bettio-mateusz-front-elixirconf-eu-2025/71192) - Running Elixir, Erlang, and Gleam on microcontrollers via AtomVM
+- [Keynote: Gang of None? Design Patterns in Elixir - Jose Valim (ElixirConf EU 2024)](https://elixirforum.com/t/keynote-gang-of-none-design-patterns-in-elixir-jose-valim-elixirconf-eu-2024/63550) - How Gang of Four patterns map (or don't) to idiomatic Elixir on the BEAM
+
 ## Table of Contents
 - [Why Erlang?](#why-erlang)
 - [Introduction](#introduction)
